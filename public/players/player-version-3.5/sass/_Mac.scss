@@ -1,0 +1,48 @@
+/* Raanana on Mac */
+/*html.Mac .domain_VE #main * {*/
+/*  font-family: 'Lucida Grande';*/
+/*}*/
+/* Raanana on Mac */
+
+
+html.Mac .verbal {
+
+     #main > div .instructions {
+        font-family: 'Lucida Grande';
+    }
+
+    #main .TX,
+    #main .TX .instructions {
+      font-family: 'Lucida Grande';
+      FONT-SIZE: 17px;
+    }
+
+    .question,
+    .instruction_item {
+         font-family: 'Lucida Grande';
+         FONT-SIZE: 20.7px;
+        }
+        
+    .question_part,
+    .answer_options,
+    .question_number {
+      font-family: 'Lucida Grande';
+      FONT-SIZE: 19.8px;/*23.28px;/*22.583px; /*97%;*/
+     }
+
+    .instructions,
+    .question_part P,
+    .answer_options TABLE {
+      font-family: 'Lucida Grande';
+      FONT-SIZE:  19.8px;/*21.9px; /*97%;*/
+      }
+
+    .distractor {
+        font-family: 'Lucida Grande';
+        FONT-SIZE: 19px;/*21.9px; /*97%;*/
+    }   
+
+    .line_numbers {
+        font-size: 15px;
+    }
+}

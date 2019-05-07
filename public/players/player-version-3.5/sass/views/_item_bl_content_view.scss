@@ -1,0 +1,23 @@
+@import "../elements/text_blocks";
+@import "../responsive/media_queries";
+
+.BL textarea {
+  font-size: 15px;
+  height: 350px;
+  width: 750px;
+  	@include iphone {
+  		width: 98%;
+  	}
+}
+
+//--------------------change
+.item.BL .question_text {
+  @extend %text-for-writing;
+	@include iphone {
+  		overflow: hidden;
+  	}
+
+}
+
+
+//-----------

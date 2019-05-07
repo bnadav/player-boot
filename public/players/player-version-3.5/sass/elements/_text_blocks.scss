@@ -1,0 +1,94 @@
+@import "../base";
+@import "../themes/blue_theme";
+
+%text-framework{ // for item- main>div
+  @include text(23px);
+  height: $item-height;
+  //margin: $question-part-margin 0 0 0;
+  margin: $question-part-margin 0;
+  overflow: auto;
+  padding: $item-padding;
+  position: absolute;
+  visibility: hidden;
+  width: $item-width;// - 2*$item-padding;
+  z-index: 1;
+}
+
+%text-opening{ // for instructions
+  @include text(21px);
+  color: $question-part-instructions-color;
+  margin-right: 2px;
+}
+
+%text-core{ // for question text
+  margin: $question-part-margin 0 ;
+ // overflow: hidden;
+  overflow: auto; //check for question part in kernel
+  padding: 0;
+}
+
+%text-completion { // for answer options
+  @include text(21px);
+  width: $answer-options-width;
+}
+
+%text-for-writing {
+   font-size: 19px;
+   line-height: 25px;
+}
+
+%text-for-reading{
+ position: absolute;
+  top: 0;
+  right: 0;
+  height: $kernel-height - $item-padding*2;
+  //height: $kernel-height;
+  
+
+}
+
+%text-for-reading-big{
+    height: $kernel-big-height - $item-padding*2;
+   
+}
+
+%text-for-distractor{
+  border-top: $item-with-kernel-top-border-color 2px solid;
+  height: $item-with-kernel-height - $item-padding - 2px;
+  overflow: auto;
+  padding-top:0;
+  padding-bottom: $item-padding;
+  right: 0;
+  position: absolute;
+  top: $kernel-height;
+}
+
+%text-for-small-distractor{
+  height: $item-with-big-kernel-height - $item-padding - 2px;
+  @include text(21px);
+  margin-bottom: 15px;
+  top: $kernel-big-height;
+}
+
+%text-blank{
+  border-bottom: 2px solid black;
+  display: inline-block;
+  line-height: 80%;
+  padding: 0 2px;
+  vertical-align: baseline;
+  width: 5ex;
+}
+
+%text-blank-with-content{
+  font-size: 95%;
+  //font-style: italic;
+  display: unset;
+  width: auto;
+}
+
+%text-left-instructions{
+    text-align: left;
+    direction: ltr;
+    @extend %text-default;
+    font-size: 19px;
+}

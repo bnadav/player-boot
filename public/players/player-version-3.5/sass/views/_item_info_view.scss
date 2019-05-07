@@ -1,0 +1,7 @@
+@import "../elements/boxes";
+
+
+
+#item_info {
+   @extend %static-info-box;
+ }

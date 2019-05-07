@@ -1,0 +1,26 @@
+@import "../base";
+@import "../themes/blue_theme";
+
+@mixin text-responsive-framework{ // for item- main>div
+    display: none; //default no display
+    height: unset;
+    margin-bottom: 5px;
+    margin-top: 0px;
+    overflow: hidden;
+    //margin-bottom: 30px;
+    padding-top: 0;
+    position: inherit;
+    width: 88vw;
+}
+
+
+@mixin text-with-kernel-responsive{
+   border-top: unset;
+   height: unset;
+   overflow: hidden;
+   position: unset;
+   top: unset;
+   
+}
+ 
+

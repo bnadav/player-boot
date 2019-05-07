@@ -1,0 +1,58 @@
+// @import "item_button_view";
+// @import "item_info_view";
+// @import "word_count_view";
+@import "../elements/responsive_buttons";
+@import "../elements/boxes";
+
+
+  #mobile_buttons {
+   @include iphone{
+      background-color: #FAFAFA;
+      display: block !important;
+      font-family: alef;
+      min-height: 40px;
+      position: relative;
+    }
+    button {
+      @extend %mobile-button;
+    }
+
+   .previous_button {
+      @extend %prev-responsive-button;
+      
+    }
+
+    .next_button {
+      @extend %next-reponsive-button;
+    }
+
+    .goto_text_button {
+      @extend %text-responsive-button;
+      
+    }
+
+    .item_counter {
+      @extend %counter-responsive-button;
+      
+    }
+     
+    .timer {
+     @extend %timer-responsive;
+    }
+
+    .round {
+      border-radius: 50%;
+    }
+
+    .hidden {
+      display: none;
+    }
+  }
+
+
+
+
+
+
+
+

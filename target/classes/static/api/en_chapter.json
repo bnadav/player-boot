@@ -1,0 +1,973 @@
+{
+	"units": [
+		{
+			"items": [
+				{
+					"name": "IN_11483_1",
+					"number": 11483,
+					"element_type": "IN",
+					"instruction_text": "",
+					"question_text": "<p><strong><u>ENGLISH</u></strong></p>\r\n<strong>This section contains 22 questions.</strong><br /><br />\r\n\r\n<div id=\"content_table\">\r\n\r\n    <div class=\"tr\">\r\n        <div class=\"td ltr-word\">Questions</div>\r\n        <div class=\"td from_number\">&nbsp;&nbsp;1</div>\r\n        <div class=\"td dash\">-</div>\r\n        <div class=\"td to_number\">&nbsp;&nbsp;8:</div>\r\n        <div class=\"td text\"><strong>Sentence Completions</strong></div>\r\n    </div>\r\n\r\n    <div class=\"tr\">\r\n        <div class=\"td ltr-word\">Questions</div>\r\n        <div class=\"td from_number\">&nbsp;&nbsp;9</div>\r\n        <div class=\"td dash\">-</div>\r\n        <div class=\"td to_number\">12:</div>\r\n        <div class=\"td text\"><strong>Restatements</strong></div>\r\n    </div>\r\n\r\n    <div class=\"tr\">\r\n        <div class=\"td ltr-word\">Questions</div>\r\n        <div class=\"td from_number\">13</div>\r\n        <div class=\"td dash\">-</div>\r\n        <div class=\"td to_number\">17:</div>\r\n        <div class=\"td text\"><strong>Reading Comprehension 1</strong></div>\r\n    </div>\r\n\r\n    <div class=\"tr\">\r\n        <div class=\"td ltr-word\">Questions</div>\r\n        <div class=\"td from_number\">18</div>\r\n        <div class=\"td dash\">-</div>\r\n        <div class=\"td to_number\">22:</div>\r\n        <div class=\"td text\"><strong>Reading Comprehension 2</strong></div>\r\n    </div>\r\n\r\n</div>\r\n\r\n<br />\r\n\r\n <p>Each question is followed by four possible responses.&nbsp; Choose the response <strong>which best answers the question.</strong></p>\r\n <p><strong>The time allotted is 20 minutes.</strong></p>\r\n\r\n<div class=\"desktop_notes\">The <<strong>הזמן הנותר</strong>> box on the bottom right of the screen shows how much time you have left to complete the section.<br />\r\n<br />\r\nClick <<strong>קדימה</strong>> to continue.<br /> <br />\r\n\r\n</div>\r\n\r\n<div class=\"mobile_notes\">The time remaining to complete the section will be shown at the top left of the screen.<br />\r\n<br />\r\nClick on the arrow in the top right corner to continue.<br /><br />\r\n\r\n</div>\r\n\r\n\r\n ",
+					"answer1_text": null,
+					"answer2_text": null,
+					"answer3_text": null,
+					"answer4_text": null,
+					"button_text": "Instructions",
+					"super_element_index": null,
+					"item_answers": [
+						{
+							"answer_text": null,
+							"answer_index": 1
+						},
+						{
+							"answer_text": null,
+							"answer_index": 2
+						},
+						{
+							"answer_text": null,
+							"answer_index": 3
+						},
+						{
+							"answer_text": null,
+							"answer_index": 4
+						}
+					],
+					"num_answers": 0,
+					"display_type": "normal",
+					"response": "-9"
+				}
+			]
+		},
+		{
+			"items": [
+				{
+					"name": "IN_11481_1",
+					"number": 11481,
+					"element_type": "IN",
+					"instruction_text": "",
+					"question_text": "<p><strong><u>Sentence Completions</u></strong><br />\r\nThis part consists of several sentences with a word or words missing in each. For each question, choose the answer which <strong>best completes the sentence</strong>.<br />\r\n&nbsp;</p>\r\n\r\n<div class=\"desktop_notes\">Click &lt;<strong>קדימה</strong>&gt; to continue.\r\n\r\n<p>&nbsp;</p>\r\n</div>\r\n\r\n<div class=\"mobile_notes\">Click on the arrow in the top right corner to continue.\r\n<p>&nbsp;</p>\r\n</div>",
+					"answer1_text": null,
+					"answer2_text": null,
+					"answer3_text": null,
+					"answer4_text": null,
+					"button_text": "Sentence Completions",
+					"super_element_index": null,
+					"item_answers": [
+						{
+							"answer_text": null,
+							"answer_index": 1
+						},
+						{
+							"answer_text": null,
+							"answer_index": 2
+						},
+						{
+							"answer_text": null,
+							"answer_index": 3
+						},
+						{
+							"answer_text": null,
+							"answer_index": 4
+						}
+					],
+					"num_answers": 0,
+					"display_type": "normal",
+					"response": "-9"
+				}
+			]
+		},
+		{
+			"items": [
+				{
+					"name": "MC_EN_001_305445_1",
+					"number": 305445,
+					"element_type": "MC",
+					"instruction_text": "<p><strong><u>Sentence Completion</u></strong></p>",
+					"question_text": "The <em>Curious George</em> children&#39;s books are about the <span class=\"blank\"></span> of a monkey who is always getting into mischief.",
+					"answer1_text": "instruments",
+					"answer2_text": "entrances",
+					"answer3_text": "opposites",
+					"answer4_text": "adventures",
+					"button_text": null,
+					"super_element_index": null,
+					"item_answers": [
+						{
+							"answer_text": "instruments",
+							"answer_index": 1
+						},
+						{
+							"answer_text": "entrances",
+							"answer_index": 2
+						},
+						{
+							"answer_text": "opposites",
+							"answer_index": 3
+						},
+						{
+							"answer_text": "adventures",
+							"answer_index": 4
+						}
+					],
+					"num_answers": 4,
+					"display_type": "normal",
+					"response": "-9"
+				},
+				{
+					"name": "MC_EN_001_305390_1",
+					"number": 305390,
+					"element_type": "MC",
+					"instruction_text": "<p><strong><u>Sentence Completion</u></strong></p>",
+					"question_text": "In the 1990s, the Democratic Republic of the Congo absorbed large numbers of refugees from neighboring countries, <span class=\"blank\"></span> Rwanda.",
+					"answer1_text": "affectionately",
+					"answer2_text": "artificially",
+					"answer3_text": "particularly",
+					"answer4_text": "enthusiastically",
+					"button_text": null,
+					"super_element_index": null,
+					"item_answers": [
+						{
+							"answer_text": "affectionately",
+							"answer_index": 1
+						},
+						{
+							"answer_text": "artificially",
+							"answer_index": 2
+						},
+						{
+							"answer_text": "particularly",
+							"answer_index": 3
+						},
+						{
+							"answer_text": "enthusiastically",
+							"answer_index": 4
+						}
+					],
+					"num_answers": 4,
+					"display_type": "normal",
+					"response": "-9"
+				},
+				{
+					"name": "MC_EN_001_304358_1",
+					"number": 304358,
+					"element_type": "MC",
+					"instruction_text": "<p><strong><u>Sentence Completion</u></strong></p>",
+					"question_text": "Until the 1940s, physicians commonly wrote <span class=\"blank\"></span> for drugs entirely in Latin.",
+					"answer1_text": "misconceptions",
+					"answer2_text": "aspirations",
+					"answer3_text": "transitions",
+					"answer4_text": "prescriptions",
+					"button_text": null,
+					"super_element_index": null,
+					"item_answers": [
+						{
+							"answer_text": "misconceptions",
+							"answer_index": 1
+						},
+						{
+							"answer_text": "aspirations",
+							"answer_index": 2
+						},
+						{
+							"answer_text": "transitions",
+							"answer_index": 3
+						},
+						{
+							"answer_text": "prescriptions",
+							"answer_index": 4
+						}
+					],
+					"num_answers": 4,
+					"display_type": "normal",
+					"response": "-9"
+				},
+				{
+					"name": "MC_EN_001_302177_1",
+					"number": 302177,
+					"element_type": "MC",
+					"instruction_text": "<p><strong><u>Sentence Completion</u></strong></p>",
+					"question_text": "Though <span class=\"blank\"></span> on land, the 13th-century Mongols suffered great losses at sea.",
+					"answer1_text": "unavoidable",
+					"answer2_text": "undefeated",
+					"answer3_text": "uncooperative",
+					"answer4_text": "unsatisfied",
+					"button_text": null,
+					"super_element_index": null,
+					"item_answers": [
+						{
+							"answer_text": "unavoidable",
+							"answer_index": 1
+						},
+						{
+							"answer_text": "undefeated",
+							"answer_index": 2
+						},
+						{
+							"answer_text": "uncooperative",
+							"answer_index": 3
+						},
+						{
+							"answer_text": "unsatisfied",
+							"answer_index": 4
+						}
+					],
+					"num_answers": 4,
+					"display_type": "normal",
+					"response": "-9"
+				},
+				{
+					"name": "MC_EN_001_305054_1",
+					"number": 305054,
+					"element_type": "MC",
+					"instruction_text": "<p><strong><u>Sentence Completion</u></strong></p>",
+					"question_text": "Beverly Cleary&#39;s books have been celebrated for their understanding of children&#39;s problems and <span class=\"blank\"></span> into the way young people think.",
+					"answer1_text": "garment",
+					"answer2_text": "circuit",
+					"answer3_text": "asset",
+					"answer4_text": "insight",
+					"button_text": null,
+					"super_element_index": null,
+					"item_answers": [
+						{
+							"answer_text": "garment",
+							"answer_index": 1
+						},
+						{
+							"answer_text": "circuit",
+							"answer_index": 2
+						},
+						{
+							"answer_text": "asset",
+							"answer_index": 3
+						},
+						{
+							"answer_text": "insight",
+							"answer_index": 4
+						}
+					],
+					"num_answers": 4,
+					"display_type": "normal",
+					"response": "-9"
+				},
+				{
+					"name": "MC_EN_001_301557_1",
+					"number": 301557,
+					"element_type": "MC",
+					"instruction_text": "<p><strong><u>Sentence Completion</u></strong></p>",
+					"question_text": "The rubber and palm trees which dominate the landscape of Malaya were planted for their <span class=\"blank\"></span> , rather than their ornamental, value.",
+					"answer1_text": "commercial",
+					"answer2_text": "provincial",
+					"answer3_text": "occupational",
+					"answer4_text": "eventual",
+					"button_text": null,
+					"super_element_index": null,
+					"item_answers": [
+						{
+							"answer_text": "commercial",
+							"answer_index": 1
+						},
+						{
+							"answer_text": "provincial",
+							"answer_index": 2
+						},
+						{
+							"answer_text": "occupational",
+							"answer_index": 3
+						},
+						{
+							"answer_text": "eventual",
+							"answer_index": 4
+						}
+					],
+					"num_answers": 4,
+					"display_type": "normal",
+					"response": "-9"
+				},
+				{
+					"name": "MC_EN_001_302021_2",
+					"number": 302021,
+					"element_type": "MC",
+					"instruction_text": "<p><strong><u>Sentence Completion</u></strong></p>",
+					"question_text": "Chronic unemployment has <span class=\"blank\"></span> the optimism and self-confidence enjoyed by many Europeans since the end of World War II.",
+					"answer1_text": "underscored",
+					"answer2_text": "overestimated",
+					"answer3_text": "overseen",
+					"answer4_text": "undermined",
+					"button_text": null,
+					"super_element_index": null,
+					"item_answers": [
+						{
+							"answer_text": "underscored",
+							"answer_index": 1
+						},
+						{
+							"answer_text": "overestimated",
+							"answer_index": 2
+						},
+						{
+							"answer_text": "overseen",
+							"answer_index": 3
+						},
+						{
+							"answer_text": "undermined",
+							"answer_index": 4
+						}
+					],
+					"num_answers": 4,
+					"display_type": "normal",
+					"response": "-9"
+				},
+				{
+					"name": "MC_EN_001_305338_1",
+					"number": 305338,
+					"element_type": "MC",
+					"instruction_text": "<p><strong><u>Sentence Completion</u></strong></p>",
+					"question_text": "Agricultural irrigation <span class=\"blank\"></span> two-thirds of water use worldwide.",
+					"answer1_text": "inherits from",
+					"answer2_text": "confesses to",
+					"answer3_text": "depends on",
+					"answer4_text": "accounts for",
+					"button_text": null,
+					"super_element_index": null,
+					"item_answers": [
+						{
+							"answer_text": "inherits from",
+							"answer_index": 1
+						},
+						{
+							"answer_text": "confesses to",
+							"answer_index": 2
+						},
+						{
+							"answer_text": "depends on",
+							"answer_index": 3
+						},
+						{
+							"answer_text": "accounts for",
+							"answer_index": 4
+						}
+					],
+					"num_answers": 4,
+					"display_type": "normal",
+					"response": "-9"
+				}
+			]
+		},
+		{
+			"items": [
+				{
+					"name": "IN_11484_1",
+					"number": 11484,
+					"element_type": "IN",
+					"instruction_text": "",
+					"question_text": "<p><strong><u>Restatements</u></strong><br />\r\nThis part consists of several sentences, each followed by four possible ways of restating the main idea of that sentence in different words.<br />\r\nFor each question, choose the one restatement <strong>which best expresses the meaning of the original sentence</strong>.<br />\r\n&nbsp;</p>\r\n\r\n<div class=\"desktop_notes\">Click &lt;<strong>קדימה</strong>&gt; to continue.</div>\r\n\r\n<div class=\"mobile_notes\">Click on the arrow in the top right corner to continue.</div>\r\n",
+					"answer1_text": null,
+					"answer2_text": null,
+					"answer3_text": null,
+					"answer4_text": null,
+					"button_text": "Restatements",
+					"super_element_index": null,
+					"item_answers": [
+						{
+							"answer_text": null,
+							"answer_index": 1
+						},
+						{
+							"answer_text": null,
+							"answer_index": 2
+						},
+						{
+							"answer_text": null,
+							"answer_index": 3
+						},
+						{
+							"answer_text": null,
+							"answer_index": 4
+						}
+					],
+					"num_answers": 0,
+					"display_type": "normal",
+					"response": "-9"
+				}
+			]
+		},
+		{
+			"items": [
+				{
+					"name": "MC_EN_002_301895_1",
+					"number": 301895,
+					"element_type": "MC",
+					"instruction_text": "<p><strong><u>Restatement</u></strong></p>",
+					"question_text": "An increasing number of neuroscientists have begun to reject the idea that consciousness cannot be studied.",
+					"answer1_text": "More and more neuroscientists are interested in studying consciousness, although they are not sure whether this can be done.",
+					"answer2_text": "There is a growing number of neuroscientists who no longer think that it is impossible to study consciousness.",
+					"answer3_text": "In the past, the findings of neuroscientists who studied consciousness were not regarded as reliable. <br />",
+					"answer4_text": "Neuroscientists who once tried to study consciousness&nbsp;now realize that this is impossible to do.",
+					"button_text": null,
+					"super_element_index": null,
+					"item_answers": [
+						{
+							"answer_text": "More and more neuroscientists are interested in studying consciousness, although they are not sure whether this can be done.",
+							"answer_index": 1
+						},
+						{
+							"answer_text": "There is a growing number of neuroscientists who no longer think that it is impossible to study consciousness.",
+							"answer_index": 2
+						},
+						{
+							"answer_text": "In the past, the findings of neuroscientists who studied consciousness were not regarded as reliable. <br />",
+							"answer_index": 3
+						},
+						{
+							"answer_text": "Neuroscientists who once tried to study consciousness&nbsp;now realize that this is impossible to do.",
+							"answer_index": 4
+						}
+					],
+					"num_answers": 4,
+					"display_type": "normal",
+					"response": "-9"
+				},
+				{
+					"name": "MC_EN_002_301896_1",
+					"number": 301896,
+					"element_type": "MC",
+					"instruction_text": "<p><strong><u>Restatement</u></strong></p>",
+					"question_text": "The popular assumption that whales are the creatures most threatened with extinction has been proven false.",
+					"answer1_text": "It has been proven that the common belief that whales are more threatened with extinction than are other animals&nbsp;is wrong.",
+					"answer2_text": "It would be wrong to assume that whales are less threatened with extinction than are other creatures, despite the claims of some people.",
+					"answer3_text": "It is difficult to prove which type of creature is most threatened with extinction, but most people believe it is the whale.",
+					"answer4_text": "It was once thought that only certain types of whales were threatened with extinction; it is now known, however,&nbsp;that this is true of all whales.",
+					"button_text": null,
+					"super_element_index": null,
+					"item_answers": [
+						{
+							"answer_text": "It has been proven that the common belief that whales are more threatened with extinction than are other animals&nbsp;is wrong.",
+							"answer_index": 1
+						},
+						{
+							"answer_text": "It would be wrong to assume that whales are less threatened with extinction than are other creatures, despite the claims of some people.",
+							"answer_index": 2
+						},
+						{
+							"answer_text": "It is difficult to prove which type of creature is most threatened with extinction, but most people believe it is the whale.",
+							"answer_index": 3
+						},
+						{
+							"answer_text": "It was once thought that only certain types of whales were threatened with extinction; it is now known, however,&nbsp;that this is true of all whales.",
+							"answer_index": 4
+						}
+					],
+					"num_answers": 4,
+					"display_type": "normal",
+					"response": "-9"
+				},
+				{
+					"name": "MC_EN_002_305213_1",
+					"number": 305213,
+					"element_type": "MC",
+					"instruction_text": "<p><strong><u>Restatement</u></strong></p>",
+					"question_text": "Opinion polls conducted in the United States during the early years of World War II showed that, while the majority of Americans favored providing financial and material assistance to Great Britain in its military campaign against Germany, there was virtual unanimity against entering the war.",
+					"answer1_text": "Opinion polls conducted in the United States during the&nbsp;early years of World War II showed that most Americans sided with Great Britain, while a small number supported Germany.",
+					"answer2_text": "During the first years of World War II, there was virtual unanimity&nbsp;in the United States against entering the war,&nbsp;but later, the majority&nbsp;of Americans favored joining&nbsp;Great Britain in its military campaign against Germany.",
+					"answer3_text": "During the early years of World War II, most Americans believed&nbsp;that Great Britain could defeat Germany only&nbsp;if the United States&nbsp;provided financial and material assistance.",
+					"answer4_text": "In the first years of World War II, few Americans wanted the&nbsp;United States to join the war, even&nbsp;though most thought that&nbsp;the country should support&nbsp;Great Britain's fight against Germany&nbsp;by sending money and goods.",
+					"button_text": null,
+					"super_element_index": null,
+					"item_answers": [
+						{
+							"answer_text": "Opinion polls conducted in the United States during the&nbsp;early years of World War II showed that most Americans sided with Great Britain, while a small number supported Germany.",
+							"answer_index": 1
+						},
+						{
+							"answer_text": "During the first years of World War II, there was virtual unanimity&nbsp;in the United States against entering the war,&nbsp;but later, the majority&nbsp;of Americans favored joining&nbsp;Great Britain in its military campaign against Germany.",
+							"answer_index": 2
+						},
+						{
+							"answer_text": "During the early years of World War II, most Americans believed&nbsp;that Great Britain could defeat Germany only&nbsp;if the United States&nbsp;provided financial and material assistance.",
+							"answer_index": 3
+						},
+						{
+							"answer_text": "In the first years of World War II, few Americans wanted the&nbsp;United States to join the war, even&nbsp;though most thought that&nbsp;the country should support&nbsp;Great Britain's fight against Germany&nbsp;by sending money and goods.",
+							"answer_index": 4
+						}
+					],
+					"num_answers": 4,
+					"display_type": "normal",
+					"response": "-9"
+				},
+				{
+					"name": "MC_EN_002_304721_1",
+					"number": 304721,
+					"element_type": "MC",
+					"instruction_text": "<p><strong><u>Restatement</u></strong></p>",
+					"question_text": "Sixteenth-century Venetians deviated very little from accepted norms of behavior and taste.",
+					"answer1_text": "The behavior and tastes of most people in sixteenth-century Venice were extremely unusual.",
+					"answer2_text": "Throughout the sixteenth century, Venetian behavior and taste changed very little.",
+					"answer3_text": "In sixteenth-century Venice there was a high degree of conformity in behavior and taste.",
+					"answer4_text": "The people of sixteenth-century Venice varied widely in their behavior and tastes.<br />",
+					"button_text": null,
+					"super_element_index": null,
+					"item_answers": [
+						{
+							"answer_text": "The behavior and tastes of most people in sixteenth-century Venice were extremely unusual.",
+							"answer_index": 1
+						},
+						{
+							"answer_text": "Throughout the sixteenth century, Venetian behavior and taste changed very little.",
+							"answer_index": 2
+						},
+						{
+							"answer_text": "In sixteenth-century Venice there was a high degree of conformity in behavior and taste.",
+							"answer_index": 3
+						},
+						{
+							"answer_text": "The people of sixteenth-century Venice varied widely in their behavior and tastes.<br />",
+							"answer_index": 4
+						}
+					],
+					"num_answers": 4,
+					"display_type": "normal",
+					"response": "-9"
+				}
+			]
+		},
+		{
+			"items": [
+				{
+					"name": "TX_EN_003_30046_1",
+					"number": 30046,
+					"element_type": "TX",
+					"instruction_text": "<p><span class=\"desktop_notes\"><em>.אפשר לראות את המשך הקטע בעזרת סרגל הגלילה שמימין</em></span><br />\r\n<u><strong>Reading Comprehension </strong></u><br />\r\nThe passage below is followed by several related questions. For each question, <strong>choose the most appropriate answer based on the text.</strong></p>\r\n",
+					"question_text": "<p>&nbsp;&nbsp; In an attempt to lower the incidence of disease in India, certain<br />\norganizations have decided to do something about the growing mountains<br />\nof rubbish that are&nbsp;home to the rats that carry plague and other diseases.&nbsp;<br />\nOne of the methods they&nbsp;have adopted is vermiculture &ndash; the cultivation of<br />\nworms.</p>\n\n<p>&nbsp;&nbsp;&nbsp; Using a species of worm called <em>Pheretima elongata</em>, the Green Cross<br />\nSociety (GCS) of Bombay has begun a large number of projects aimed<br />\nat converting organic rubbish into compost, which is used as fertilizer in<br />\nagriculture.&nbsp; The worms, when introduced into a pit or container of organic<br />\nrubbish, eat their way through the rubbish and produce a high-quality<br />\ncompost.</p>\n\n<p>&nbsp;&nbsp; For some time, the GCS has been selling worms for vermiculture<br />\nprojects abroad.&nbsp; Now its worms are helping to reduce the amount of<br />\nrubbish at home.&nbsp; Following a recent outbreak of plague, the number of<br />\norders for worms placed by private companies, government bodies and<br />\nlocal authorities has increased dramatically.</p>\n\n<p>&nbsp;&nbsp; At present, Bombay generates 5,800 tonnes of rubbish daily.&nbsp; So far,<br />\nthe GCS&#39;s attempts to recycle the organic rubbish have been modest.&nbsp;<br />\nIts worms are able to&nbsp;process only four tonnes of waste from Bombay&#39;s<br />\nbutcher shops and slaughterhouses every day.&nbsp; In the future, however,<br />\nthe GCS plans to process an additional twenty tonnes of vegetable waste<br />\na day.</p>\n\n<p>&nbsp;&nbsp;&nbsp;Local authorities in many Indian cities are impressed by what the GCS<br />\nhas achieved thus far.&nbsp; But Shantu Shenai, one of the GCS&#39;s workers who<br />\nis an expert on vermiculture, says modestly, &quot;The worms are just fulfilling<br />\ntheir natural function.&quot;&nbsp;</p>\n",
+					"answer1_text": null,
+					"answer2_text": null,
+					"answer3_text": null,
+					"answer4_text": null,
+					"button_text": "Text",
+					"super_element_index": null,
+					"item_answers": [
+						{
+							"answer_text": null,
+							"answer_index": 1
+						},
+						{
+							"answer_text": null,
+							"answer_index": 2
+						},
+						{
+							"answer_text": null,
+							"answer_index": 3
+						},
+						{
+							"answer_text": null,
+							"answer_index": 4
+						}
+					],
+					"num_answers": 0,
+					"display_type": "normal",
+					"response": "-9"
+				}
+			]
+		},
+		{
+			"items": [
+				{
+					"name": "MC_EN_003_301163_1",
+					"number": 301163,
+					"element_type": "MC",
+					"instruction_text": "<em>(.אפשר לראות את הקטע כולו בעזרת סרגל הגלילה העליון שמימין)</em>",
+					"question_text": "The second paragraph mainly discusses -",
+					"answer1_text": "how the Green Cross Society was established",
+					"answer2_text": "whether vermiculture should be introduced into Bombay",
+					"answer3_text": "some of the causes of disease in Indian cities",
+					"answer4_text": "one way in which vermiculture can be used<br />",
+					"button_text": null,
+					"super_element_index": 1,
+					"item_answers": [
+						{
+							"answer_text": "how the Green Cross Society was established",
+							"answer_index": 1
+						},
+						{
+							"answer_text": "whether vermiculture should be introduced into Bombay",
+							"answer_index": 2
+						},
+						{
+							"answer_text": "some of the causes of disease in Indian cities",
+							"answer_index": 3
+						},
+						{
+							"answer_text": "one way in which vermiculture can be used<br />",
+							"answer_index": 4
+						}
+					],
+					"num_answers": 4,
+					"display_type": "normal",
+					"response": "-9"
+				},
+				{
+					"name": "MC_EN_003_301164_1",
+					"number": 301164,
+					"element_type": "MC",
+					"instruction_text": "<em>(.אפשר לראות את הקטע כולו בעזרת סרגל הגלילה העליון שמימין)</em>",
+					"question_text": "<em>Pheretima elongata</em> is the name of a -",
+					"answer1_text": "worm used in the vermiculture projects<br />",
+					"answer2_text": "process in which rubbish is turned into compost<br />",
+					"answer3_text": "common fertilizer used in agriculture",
+					"answer4_text": "type of rat that carries disease",
+					"button_text": null,
+					"super_element_index": 2,
+					"item_answers": [
+						{
+							"answer_text": "worm used in the vermiculture projects<br />",
+							"answer_index": 1
+						},
+						{
+							"answer_text": "process in which rubbish is turned into compost<br />",
+							"answer_index": 2
+						},
+						{
+							"answer_text": "common fertilizer used in agriculture",
+							"answer_index": 3
+						},
+						{
+							"answer_text": "type of rat that carries disease",
+							"answer_index": 4
+						}
+					],
+					"num_answers": 4,
+					"display_type": "normal",
+					"response": "-9"
+				},
+				{
+					"name": "MC_EN_003_301193_1",
+					"number": 301193,
+					"element_type": "MC",
+					"instruction_text": "<em>(.אפשר לראות את הקטע כולו בעזרת סרגל הגלילה העליון שמימין)</em>",
+					"question_text": "According to the third paragraph, because of a recent outbreak of<br />\nplague -",
+					"answer1_text": "people are afraid to use fertilizer produced in Bombay",
+					"answer2_text": "the government is removing much of the rubbish from Bombay's streets",
+					"answer3_text": "there has been an increased demand for worms",
+					"answer4_text": "the incidence of other diseases has increased dramatically",
+					"button_text": null,
+					"super_element_index": 3,
+					"item_answers": [
+						{
+							"answer_text": "people are afraid to use fertilizer produced in Bombay",
+							"answer_index": 1
+						},
+						{
+							"answer_text": "the government is removing much of the rubbish from Bombay's streets",
+							"answer_index": 2
+						},
+						{
+							"answer_text": "there has been an increased demand for worms",
+							"answer_index": 3
+						},
+						{
+							"answer_text": "the incidence of other diseases has increased dramatically",
+							"answer_index": 4
+						}
+					],
+					"num_answers": 4,
+					"display_type": "normal",
+					"response": "-9"
+				},
+				{
+					"name": "MC_EN_003_301165_1",
+					"number": 301165,
+					"element_type": "MC",
+					"instruction_text": "<em>(.אפשר לראות את הקטע כולו בעזרת סרגל הגלילה העליון שמימין)</em>",
+					"question_text": "In the future, the Green Cross Society will probably -",
+					"answer1_text": "close many of Bombay's butcher shops and slaughterhouses",
+					"answer2_text": "process twenty-four tonnes of rubbish a day<br />",
+					"answer3_text": "begin selling worms for vermiculture projects outside India",
+					"answer4_text": "become the major producer of fertilizer in India",
+					"button_text": null,
+					"super_element_index": 4,
+					"item_answers": [
+						{
+							"answer_text": "close many of Bombay's butcher shops and slaughterhouses",
+							"answer_index": 1
+						},
+						{
+							"answer_text": "process twenty-four tonnes of rubbish a day<br />",
+							"answer_index": 2
+						},
+						{
+							"answer_text": "begin selling worms for vermiculture projects outside India",
+							"answer_index": 3
+						},
+						{
+							"answer_text": "become the major producer of fertilizer in India",
+							"answer_index": 4
+						}
+					],
+					"num_answers": 4,
+					"display_type": "normal",
+					"response": "-9"
+				},
+				{
+					"name": "MC_EN_003_301167_1",
+					"number": 301167,
+					"element_type": "MC",
+					"instruction_text": "<em>(.אפשר לראות את הקטע כולו בעזרת סרגל הגלילה העליון שמימין)</em>",
+					"question_text": "An appropriate title for this text would be -",
+					"answer1_text": "A Promising Method of Combatting Disease in India<br />",
+					"answer2_text": "Vermiculture: Advantages and Disadvantages",
+					"answer3_text": "The Threats Posed by India's Rubbish Problem",
+					"answer4_text": "The Fight Against Plague-Carrying Worms&nbsp;",
+					"button_text": null,
+					"super_element_index": 5,
+					"item_answers": [
+						{
+							"answer_text": "A Promising Method of Combatting Disease in India<br />",
+							"answer_index": 1
+						},
+						{
+							"answer_text": "Vermiculture: Advantages and Disadvantages",
+							"answer_index": 2
+						},
+						{
+							"answer_text": "The Threats Posed by India's Rubbish Problem",
+							"answer_index": 3
+						},
+						{
+							"answer_text": "The Fight Against Plague-Carrying Worms&nbsp;",
+							"answer_index": 4
+						}
+					],
+					"num_answers": 4,
+					"display_type": "normal",
+					"response": "-9"
+				}
+			]
+		},
+		{
+			"items": [
+				{
+					"name": "TX_EN_003_30182_1",
+					"number": 30182,
+					"element_type": "TX",
+					"instruction_text": "<p><span class=\"desktop_notes\"><em>.אפשר לראות את המשך הקטע בעזרת סרגל הגלילה שמימין</em></span><br />\r\n<u><strong>Reading Comprehension </strong></u><br />\r\nThe passage below is followed by several related questions. For each question, <strong>choose the most appropriate answer based on the text.</strong></p>\r\n",
+					"question_text": "<p>&nbsp; Douglas Cardinal&#39;s first attempts to design buildings were not well received:&nbsp;<br />\nthe University of British Columbia School of Architecture asked him to leave<br />\nafter a single year of study.&nbsp; The world-renowned Canadian architect<br />\nexplains that, at the time, his ideas about architecture and form were<br />\nconsidered radical: &quot;I wanted to create buildings that were more compatible<br />\nwith the natural environment &ndash; and the nature of man &ndash; than the demeaning<br />\nboxes that most people are forced to live and work in.&quot;&nbsp; Cardinal attributes<br />\nhis affinity for organic shapes to his rural upbringing on the plains of Alberta,<br />\nCanada.&nbsp; He also credits his Indian heritage with instilling in him a great<br />\nrespect for nature and for the importance of living in harmony with&nbsp;the land.</p>\n\n<p>&nbsp; Half a century after completing his architectural studies at the University of<br />\nTexas, Cardinal has remained true to his ideals.&nbsp; His style is often<br />\ncharacterized as &quot;free-form&quot; and &quot;curvilinear&quot;.&nbsp; One of Cardinal&#39;s first projects,<br />\n&nbsp;a church in his native province, has been compared to a series of hills, a huge<br />\nsea shell, and a cave.&nbsp; Cardinal&#39;s most imposing work, the colossal Canadian<br />\nMuseum of Civilization in Quebec, symbolically depicts the glaciers, winds,<br />\nand rivers that sculpted the North American continent at the end of the Ice Age, when humans first came to inhabit what is now Canada.</p>\n\n<p>&nbsp; Cardinal&#39;s latest and most challenging assignment is the National Museum of<br />\nthe American Indian in Washington, D.C., <span class=\"blue_phrase\">slated </span>to open this year.&nbsp; Cardinal&nbsp;<br />\ndescribes the structure as &quot;an abstraction of natural rock outcroppings&quot;.&nbsp;<br />\nThe building is oriented according to various astronomical reference points that are significant in Indian tradition.&nbsp; Appropriately, Cardinal and his team of<br />\narchitects&nbsp;worked surrounded by photographs depicting both the natural world<br />\nand Indian culture: waterfalls, canyons, cliff dwellings, totem poles.&nbsp; It is clear<br />\nthat the museum is destined to be one of the most unusual and talked-about<br />\nstructures in the United States &ndash; as well as a radical departure from the<br />\n&quot;demeaning boxes&quot; still characteristic of most modern architecture.</p>\n",
+					"answer1_text": null,
+					"answer2_text": null,
+					"answer3_text": null,
+					"answer4_text": null,
+					"button_text": "Text",
+					"super_element_index": null,
+					"item_answers": [
+						{
+							"answer_text": null,
+							"answer_index": 1
+						},
+						{
+							"answer_text": null,
+							"answer_index": 2
+						},
+						{
+							"answer_text": null,
+							"answer_index": 3
+						},
+						{
+							"answer_text": null,
+							"answer_index": 4
+						}
+					],
+					"num_answers": 0,
+					"display_type": "normal",
+					"response": "-9"
+				}
+			]
+		},
+		{
+			"items": [
+				{
+					"name": "MC_EN_003_304428_1",
+					"number": 304428,
+					"element_type": "MC",
+					"instruction_text": "<em>(.אפשר לראות את הקטע כולו בעזרת סרגל הגלילה העליון שמימין)</em>",
+					"question_text": "According to the first paragraph, <span class=\"blank\"></span> had a major influence on Douglas  Cardinal&#39;s ideas about architecture.",
+					"answer1_text": "the University of British Columbia School of Architecture",
+					"answer2_text": "the people with whom Cardinal lived and worked",
+					"answer3_text": "buildings on the plains of Alberta, Canada",
+					"answer4_text": "Cardinal's rural upbringing and Indian heritage",
+					"button_text": null,
+					"super_element_index": 1,
+					"item_answers": [
+						{
+							"answer_text": "the University of British Columbia School of Architecture",
+							"answer_index": 1
+						},
+						{
+							"answer_text": "the people with whom Cardinal lived and worked",
+							"answer_index": 2
+						},
+						{
+							"answer_text": "buildings on the plains of Alberta, Canada",
+							"answer_index": 3
+						},
+						{
+							"answer_text": "Cardinal's rural upbringing and Indian heritage",
+							"answer_index": 4
+						}
+					],
+					"num_answers": 4,
+					"display_type": "normal",
+					"response": "-9"
+				},
+				{
+					"name": "MC_EN_003_304458_1",
+					"number": 304458,
+					"element_type": "MC",
+					"instruction_text": "<em>(.אפשר לראות את הקטע כולו בעזרת סרגל הגלילה העליון שמימין)</em>",
+					"question_text": "It can be inferred from the second paragraph that Cardinal tried to represent the Ice Age in his design for the Canadian Museum of Civilization because -",
+					"answer1_text": "civilization in Canada began soon after the Ice Age",
+					"answer2_text": "Canada is known for its cold and icy climate",
+					"answer3_text": "he wanted a design that would be free-form and curvilinear",
+					"answer4_text": "symbols of the Ice Age are appropriate for a colossal building",
+					"button_text": null,
+					"super_element_index": 2,
+					"item_answers": [
+						{
+							"answer_text": "civilization in Canada began soon after the Ice Age",
+							"answer_index": 1
+						},
+						{
+							"answer_text": "Canada is known for its cold and icy climate",
+							"answer_index": 2
+						},
+						{
+							"answer_text": "he wanted a design that would be free-form and curvilinear",
+							"answer_index": 3
+						},
+						{
+							"answer_text": "symbols of the Ice Age are appropriate for a colossal building",
+							"answer_index": 4
+						}
+					],
+					"num_answers": 4,
+					"display_type": "normal",
+					"response": "-9"
+				},
+				{
+					"name": "MC_EN_003_304431_1",
+					"number": 304431,
+					"element_type": "MC",
+					"instruction_text": "<em>(.אפשר לראות את הקטע כולו בעזרת סרגל הגלילה העליון שמימין)</em>",
+					"question_text": "The main purpose of the last paragraph is to -",
+					"answer1_text": "discuss Cardinal's influence on modern architecture",
+					"answer2_text": "compare Cardinal's current work in Washington, D.C., with his previous work in Canada",
+					"answer3_text": "explain why Cardinal thinks the National Museum of the American Indian is such a challenging assignment",
+					"answer4_text": "describe Cardinal's most recent architectural project",
+					"button_text": null,
+					"super_element_index": 3,
+					"item_answers": [
+						{
+							"answer_text": "discuss Cardinal's influence on modern architecture",
+							"answer_index": 1
+						},
+						{
+							"answer_text": "compare Cardinal's current work in Washington, D.C., with his previous work in Canada",
+							"answer_index": 2
+						},
+						{
+							"answer_text": "explain why Cardinal thinks the National Museum of the American Indian is such a challenging assignment",
+							"answer_index": 3
+						},
+						{
+							"answer_text": "describe Cardinal's most recent architectural project",
+							"answer_index": 4
+						}
+					],
+					"num_answers": 4,
+					"display_type": "normal",
+					"response": "-9"
+				},
+				{
+					"name": "MC_EN_003_304432_1",
+					"number": 304432,
+					"element_type": "MC",
+					"instruction_text": "<em>(.אפשר לראות את הקטע כולו בעזרת סרגל הגלילה העליון שמימין)</em>",
+					"question_text": "In the third paragraph, &quot;slated&quot; is closest in meaning to -",
+					"answer1_text": "challenged",
+					"answer2_text": "scheduled",
+					"answer3_text": "completed",
+					"answer4_text": "designed",
+					"button_text": null,
+					"super_element_index": 4,
+					"item_answers": [
+						{
+							"answer_text": "challenged",
+							"answer_index": 1
+						},
+						{
+							"answer_text": "scheduled",
+							"answer_index": 2
+						},
+						{
+							"answer_text": "completed",
+							"answer_index": 3
+						},
+						{
+							"answer_text": "designed",
+							"answer_index": 4
+						}
+					],
+					"num_answers": 4,
+					"display_type": "normal",
+					"response": "-9"
+				},
+				{
+					"name": "MC_EN_003_304459_1",
+					"number": 304459,
+					"element_type": "MC",
+					"instruction_text": "<em>(.אפשר לראות את הקטע כולו בעזרת סרגל הגלילה העליון שמימין)</em>",
+					"question_text": "An appropriate title for the text would be -",
+					"answer1_text": "No More Demeaning Boxes:&nbsp; Efforts to Change the Face of Canadian Architecture",
+					"answer2_text": "From Canada to Texas and Back Again:&nbsp; Douglas Cardinal's Struggle To Be Accepted as an Architect",
+					"answer3_text": "Living in Harmony with the Land:&nbsp; The Indian Influence on North American Architecture",
+					"answer4_text": "Organic Shapes in Architecture:&nbsp; Douglas Cardinal Makes His&nbsp;Lifelong Dream a Reality",
+					"button_text": null,
+					"super_element_index": 5,
+					"item_answers": [
+						{
+							"answer_text": "No More Demeaning Boxes:&nbsp; Efforts to Change the Face of Canadian Architecture",
+							"answer_index": 1
+						},
+						{
+							"answer_text": "From Canada to Texas and Back Again:&nbsp; Douglas Cardinal's Struggle To Be Accepted as an Architect",
+							"answer_index": 2
+						},
+						{
+							"answer_text": "Living in Harmony with the Land:&nbsp; The Indian Influence on North American Architecture",
+							"answer_index": 3
+						},
+						{
+							"answer_text": "Organic Shapes in Architecture:&nbsp; Douglas Cardinal Makes His&nbsp;Lifelong Dream a Reality",
+							"answer_index": 4
+						}
+					],
+					"num_answers": 4,
+					"display_type": "normal",
+					"response": "-9"
+				}
+			]
+		}
+	],
+	"name": "EN3740_k",
+	"number": 3740,
+	"chapter_spec": "K",
+	"domain": "EN",
+	"lang_abbr": "he",
+	"time_between_backups": 0,
+	"exam_type_name": "psycho",
+	"mode": "authoring",
+	"must_answer_all_items": false,
+	"show_number": false,
+	"fill_the_blank": false,
+	"need_mathjax": true,
+	"last_chapter": false,
+	"allowed_time": 1200,
+	"chapter_index": 5
+}

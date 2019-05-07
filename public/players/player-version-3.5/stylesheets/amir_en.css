@@ -1,0 +1,804 @@
+/**						CSS for Meimad							*/
+/**						-----------------------------					*/
+
+/*Note:  this is in order to remove the disabled vertical scrollbar at the right */
+HTML,body {
+    height: 100%;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+    overflow: auto; /* hidden*/
+}
+
+/* Note: The math player object is shrinked to not interfere in other browsers than ie */
+#MathPlayer
+{
+    HEIGHT: 0px;
+    WIDTH: 0px;
+    VISIBILITY: hidden;
+}
+
+/* Note: this is a mimic of * in the quirks mode */
+BODY
+{
+    BACKGROUND-COLOR: rgb(255,204,204);
+    TEXT-ALIGN: center;
+    margin: 0px;
+}
+
+/* Note: The containers are to enable vertical centering in all browsers */
+#columns_container
+{
+    float: left;
+    height: 50%;
+    margin-top: -384px;
+    width: 1px;
+}
+
+#columns_inner_container
+{
+    VERTICAL-ALIGN: middle;
+    TEXT-ALIGN: center;
+    POSITION: relative;
+    height: 763px;
+    width: 1020px;
+    margin: 0 auto;
+    clear: both;
+    overflow: hidden;
+}
+
+
+#prepage
+{
+    VISIBILITY:visible;
+
+    /* Centering Attributes:*/
+    FONT-FAMILY: Arial;
+    FONT-SIZE: 30px;
+    BACKGROUND-COLOR: white;
+    COLOR: red;
+    height: 100%;
+}
+
+
+p.prepage
+{
+    TEXT-ALIGN: center;
+    position: absolute;
+    top: 50%;
+    left: 36%;
+}
+
+#columns
+{
+
+    POSITION: relative;
+}
+
+#main
+{
+    WIDTH: 815px;
+    HEIGHT: 762px;
+
+    FLOAT: right;
+
+    FONT-FAMILY: 'Arial';
+    FONT-SIZE: 24px;
+    FONT-WEIGHT: normal;
+    COLOR: black;
+    BACKGROUND-COLOR: #f8ecca;
+
+    POSITION: relative;
+    text-align: left;
+/*POSITION: absolute;
+  RIGHT: 164px;*/
+}
+
+
+#side
+{
+
+    /*   BACKGROUND-IMAGE: url(/themes/amir/sidebar.jpg); */
+    BACKGROUND-REPEAT: no-repeat;
+    /* BACKGROUND-COLOR: #f8ecca; */
+    background-color: #7faaff;
+
+    /*POSITION: relative;*/
+    WIDTH: 204px;
+    HEIGHT: 762px;
+    FLOAT: left;
+    OVERFLOW: hidden;
+    DIRECTION: ltr;
+}
+
+/* main:----------------------------------------------------------------------------*/
+.TX
+{
+    FONT-FAMILY: Arial;
+    FONT-SIZE: 20px;
+
+    COLOR: black;
+    BACKGROUND-COLOR: #cdd7db;
+
+    /*POSITION: absolute;*/
+    OVERFLOW: auto;
+
+    /*WIDTH: 815px;*/
+    /*HEIGHT: 762px;*/
+}
+
+.TX.kernel
+{
+    /*FONT-FAMILY: Arial;*/
+    /*FONT-SIZE: 20px;*/
+
+    /*COLOR: black;*/
+    /*BACKGROUND-COLOR: #cdd7db;*/
+
+    POSITION: absolute;
+    top: 0;
+    right: 0;
+    /*OVERFLOW: auto;*/
+
+    /*WIDTH: 815px; [>100%;<]*/
+    HEIGHT: 350px;/*46%*/
+
+}
+
+.with_kernel  /* css3 */
+{
+    /*font-size: 24px;*/
+    /*font-style: normal;*/
+
+    /*background-color: #f8ecca;*/
+    /*color: black;*/
+
+    BORDER-TOP: #806967 1px solid;
+    /*PADDING-RIGHT: 17px;*/
+    /*PADDING-LEFT: 17px;*/
+
+    POSITION: absolute;
+    /*Z-INDEX: 1;*/
+    OVERFLOW: auto;
+
+    /*WIDTH: 782px; */
+    /*HEIGHT: 412px;*/
+    TOP: 350px;
+    RIGHT: 0;
+
+}
+
+
+.instruction_item
+{
+    FONT-SIZE: 22px;
+    WIDTH: 782px;
+    HEIGHT: 762px;
+    PADDING-RIGHT: 17px;/*2%*/
+    PADDING-LEFT: 17px;/*2%*/
+    POSITION: absolute;
+    Z-INDEX: 1;
+    OVERFLOW: auto;
+}
+
+.question
+{
+
+    FONT-SIZE: 24px;
+    WIDTH: 782px; /*806px;*/
+    HEIGHT: 762px;
+    PADDING-RIGHT: 17px;/*2%*/
+    PADDING-LEFT: 17px;/*2%*/
+
+    POSITION: absolute;
+    Z-INDEX: 1;
+    OVERFLOW: auto;
+}
+
+.answer_options
+{
+    position: relative;
+    WIDTH: 770px; /*95%;*/
+}
+
+.answer_options li {
+list-style-type: none;
+}
+
+.answer_options li label {
+   margin: 0 20px;
+   display: block;
+}
+
+.answer_options li input {
+}
+/*
+.answer_options li input {
+  position: absolute;
+  left: 2px;
+  vertical-align: middle;
+  text-align: center;
+}
+*/
+
+.QU .answer_options
+{
+    WIDTH: 770px; /*95%;*/
+/*DISPLAY: table;*/
+}
+.answer_options TABLE
+{
+    BORDER-RIGHT: #f8ecca 2px solid;
+    BORDER-TOP: #f8ecca 2px solid;
+    BORDER-LEFT: #f8ecca 2px solid;
+    BORDER-BOTTOM: #f8ecca 2px solid;
+    MARGIN-TOP: 5px;
+    WIDTH: 743px; /*826px; /*90% from main;*/
+}
+
+.answer_options TABLE.square
+{
+    table-layout: fixed;
+}
+
+/* side:----------------------------------------------------------------------------*/
+#chapter_number/*title*/
+{
+    FONT-FAMILY: 'Arial';
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 20px;
+    margin-top: 5px;
+    /*PADDING-BOTTOM: 15px;*/
+    COLOR: #e3e3e3;
+
+}
+
+#chapter_label /*domain*/
+{
+    FONT-FAMILY: 'Arial';
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 20px;
+    COLOR: #f7f5aa;
+    display: block;
+    height: 30px;
+}
+
+#left_time
+{
+    FONT-SIZE: 16px;
+    OVERFLOW: auto;
+    MARGIN-TOP: 10px;
+    FONT-WEIGHT: normal;
+}
+
+#timer {
+    width: 60px;
+    height: 17px;
+    margin: 5px;
+    padding: 1px;
+    font-size: 14px;
+    text-align: center;
+    outline: 2px inset blue;
+}
+
+#flag_button
+{
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 12px;
+    FONT-FAMILY: Arial;/**/
+    MARGIN: auto;
+    margin-top: 25px;
+    WIDTH: 98px;
+    HEIGHT: 22px;
+    TEXT-ALIGN: center;
+    BACKGROUND: url(/themes/amir/flag_button.gif) yellow no-repeat center center;
+    COLOR: black;
+    display: block;
+}
+
+#next_button
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 15px;
+    FONT-FAMILY: Arial;/**/
+
+    MARGIN-TOP: 20px;
+
+    WIDTH: 100px;
+    HEIGHT: 30px;
+
+    TEXT-ALIGN: center;
+    BACKGROUND: url(/themes/amir/forward.gif) #c0c0c0 no-repeat center center;
+}
+
+#submitb
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 15px;
+    FONT-FAMILY: Arial;/**/
+
+    MARGIN-TOP: 10px;
+
+    WIDTH: 110px;
+    HEIGHT: 30px;
+    OVERFLOW: auto;
+    TEXT-ALIGN: center;
+}
+
+#item_buttons input
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 14px;
+    FONT-STYLE: normal;
+    FONT-FAMILY: Arial;
+
+    /*BORDER: #f9ed98 thin solid;*/
+    border: none;
+    WIDTH: 35px;
+    HEIGHT: 35px;
+    TEXT-ALIGN: center;
+    background: url(/themes/amir/unanswered_unflaged.gif) #7faaff no-repeat center center;
+}
+
+#item_buttons .flagged {
+    background: url(/themes/amir/unanswered_flaged.gif) #7faaff no-repeat center center;
+}
+
+#item_buttons .answered {
+    background: url(/themes/amir/answered_unflaged.gif) #7faaff no-repeat center center;
+}
+
+#item_buttons .answered.flagged {
+    background: url(/themes/amir/answered_flagged.gif) #7faaff no-repeat center center;
+}
+
+#item_buttons .IN
+{
+    FONT-WEIGHT: bolder;
+    FONT-SIZE: 13px;
+    FONT-FAMILY: Arial;
+    FONT-VARIANT: small-caps;
+
+    /*BORDER: #7faaff thin solid;*/
+    border: none;
+    BACKGROUND: url(/themes/amir/red_button_long.gif) #7faaff no-repeat center center;
+    COLOR: #fafafa;
+
+    WIDTH: 120px;
+    HEIGHT: 28px;
+    TEXT-ALIGN: center;
+    display: block;
+    margin: 5px auto;
+}
+
+p#buttons {
+    margin-top: -35px;
+}
+
+.inst_button:hover
+{
+    BACKGROUND: url(/themes/amir/red_button_mouseon.gif) #7faaff no-repeat center center;
+}
+
+.button:hover
+{
+    BACKGROUND: url(/themes/amir/unanswered_unflaged_mouse_over.gif) no-repeat center center;
+}
+
+#item_buttons .TX
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 14px;
+    FONT-FAMILY: Arial;
+    FONT-VARIANT: small-caps;
+
+    /*BORDER: #7faaff thin solid;*/
+    border: none;
+    BACKGROUND: url(/themes/amir/orange_button_long.gif) #7faaff no-repeat center center;
+    COLOR: #712a22;
+    WIDTH: 130px;
+    HEIGHT: 28px;
+    display: block;
+    TEXT-ALIGN: center;
+    margin: auto;
+}
+
+.TX_button:hover
+{
+    BACKGROUND: url(/themes/amir/orange_button_mouseon.gif) #7faaff no-repeat center center;
+    COLOR: black;
+}
+
+.formula_button
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 15px;
+    FONT-FAMILY: Arial;
+    FONT-VARIANT: small-caps;
+
+    BORDER-RIGHT: #7faaff thin solid;
+    BORDER-TOP: #7faaff thin solid;
+    BORDER-LEFT: #7faaff thin solid;
+    BORDER-BOTTOM: #7faaff thin solid;
+    COLOR: #712a22;
+
+    WIDTH: 120px;
+    HEIGHT: 28px;
+    MARGIN-TOP: 10px;
+    TEXT-ALIGN: center;
+    BACKGROUND: url(/themes/amir/formulaButton.gif) #7faaff no-repeat center center;
+}
+
+
+
+
+
+/* rc *--------------------------------------------------------------------------*/
+
+.QU .TX .instructions
+{
+    MARGIN-TOP: 15px;/*2%*/
+    MARGIN-LEFT: 18px;/*2.2%*/
+    MARGIN-RIGHT: 5px;/*3%*/
+}
+
+.TX .instructions
+{
+    MARGIN-TOP: 15px;/*2%*/
+    MARGIN-LEFT: 18px;/*2.2%*/
+    MARGIN-RIGHT: 25px;/*3%*/
+}
+
+.TX P
+{
+    /*OVERFLOW: hidden;*/
+    /*   MARGIN: 0% 2% 2% 1% */
+    margin: 0 15px 15px 7px;
+
+}
+
+/*.QU .TX p /* @@@ need to check
+  {
+  OVERFLOW: hidden;
+  margin-right: 25px;
+  }
+  */
+/*HighScreen *--------------------------------------------------------------------------*/
+
+.HighScreen .instructions
+{
+    MARGIN-TOP: 7px;
+    MARGIN-LEFT: 18px;/*2.2%*/
+    MARGIN-RIGHT: 25px;/*3%*/
+}
+
+.HighScreen P
+{
+    /*MARGIN: 0% 2% 2% 1% */
+    margin: 0 15px 15px 7px;
+}
+
+.QU .HighScreen .instructions /* @@@ need to check*/
+{
+    MARGIN-TOP: 15px;/*2%*/
+    MARGIN-LEFT: 18px;/*2.2%*/
+    MARGIN-RIGHT: 5px;/*3%*/
+
+}
+
+SPAN.line_number
+{
+    FONT-SIZE: 90%;
+    FONT-STYLE: italic;
+    FONT-WEIGHT: lighter;
+    COLOR: #9d9dff;
+    DISPLAY: inline-block;
+
+    PADDING-BOTTOM: 0.2ex;
+    PADDING-TOP: 0.2ex;
+    MARGIN-LEFT: 0.8ex;
+    MARGIN-RIGHT: 0ex;
+    /*line-height: 100%;*/
+    VERTICAL-ALIGN: middle;
+    WIDTH: 5ex;
+    OVERFLOW: hidden;
+
+}
+
+
+.instruction_item P
+{
+    PADDING-BOTTOM: 22px; /*1em;*/
+}
+
+
+.question_number
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 22.583px;
+    PADDING-TOP: 17px; /*2%;*/
+    PADDING-RIGHT: 17px;/*2%*/
+    DISPLAY: inline-block;
+}
+
+span.blank {
+    display: inline-block;
+    width: 5ex;
+    border-bottom: 2px solid black;
+    line-height: 80%;
+/*margin-right: 5px; */
+}
+
+#item_buttons .current
+{
+    border: 3px solid red;
+}
+
+/** HTML .question_number
+    {
+    color: red;
+    PADDING-RIGHT: 0%;
+    MARGIN-TOP: 2%;
+    MARGIN-RIGHT: 2%;
+    PADDING-TOP: 0%;
+    }
+    */
+
+.instruction_item_part
+{
+    MARGIN-TOP: 23px;/*3%*/
+    MARGIN-RIGHT: 16px;/*2%*/
+    /*OVERFLOW: hidden;*/
+    PADDING-BOTTOM: 1em;
+    /*PADDING: 0px;*/
+    OVERFLOW: hidden;
+}
+
+.question_part
+{
+    MARGIN-TOP: 23px;/*3%*/
+    MARGIN-RIGHT: 16px;/*2%*/
+    /*OVERFLOW: hidden;*/
+    PADDING: 0px;
+    OVERFLOW: hidden;
+}
+
+.question_part P
+{
+    MARGIN-TOP: 7px;/*1%*/
+    MARGIN-BOTTOM: 0px;
+    PADDING: 0px;
+    OVERFLOW: hidden;
+}
+
+/*IMG {
+  OVERFLOW:hidden;
+  }
+  */
+.instructions
+{
+    COLOR: darkblue;
+    FONT-SIZE: 21px;
+    FONT-FAMILY: 'Arial';
+    MARGIN-RIGHT: 2px;/**/
+
+
+}
+
+.table_part /* @@@ need to check*/
+{
+    FONT-SIZE: 21px;
+    VERTICAL-ALIGN: top;
+    HEIGHT: 50px;
+    TEXT-ALIGN: center;
+}
+
+/* answer options -------------------------------------------------------------------*/
+.answer_options TH
+{
+    WIDTH: 50px;
+    PADDING-RIGHT: 1em;
+    PADDING-LEFT: 1em;
+    PADDING-BOTTOM: 0.3em;
+    PADDING-TOP: 0.3em;
+}
+
+TD /* @@@ need to check with quadratic display and table_part */
+{
+    PADDING-RIGHT: 1em;
+    PADDING-LEFT: 1em;
+    PADDING-BOTTOM: 0.3em;
+    PADDING-TOP: 0.3em;
+}
+
+.odd_row
+{
+    /*DISPLAY: table-row; for ie8 and ff*/
+    BACKGROUND-COLOR: #f8dcbe;;
+}
+
+.even_row
+{
+    /*BACKGROUND-COLOR: #ebecca */
+    background-color: #e4e6cc;
+}
+
+.radio
+{
+
+    /*    DISPLAY: table-cell; for ie8 and ff*/
+    WIDTH: 25px;
+    HEIGHT: 25px
+}
+
+
+.distractor
+{
+    LIST-STYLE-POSITION: outside;
+    /*    DISPLAY: table-cell;  for ie8 and ff*/
+    FONT-SIZE: 21px;
+    FONT-FAMILY: Arial;
+    OVERFLOW: hidden;
+    MARGIN: 0px;
+}
+
+.QU .distractor
+{
+    LIST-STYLE-POSITION: outside;
+    FONT-SIZE: 25px;
+    FONT-FAMILY: "Arial";
+}
+
+/*------------------------------------------------------------*/
+/* Change fonts on VE */
+.VE SPAN.line_number {
+    FONT-SIZE: 19.7px; /*85%;*/
+    FONT-STYLE: normal;
+    VERTICAL-ALIGN: bottom;
+}
+
+.VE .TX, .VE .TX .instructions,.VE .HighScreen, .VE .HighScreen .instructions {
+    FONT-FAMILY: 'Narkisim';
+    FONT-SIZE: 21.41px;  /*92%;*/
+
+}
+
+.VE .question, .VE .LowScreen, .VE .instruction_item {
+    FONT-FAMILY: 'Narkisim';
+    FONT-SIZE: 23.283px;
+}
+
+.VE .question_part, .VE .answer_options, .VE .question_number {
+    FONT-FAMILY: 'Narkisim';
+    FONT-SIZE: 22.58px;/*23.28px;/*22.583px; /*97%;*/
+}
+
+.VE .instructions, .VE .question_part P, .VE .answer_options TABLE {
+    FONT-FAMILY: 'Narkisim';
+    FONT-SIZE:  22.58px;/*21.9px; /*97%;*/
+}
+
+.VE .distractor {
+    FONT-FAMILY: 'Narkisim';
+    FONT-SIZE: 20px;/*97%*/
+}
+
+
+.math
+{
+    FONT-WEIGHT: normal;
+    COLOR: black;
+    FONT-FAMILY: "Arial";
+}
+
+clear
+{
+    CLEAR: both;
+}
+
+
+/* Fixes for non ie browsers
+ * browser vendor is detected by css_browser_selector.js
+ * and put as class on html element */
+.ff3 SPAN.line_number,
+.chrome SPAN.line_number,
+.safari SPAN.line_number
+{
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.ff3 .TX,
+.chrome .TX,
+.safari .TX,
+.ff3 .HighScreen,
+.chrome .HighScreen,
+.safari .HighScreen {
+    line-height: 106%;
+}
+/**********/
+
+/*-Specific Cases --------------------------------------------------------*/
+#q_46796 .math, #q_204704 .math, #q_201751 .math, #q_200393 .math, #q_202653 .math, #q_205896 .math, #q_208827 .math, #q_46288 .math {
+    FONT-FAMILY: "Times";
+    font-size: 140%;
+}
+
+#a_202653 .math {
+    FONT-FAMILY: "Times";
+    font-size: 120%;
+}
+
+#a_208842 .math, #a_208854 .math, #a_208868 .math, #a_203546 .math {
+    FONT-FAMILY: "Times";
+    font-size: 120%;
+}
+
+#a_205004 .math {
+    text-align: right;
+}
+
+#q_206160 embed /* need to check */
+{
+    float: left;
+    height: 95%;
+}
+
+
+/* new fixes paz 11.8.08 */
+
+#a_209104 .math, #q_209104 .math, #a_209094 .math {
+    FONT-FAMILY: "Times";
+    font-size: 120%;
+}
+
+/* uncomprehensible puncutation paz 4.9.08 */
+
+#q_209098.question_part {
+    font-size: 120%;
+}
+
+/* font corrections Paz 18.9.08 */
+
+#q_206088 .math, #q_209269 .math, #a_209269 .math,  #q_209271 .math, #a_209271 .math, #q_205895 .math  {
+    FONT-FAMILY: "Times";
+    font-size: 120%;
+}
+
+#a_209289.answer_options .distractor {
+    FONT-FAMILY: "Times";
+    font-size: 120%;
+}
+
+
+/* font corrections Paz 7.12.08 */
+
+#q_205364 .math, #a_205364 .math {
+    FONT-FAMILY: "Times";
+    font-size: 120%;
+}
+
+
+/* font corrections Paz 8.1.09 */
+
+#q_208283 .math {
+    font-size: 150%;
+}
+
+#q_207333 .math, #q_207043 .math {
+    FONT-FAMILY: "Times";
+    font-size: 150%;
+}
+
+
+/* font corrections Paz 23.2.09 */
+
+#q_209291 .math {
+    FONT-FAMILY: "Times";
+    font-size: 150%;
+}

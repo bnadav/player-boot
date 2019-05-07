@@ -1,0 +1,95 @@
+{
+	"units": [
+		{
+			"items": [
+				{
+					"name": "IN_12163_1",
+					"number": 12163,
+					"element_type": "IN",
+					"instruction_text": "",
+					"question_text": "<strong>בפרק זה מטלת כתיבה.</strong><br><br>\r\nהזמן המוקצב הוא  30 דקות.<br><br><br>\r\n\r\nקִראו את המטלה בעיון וכתבו את החיבור במקום המיועד לכך.<br />\r\n&nbsp;\r\n<div class=\"desktop_notes\">אורך החיבור הנדרש &ndash; 500-250 מילים. &nbsp;תוכלו להיעזר במונה המילים שבצדו הימני של המסך.<br />\r\n(בבחינה הפסיכומטרית האמִתית אורך החיבור הנדרש הוא 25 שורות לפחות)<br />\r\n&nbsp;</div>\r\n\r\n<div class=\"mobile_notes\">אורך החיבור הנדרש &ndash; 500-250 מילים.<br />\r\n(בבחינה הפסיכומטרית האמִתית אורך החיבור הנדרש הוא 25 שורות לפחות)<br />\r\n&nbsp;</div>\r\n\r\n<p>כִּתבו בסגנון ההולם כתיבה עיונית והקפידו על ארגון הכתוב ועל לשון תקינה ובהירה.</p>\r\n\r\n<div class=\"desktop_notes\">\r\n<p>הזמן הנותר לפרק מופיע מימין למטה.</p>\r\n</div>\r\n\r\n<div class=\"mobile_notes\">\r\n<p>הזמן הנותר לפרק מופיע משמאל למעלה.</p>\r\n</div>\r\n\r\n<div class=\"desktop_notes\">\r\n<p>להמשך לחצו על הכפתור &lt;<strong>קדימה</strong>&gt; שמימין.</p>\r\n</div>\r\n\r\n<div class=\"mobile_notes\">\r\n<p>להמשך לחצו על החץ שמימין למעלה.</p>\r\n</div>\r\n",
+					"answer1_text": null,
+					"answer2_text": null,
+					"answer3_text": null,
+					"answer4_text": null,
+					"button_text": "הוראות",
+					"super_element_index": null,
+					"item_answers": [
+						{
+							"answer_text": null,
+							"answer_index": 1
+						},
+						{
+							"answer_text": null,
+							"answer_index": 2
+						},
+						{
+							"answer_text": null,
+							"answer_index": 3
+						},
+						{
+							"answer_text": null,
+							"answer_index": 4
+						}
+					],
+					"num_answers": 0,
+					"display_type": "normal",
+					"response": "-9"
+				}
+			]
+		},
+		{
+			"items": [
+				{
+					"name": "BL_WR_001_7000021_1",
+					"number": 7000021,
+					"element_type": "BL",
+					"instruction_text": "<u><strong>מטלת כתיבה</strong></u>",
+					"question_text": "<p>&nbsp;<span>בשנת 2007, רשת ג של קול ישראל פסלה לשידור שיר מכיוון שהזמר שר בו \"מְכִּירים\", בעוד שההגייה התקנית של המילה היא \"מַכִּירים\".<span>&nbsp; </span>רק משהוקלט השיר מחדש, הפעם בהגייה תקנית, הסכימה תחנת הרדיו לשדרו.<span>&nbsp; </span>בעקבות התקרית התעורר דיון בשאלת הפיקוח על הגיית העברית בפי זמרים.<span>&nbsp; </span>היו שצידדו ברשת ג וטענו כי הגייה לא-תקנית משקפת זלזול בשפה העברית ותורמת להידרדרותה, ולכן על כלי התקשורת להקפיד על לשון תקנית.<span>&nbsp; </span>בתגובה לכך טענו מתנגדי המהלך כי סטיות מן השפה התקנית הן חלק מהתפתחותה הטבעית של הלשון.<span>&nbsp; </span>על כך הוסיפו כי אין מקום לדרוש ששירי פופ ייכתבו או יבוצעו בהתאם לתקן הלשון, ואין רע בעובדה שהם משקפים את השפה המדוברת הטבעית.</span></p>\r\n<p><strong><span>לפי דעתכם, האם על כלי התקשורת להימנע משידור שירים שיש בהם שגיאות לשון?<span>&nbsp; </span>נמקו.</span></strong></p>",
+					"answer1_text": null,
+					"answer2_text": null,
+					"answer3_text": null,
+					"answer4_text": null,
+					"button_text": "מטלת כתיבה",
+					"super_element_index": null,
+					"item_answers": [
+						{
+							"answer_text": null,
+							"answer_index": 1
+						},
+						{
+							"answer_text": null,
+							"answer_index": 2
+						},
+						{
+							"answer_text": null,
+							"answer_index": 3
+						},
+						{
+							"answer_text": null,
+							"answer_index": 4
+						}
+					],
+					"num_answers": 0,
+					"display_type": "normal",
+					"response": "-9"
+				}
+			]
+		}
+	],
+	"name": "WR80206",
+	"number": 80206,
+	"chapter_spec": "0",
+	"domain": "WR",
+	"lang_abbr": "he",
+	"time_between_backups": 0,
+	"exam_type_name": "psycho",
+	"mode": "testing",
+	"must_answer_all_items": false,
+	"show_number": false,
+	"fill_the_blank": false,
+	"need_mathjax": true,
+	"last_chapter": false,
+	"allowed_time": 1800,
+	"chapter_index": 1
+}

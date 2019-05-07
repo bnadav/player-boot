@@ -1,0 +1,80 @@
+@import "../themes/blue_theme";
+@import "fonts";
+
+%input-button {
+    border: medium none;
+    color: $button-color;
+    display: inline-block;
+    @include button-font(14px);
+    text-align: center;
+    
+}
+
+%inst-button {
+   background: url($sprite_path) $button-background-color -1px 0px;
+   color: $button-wide-color;
+   display: block;
+   height: 27px;
+   margin: 6px auto;
+   width: 174px;
+   @import "base";
+}
+
+%question-button {
+   background: url($sprite_path) $button-background-color -1px -156px;
+   color: $button-color;
+   font-style: normal;
+   height: 33px;
+   margin: 2px;
+   outline: medium none;
+   width: 32px;
+     &.flagged {background: url($sprite_path) $side-background-color -45px -156px}
+     &.answered {background: url($sprite_path) $side-background-color -1px -111px}
+     &.answered.flagged {background: url($sprite_path) $side-background-color -45px -111px}
+     &.current { @extend %current-button }
+  
+}
+
+ 
+%special-button{
+  background: url($sprite_path) $side-background-color -1px -37px; 
+  border: medium none;
+  color: $special-button-color;
+  display: block;
+  @include button-font(15px);
+  height: 27px;
+  margin: 18px auto 0;
+  text-align: center;
+  width: 139px;
+  
+}
+ 
+ %special-flag-button{
+    background: url($sprite_path) $side-background-color -1px -74px;
+    font-size: 12px;
+    font-weight: normal;
+ }
+  
+ %link-button{
+    padding-top: 5px;
+    text-decoration: none;
+}
+ 
+ %disabled-button{
+   color: $extra-button-disabled-color;
+   text-shadow: 0 -1px 0 #888;
+ }
+
+ %current-button{
+   outline: 2px solid black; 
+ }
+//=========================================================================
+//=========================================================================
+//$responsive buttons
+%mobile-button{
+  background-color: inherit;
+  border: none;
+  font-size: 25px;  
+  height: 40px;
+  z-index: 9;
+}

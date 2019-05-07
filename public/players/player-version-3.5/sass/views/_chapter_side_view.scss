@@ -1,0 +1,59 @@
+@import "item_button_view";
+@import "item_info_view";
+@import "word_count_view";
+@import "../elements/buttons";
+@import "../elements/boxes";
+
+
+#chapter_number {
+  @extend %box-without-borders;
+}
+
+#chapter_label {
+  visibility: hidden;
+}
+
+//buttons of chapter side view
+#item_buttons {
+  @extend %item-button;
+}
+  
+#extra_buttons {
+  margin-top: -2px;
+ } 
+  
+
+#extra_buttons input[type=button], 
+   #extra_buttons a, #flag_button, #next_button {
+    @extend %special-button;
+}
+
+#extra_buttons #flag_button {
+   @extend %special-flag-button;
+}
+
+#extra_buttons a {
+    @extend %link-button;
+}   
+
+#extra_buttons input[type=button][disabled=disabled] {
+   @extend %disabled-button;
+}
+  //margin: 20px auto 0;
+  
+#timer {
+   @extend %dynamic-info-box;
+}
+
+label[for=timer] {
+    @extend %label-for-dynamic-info-box;
+}
+
+.psycho label[for=timer] {
+    @extend %label-for-dynamic-info-box;
+    @extend %text-default-open;
+}
+
+
+
+ 

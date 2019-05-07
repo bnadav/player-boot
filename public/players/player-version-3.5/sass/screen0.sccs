@@ -1,0 +1,662 @@
+/* Welcome to Compass.
+ *
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+// No quates in parnts because of sass bug
+@namespace url(http://www.w3.org/1999/xhtml);
+@namespace m url(http://www.w3.org/1998/Math/MathML);
+
+@import "base";
+@import "arabic";
+// @import "alef_fonts";
+@import "directions";
+//@import "texts";
+@import "elements/texts";
+//@import "mathml_stix_2";
+@import "mathml_latin_modern";
+@import "design_elements";
+//@import "xp";
+@import "exceptional";
+@import "linenumbers";
+@import "media_queries";
+@import "views/chapter_side_view";
+@import "views/item_content_view";
+
+@import "formulasbox";
+@import "custom-css/all";
+
+
+/*Note:  this is in order to remove the disabled vertical scrollbar at the right */
+html {
+  height: 100%;
+  //overflow: auto;
+}
+
+body {
+  height: 100%;
+  @include background-image(linear-gradient(#ffffff, #f2f4f4));
+  text-align: center;
+  display: none;
+  overflow: auto;
+}
+
+/* Some normal values after reset */
+strong {font-weight: 700;}
+//p {margin-bottom: $line_numbers_height;}
+
+#webeqapplet 
+{
+    width: 480px;
+    height: 280px;
+}
+
+/* Note: The containers are to enable vertical centering in all browsers */
+#columns_container
+{
+  float: left;
+  height: 50%;
+  margin-top: -$page-height/2;  /* Half the content height */
+  width: 1px;
+}
+
+/* Note: Actual container, centerd vertically and horizontally */
+#columns_inner_container
+{
+  vertical-align: middle;
+  text-align: center;
+  position: relative;
+  height: $page-height;
+  width: $page-width;
+  margin: auto;
+  // margin: 0 auto;
+  clear: both;
+  //overflow: auto;
+  //overflow: hidden;
+  display: flex;
+}
+
+#prepage
+{
+  visibility:visible;
+  font-size: 30px;
+  background-color: $prepage-background-color;
+  color: $prepage-color;
+  height: 100%;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 36%;
+}
+
+/*
+#columns
+{
+  position: relative;
+  width: 100%;
+}
+*/
+//************************************************
+#main
+{
+  
+  background-color: $main-background-color;
+  min-width: $main-width;
+  //height: $page-height - 1;
+ //=>  @include text;
+
+  position: relative;
+  width: $main-width;
+}
+
+
+#side
+{
+  background-repeat: no-repeat;
+  background-color: $side-background-color;
+  width: $page-width - $main-width - 1;
+  min-width: $page-width - $main-width - 1;
+  //height: $page-height - 1;
+  overflow: hidden;
+  direction: ltr;
+}
+
+/* -------------------   main --------------------------------------------------------*/
+/* All items */
+#main em {
+  font-style: italic;
+}
+
+#main strong,
+#main b {
+   font-weight: bold;
+}
+
+// blank representation as a span with blank class
+// #main span.blank {
+//    border-bottom: 2px solid black;
+//    display: inline-block;
+//    line-height: 80%;
+//    width: 5ex;
+//    vertical-align: baseline;
+//    padding: 0 2px;
+// }
+
+// html #main span.with_content {
+//   font-size: 95%;
+//   font-style: italic;
+//   width: auto;
+//   //color: $question-part-instructions-color;
+// }
+
+
+//#--------------------------------------
+//#--------------------------------------
+//#--------------------------------------
+// #main > div {
+//   @include text(23px);
+//   overflow: auto;
+//   visibility: hidden;
+//   padding: $item-padding;
+//   height: $item-height;
+//   width: $item-width;// - 2*$item-padding;
+//   position: absolute;
+//   z-index: 1;
+//   .question_part {
+//     margin: $question-part-margin 0 0 0;
+//     //margin: $question-part-margin $question-part-margin 0 0;
+//     overflow: hidden;
+//     padding: 0;
+//   }
+
+//   .instructions {
+//     @include text(21px);
+//     color: $question-part-instructions-color;
+//     margin-right: 2px;
+//   }
+
+//   .question_text {
+//     margin: $question-part-margin 0;
+//   }
+
+//   .question_text p.sc {
+//     color: $question-part-instructions-color;
+//   }
+
+//   .IN .question_text {
+//     margin: 0;
+//    }
+
+
+//   &.current, &.kernel {
+//     visibility: visible;
+//   }
+
+// }
+//-----------------
+//#--------------------------------------
+//#--------------------------------------
+//#--------------------------------------
+
+
+// body.instructions {
+//   #main > div.IN {
+//     @include text(20px);
+//   }
+// }
+
+//???
+.math.instructions {
+  #main .TX {
+    @include text(20px);
+  }
+   #main > div {
+    @include text(23px);  
+
+  }
+  #main .answer_options {
+    @include text(21px);  
+    
+  
+  }
+}
+
+ // .IN .notes_title {
+ //     font-size: 15px;
+ // }
+
+
+.math {
+ //  #main > div {
+ // //   @include text(24px);
+ //   &.IN {
+
+ //      @include text(19.5px);
+ //      ol, ul {
+ //        margin-right: 1em;
+ //        list-style-type: disc;
+ //        list-style-position: outside;
+ //        font-size: 16px;
+ //        line-height: 22px;
+        
+ //      }
+      
+ //    }
+ //  }
+
+  #main .TX {
+    @include text(19px);
+  }
+
+  #main .answer_options {
+  @include text(24px);
+}
+
+}
+
+br::after { 
+    content: " - Remember this";
+    background-color: yellow;
+    color: red;
+    font-weight: bold;
+}
+
+// #main .TX
+// {
+//   @include text(19px);
+//   .lang_ar.verbal & {//MZ 
+//      @include text(21.3333px); //MZ change font so lineheight for ar is 32px  
+//   }
+//   .lang_ar.math & {
+//     @include text(19px);
+//   }
+//   background-color: $text-background-color;
+//   overflow: auto;
+//   height: $page-height - $item-padding*2;
+//   .question_text { 
+// 	margin-top: 0;
+// 	word-wrap: normal;
+// 	width: $kernel-width;
+// 	br::after {
+// 		content: "*****************";		
+// 		color: red;
+// 	}
+
+//   }
+//   counter-reset: itemx;
+//     &:before {
+//      display: inline-block;
+//      position:absolute;
+//      counter-increment: itemx;
+//      content: "(" counter(itemx) ")";
+//      font-size: 16px;
+//      .lang_ar & {font-size: 15px;}
+//      color: $question-part-instructions-color;
+//      font-style: italic;
+//      //left: -30px;
+//      visibility: hidden;
+//     }
+//   // show line number in full and half screen kernel
+//   &.current li.show_number:before,
+//   &.kernel li.show_number:before {
+//     visibility: visible;
+
+//   }
+// }
+
+//?
+.domain_EN #main .TX ol {
+  margin: 20px 0;
+}
+
+// moved to views/_item_bl_content_view.scss
+// .domain_WR #main .question_text {
+//   font-size: 19px;
+//   line-height: 25px;
+// }
+
+
+/* NOTE: top half of screen when item has an associated kernel */
+// #main .TX.kernel
+// {
+//   position: absolute;
+//   top: 0;
+//   right: 0;
+//   height: $kernel-height - $item-padding*2;
+//   //height: $kernel-height;
+//   &.big_kernel {
+//     height: $kernel-big-height - $item-padding*2;
+   
+//   }
+// }
+
+/* NOTE: bottom half of screen when item has an associated kernel */
+// #main .with_kernel
+// {
+//   border-top: $item-with-kernel-top-border-color 2px solid;
+//   position: absolute;
+//   overflow: auto;
+//   top: $kernel-height;
+//   padding-top:0;
+//   padding-bottom: $item-padding;
+//   height: $item-with-kernel-height - $item-padding - 2px;
+//   right: 0;
+//   &.blue_phrase {
+//       visibility: visible;
+//   }
+//   &.big_kernel {
+//     top: $kernel-big-height;
+//     height: $item-with-big-kernel-height - $item-padding - 2px;
+//     .question_text, .answer_options {
+//       @include text(21px);
+//     }
+//     .question_text p {
+//       margin-bottom: 15px;
+//     }
+
+//    }
+  
+// }
+///------
+#main .BL textarea {
+  width: 750px;
+  height: 350px;
+  font-size: 15px;
+}
+//-------
+#main .IN {
+  #content_table{ 
+    display: table; 
+  }
+  
+  .tr{ 
+    display: table-row; 
+  }
+
+  .td{
+     
+  display: table-cell;
+
+  &.from_number { 
+    padding-right: 5px;
+    padding-left:5px; 
+    width: 10px; 
+  }
+  
+  &.to_number { 
+    padding-right: 5px;
+    padding-left:5px;
+    width: 35px; 
+  }
+
+  &.ltr-word {
+    padding-right: 5px;
+    width: 50px;
+  }
+  
+  &.rtl-word {
+    padding-left: 5px;
+    width: 50px;
+  }
+  
+  &.dash {
+   width: 7px
+  }
+}
+  
+}
+
+.domain_EN #main .IN .td.to_number{
+    padding-right: 5px;
+    padding-left: 5px;
+    width: 40px; 
+}
+
+
+#main .answer_options
+{
+  width: $answer-options-width;
+  @include text(21px);
+
+  table {
+    .even { background-color: $even-row-color; }
+    .odd { background-color: $odd-row-color; }
+    th {
+      padding: 0 $answer-options-table-th-padding;
+      width:  $answer-options-table-th-width;
+      text-align: center;
+    }
+    td {padding: $answer-options-table-td-padding;
+
+    }
+    td, th {border: 2px solid $main-background-color;}
+    width: $answer-options-table-width;
+    //border: 2px ridge darken($even-row-color, 4%);
+    margin-top: 5px;
+    input[type="radio"] {
+       width: 18px;
+       height: 18px;
+    }
+
+    &.display_type_normal {
+      tr{
+        &:nth-child(odd) {
+          background-color: $odd-row-color;
+        }
+        &:nth-child(even) {
+          background-color: $even-row-color;
+        }
+      }
+    }
+
+    &.display_type_square {
+      td {
+        width: $answer-options-table-td-width
+      }
+      
+      tr:nth-child(odd){
+        
+        td, th {
+          &:nth-of-type(odd) {
+            background-color: $odd-row-color;
+          }
+          &:nth-of-type(even) {
+            background-color: $even-row-color;
+          }
+        }
+      }
+
+      tr:nth-child(even){
+        td, th {
+          &:nth-of-type(odd) {
+            background-color: $even-row-color;
+          }
+          &:nth-of-type(even) {
+            background-color: $odd-row-color;
+          }
+        }
+      }
+    }
+  }
+
+}
+
+.break {
+  color: red;
+  font-size: 14px;	
+}
+
+/* ------------------ side ------------------------- */
+// #chapter_number {
+//   color: $side-header-color;
+//   font-size: $side-header-font-size;
+//   font-weight: bold;
+//   margin: 5px 0 15px 0;
+//   font-family: alef;
+// }
+
+// #chapter_label {
+//   visibility: hidden;
+// }
+
+// #word_count_wrapper {
+//   display: none;
+// }
+
+// #item_buttons {
+//   & > input {
+//     font: normal small-caps bold 14px alef;
+//     border: medium none;
+//     text-align: center;
+//     display: inline-block;
+//     color: $side-buttons-color-1;
+//   }
+
+//   .IN, .TX, .BL {
+//     //@extend .button-style;
+//     background: url($sprite_path) $side-background-color -1px 0px;
+//     display: block;
+//     height: 27px;
+//     width: 174px;
+//     margin: 6px auto;
+//     //&:hover {background: url("../themes/amir/brown/Test_button_up.png") no-repeat scroll center center transparent;
+//     //}
+//   }
+  
+ 
+//   .MC {
+//     background: url($sprite_path) $side-background-color -1px -156px;
+//     color: $side-buttons-color-2;
+//     font-style: normal;
+//     height: 33px;
+//     width: 32px;
+//     outline: medium none;
+//     margin: 2px;
+//     &.flagged {background: url($sprite_path) $side-background-color -45px -156px}
+//     &.answered {background: url($sprite_path) $side-background-color -1px -111px}
+//     &.answered.flagged {background: url($sprite_path) $side-background-color -45px -111px}
+//     //&:hover {background: url("../themes/amir/brown/Question_button_up.png") no-repeat scroll center center transparent;
+//     //}
+//   }
+
+//   .current { outline: 2px solid black; }
+// }
+
+
+// //#flag_button, #next_button, #submitb {
+//  #extra_buttons input[type=button], #extra_buttons a, #flag_button, #next_button{
+//   border: medium none;
+//   color: white;
+//  
+//   font: normal small-caps bold 15px alef;
+//   display: block;
+//   width: 139px;
+//   height: 27px;
+//   margin: 18px auto 0;
+//   //margin: 20px auto 0;
+//   text-align: center;
+//   // Override defenitions just for flag button
+//   &#next_button,
+//   &#submit_button,
+//   &#editor_button,
+//   &#formulas_link
+//   { background: url($sprite_path) $side-background-color -1px -37px; 
+//     font: normal small-caps bold 15px alef;
+//   }
+//   &#flag_button {
+//     background: url($sprite_path) $side-background-color -1px -74px;
+//     font-size: 12px;
+//     font-weight: normal;
+//   }
+
+// }
+
+//  #extra_buttons a {
+//     text-decoration: none;
+//     padding-top: 5px;
+//  }
+
+//  #extra_buttons input[type=button][disabled=disabled] {
+//    color: #C8CFD4;
+//    text-shadow: 0 -1px 0 #888;
+//  }
+
+//  #extra_buttons {
+//    margin-top: -2px;
+//  }
+
+//------------------------------------------------
+
+ // #timer, #word_count {
+ //   width: 80px;
+ //   height: 25px;
+ //   display: block;
+ //   text-align: center;
+ //   margin: 0 auto 20px;
+ //   border: 1px solid black;
+ // }
+
+ // #word_count {
+ //   border: 2px solid black;
+ // }
+
+ // label[for=timer], label[for=word_count] {
+ //   display: block;
+ //   text-align: center;
+ //   margin: 16px auto 2px;
+ //   font-family: alef;
+ //   //margin: 20px auto 2px;
+ // }
+
+ // #item_info {
+ //   background-color: $side-background-color;
+ //   margin: 10px auto;
+ //   text-align: center;
+ //   width: 70px;
+ //   font-weight: bold;
+ // }
+
+ #items_body {
+    text-rendering: optimizeLegibility;
+    -moz-osx-font-smoothing: grayscale;
+    font-smoothing: antialiased;
+    -webkit-font-smoothing: antialiased;
+    text-shadow: rgba(0, 0, 0, .01) 0 0 1px;
+}    
+
+#items_body.meimad {
+  $exam-type: "meimad";
+}
+
+#items_body.psycho {
+  $exam-type: "psycho";
+  
+}
+
+#items_body.lang_he,
+ #items_body.lang_ar {
+   .lb-data .lb-close {
+     width: 106px;
+     margin-right: 10px;
+     margin-top: 30px; 
+   }
+
+   .lb-dataContainer {
+     position: relative;
+     bottom: 648px;
+     z-index: 90;
+   }
+ }
+
+#items_body.lang_he .lb-data .lb-close {
+     background: url("../img/close_he.png") no-repeat scroll right bottom rgba(0, 0, 0, 0);
+}
+
+#items_body.lang_ar {
+  .lb-data .lb-close {
+     background: url("../img/close_ar.png") no-repeat scroll right bottom rgba(0, 0, 0, 0);
+   }
+
+}
+

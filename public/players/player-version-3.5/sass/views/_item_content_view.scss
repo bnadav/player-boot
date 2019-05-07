@@ -1,0 +1,158 @@
+@import "../elements/buttons";
+@import "../elements/lists";
+@import "../elements/text_blocks";
+@import "../elements/text_responsive_blocks";
+@import "../responsive/media_queries";
+@import "item_bl_content_view";
+@import "item_in_content_view";
+@import "item_mc_content_view";
+@import "item_tx_content_view";
+
+
+.item{ //i'm here :)-----
+
+
+  
+  @extend %text-framework;
+  @extend %text-default;
+  @include iphone{
+      @include text-responsive-framework;
+      font-size: 1.25rem; //16px * 1.25 = 20px
+       &.current {
+         display: block;
+      }
+  }
+
+
+
+  
+
+  .psycho &{
+    @extend %text-default-open;
+  }
+
+  .psycho.lang_ar &{
+    @extend %text-ar-verbal-open;
+  }
+    
+  .lang_he.verbal & {
+    @extend %text-he-verbal;
+  }
+
+  .lang_ar.verbal & {
+    @extend %text-ar-verbal;
+  }
+
+  .psycho.lang_he.verbal & {
+    @extend %text-he-verbal-open;
+  }
+
+  .psycho.lang_ar.verbal & {
+    @extend %text-ar-verbal-open;
+  }
+
+//was in comments in screen.scss
+  .lang_he.math & {
+  //   @include text(19.5px);
+       @extend %text-he-math;   
+   
+       ol, ul {
+         @extend %notes-list;
+       }
+     }
+
+  .lang_ar.math & {
+      @include text(19.5px);
+      @extend %text-ar-math;   
+      ol, ul {
+        @extend %notes-list;
+      }
+   
+  }
+
+  .psycho.lang_he.domain_EN &,
+  .psycho.lang_ar.domain_EN &{
+      @extend %text-english-open;
+  }
+
+   &.current, &.kernel {
+      visibility: visible;
+    }
+  
+ 
+      
+   
+// should i do hirarchy?
+  .instructions {
+     @extend %text-opening;
+     @include iphone{
+       font-size: 1.1rem; // 16px * 1.1 = 17.6px
+     }
+
+    .instructions & {
+    .left_line_instructions {
+             // text-align: left;
+             // direction: ltr;
+             // @extend %text-default;
+             // font-size: 19px;
+        @extend %text-left-instructions;
+    }
+   
+   }
+  }
+   
+  .question_text {
+    @extend %text-core;
+    @include iphone{
+        margin-top: 0;
+        //// Needed in case of wide mathml equation
+        overflow-x: auto; 
+    }
+  }
+
+  .answer_options {
+    @extend %text-completion;
+    @include iphone{
+       font-size: 1.125rem; 
+    }
+  }
+
+
+//may mix it in .item
+  .question_part { // not in tx, yes in IN and MC    
+ //margin: $question-part-margin 0 0 0;
+   overflow: hidden;
+   padding: 0;
+}
+  
+ //!! check it out- especially the color 
+// not in use
+  .question_text p.sc {
+    color: $question-part-instructions-color;
+    @include iphone{
+      margin: 0;
+      font-size: 0.9375rem; // 16px x 0.9375 = 15px
+    }
+  }
+}
+
+.domain_EN .item{
+  @include iphone{
+     font-size: 1.1875rem; //16px * 1.875 = 19px
+  }
+}
+
+//html #main > div {
+ 
+
+  
+   
+   
+   
+   
+  
+
+  
+
+
+

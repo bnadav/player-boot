@@ -1,0 +1,20 @@
+@import "../elements/boxes";
+
+
+.psycho label[for=word_count] {
+    @extend %label-for-dynamic-info-box;
+	@extend %text-default-open;
+}
+
+label[for=word_count] {
+    @extend %label-for-dynamic-info-box;
+}
+
+#word_count {
+  @extend %dynamic-highlight-info-box;
+  
+}
+ 
+#word_count_wrapper {
+  display: none;
+}

@@ -1,0 +1,37 @@
+
+/* text */
+$line_numbers_font_size : 19px;
+$line_numbers_ar_font_size : 14.5px;
+
+//$line_numbers_height : 30px;
+//MZ $line_numbers_ar_height : 28.5px;
+$line_numbers_ar_height : 32px;//MZ
+
+
+/*.line_numbers ($size : 16px) {*/
+.line_numbers {
+  @include text($line_numbers_font_size);
+
+    margin-bottom: 15px;
+    float: right;
+//    line-height: $line_numbers_height;
+    color:  hsl(211, 69%, 45%);
+
+    .lang_ar.verbal & {
+      @include text($line_numbers_ar_font_size);
+      line-height: $line_numbers_ar_height;
+      color:  hsl(211, 69%, 45%);
+      /*color: #6887A7;*/
+      float: right;
+      margin-bottom: 15px;
+    }
+
+}
+
+.domain_EN .line_numbers {
+  float: left;
+  font-size: 15px;
+ // clear: both;
+//  line-height:30px;
+}
+

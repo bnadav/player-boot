@@ -1,0 +1,44 @@
+
+/* Player Version */
+
+$PLAYER_VERSION: 3.5;
+
+
+/* theme */
+@import "themes/blue_theme";
+
+/* compass */
+@import "compass/reset";
+@import "compass";
+
+
+/* dimensions */
+$page-width: 1020px;
+$page-height: 763px;
+$main-width: 815px;
+$exam-type: "meimad";
+/* item */
+$item-width: 782px;
+$item-padding: 17px;
+$item-height: 703px;;
+
+$kernel-height:  round($page-height * 0.4587); /* 350px */
+$kernel-big-height: round($page-height * 0.5897); /* 450px */
+$kernel-width: 745px;
+
+$item-with-kernel-height: $page-height - $kernel-height; /* 413px */
+$item-with-big-kernel-height: $page-height - $kernel-big-height; /* 413px */
+
+$question-part-margin: 15px;
+
+/* side */
+$side-header-font-size: 20px;
+
+/* Answer options */
+$answer-options-width: round($main-width * 0.9447); /* 770px */
+$answer-options-table-width: $answer-options-width;
+//$answer-options-table-width: round($answer-options-width * 0.9); /* 693px */
+$answer-options-table-th-padding: 15px;
+$answer-options-table-td-padding: 10px;
+$answer-options-table-th-width: 50px;
+$answer-options-table-td-width: ($answer-options-width - $answer-options-table-th-width - $answer-options-table-th-width) / 2;

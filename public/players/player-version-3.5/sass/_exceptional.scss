@@ -1,0 +1,15 @@
+/* English item in meimad's instructions chapter - all items are right aligned except for this one  */
+/*                                                 the font family is Arial just in the English item*/
+#main div#q_1101 *,
+#main div#q_1471 *,
+#main div#q_2082 *{
+  direction: ltr !important;
+  text-align: left !important;
+  font-family: Arial;  
+}
+
+.domain_YO input#flag_button {
+  visibility: hidden;
+
+}
+

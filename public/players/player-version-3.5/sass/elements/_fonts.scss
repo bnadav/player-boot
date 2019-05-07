@@ -1,0 +1,24 @@
+@mixin button-font($size: 14px){
+	
+	@if $exam_type == "meimad"{
+		font: normal small-caps bold $size alef;
+//need to change to arial		
+	} 
+
+	@else if $exam_type == "meimad" {
+	 	font: normal small-caps bold $size alef;
+	}
+//need to change to arial
+}
+
+//$button-font: arial;
+//$box-font: arial;
+
+@mixin box-font($exam_type: "meimad"){
+	@if $exam_type == "meimad"{
+		font-family: arial;
+	}
+	@else if $exam_type == "psycho"{
+		font-family: alef;
+	}
+}

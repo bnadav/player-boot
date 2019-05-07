@@ -1,0 +1,54 @@
+@mixin text($size : 22px) {
+  font-size: $size;
+  line-height: 1.5*$size;
+  color: black;
+
+  html .verbal & {
+    font-family: alef, david;
+  }
+  html .lang_ar.verbal & {
+    font-family: "XBNiloofar", "alef";
+    //  .TX, .line_numbers {
+    //  line-height: 32px; //added
+    // }
+
+  }
+  html .lang_ar.domain_WR & {
+    font-family:  "XBNiloofar", "alef";
+  }
+  
+
+  .domain_EN & {
+    font-family: 'Open Sans';
+  }
+
+  .domain_WR & {
+    font-family: alef;
+  }
+
+  /*
+  .math & {
+    font-family: "MathJax_Main", "alef";
+  }
+  */
+// .math.instructions  {
+//   font-family: alef, david;
+// }
+
+  .math.instructions & {
+    .TX, .line_numbers {
+      font-family: alef, david;
+    }
+
+    .MC.with_kernel {
+      font-family: alef, david;
+    }
+  }
+
+
+  
+  p {margin-bottom: 1.5*$size;}
+  //background-color: $background-color;
+  //text-align: left;
+}
+

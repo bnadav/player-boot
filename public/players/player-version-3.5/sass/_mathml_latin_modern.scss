@@ -1,0 +1,78 @@
+/*
+The Latin Modern fonts are released under the GUST font license, which is
+legally equivalent to the LaTeX Project Public License. See the files in this
+directory for details. The fonts can be obtained from several TeX distributions
+or package managers.
+
+The WOFF fonts have been obtained from
+http://www.gust.org.pl/projects/e-foundry/
+*/
+
+
+/* Latin Modern Roman has various sizes. We use the generic name
+   "Latin Modern Roman" for the local versions and "LMRoman12" for the Web font.
+*/
+@font-face {
+    font-family: LMRoman12;
+    src: url('../fonts/MathML-fonts/LatinModernMath/lmroman12-regular.woff2'), url('../fonts/MathML-fonts/LatinModernMath/lmroman12-regular.woff');
+}
+@font-face {
+    font-family: LMRoman12;
+    src: url('../fonts/MathML-fonts/LatinModernMath/lmroman12-bold.woff2'), url('../fonts/MathML-fonts/LatinModernMath/lmroman12-bold.woff');
+    font-weight: bold;
+}
+@font-face {
+    font-family: LMRoman12;
+    src: url('../fonts/MathML-fonts/LatinModernMath/lmroman12-italic.woff2'), url('../fonts/MathML-fonts/LatinModernMath/lmroman12-italic.woff');
+    font-style: italic;
+}
+@font-face {
+    font-family: Latin Modern Math;
+    src: local('Latin Modern Math'), local('LatinModernMath-Regular'),
+         url('../fonts/MathML-fonts/LatinModernMath/latinmodern-math.woff2'), url('../fonts/MathML-fonts/LatinModernMath/latinmodern-math.woff');
+}
+
+// Use Arial for hebrew letters inside QU domain
+@font-face {
+  font-family: Hebrew QU Text;
+  //src: url(https://fonts.gstatic.com/s/varelaround/v9/w8gdH283Tvk__Lua32TysjIfpcuPP9g.woff2) format('woff2');
+  //src: url(https://fonts.gstatic.com/s/arimo/v11/P5sMzZCDf9_T_10bxCF8jA.woff2) format('woff2');
+  //src: url(https://fonts.gstatic.com/s/rubik/v7/iJWKBXyIfDnIV7nDrXyi0A.woff2) format('woff2');
+  src: url(https://fonts.gstatic.com/s/alef/v9/FeVfS0NQpLYgnjdRCqFx.woff2) format('woff2');
+  // Hebrew, space, tab ,qutations, question mark, exclamation, period, comma
+  unicode-range: U+05BE-05F4, U+0020, U+0009, U+2060, U+0022, U+0027, U+003F, U+00A1, U+002E, U+002C; 
+}
+
+@font-face {
+  font-family: Hebrew QU Text;
+  font-weight: bold;
+  //src: url(https://fonts.gstatic.com/s/rubik/v7/iJWHBXyIfDnIV7F6iGmf8WDm7Q.woff2) format('woff2');
+  src: url(https://fonts.gstatic.com/s/alef/v9/FeVQS0NQpLYglo50H5xQ2Ixi.woff2) format('woff2');
+  // Hebrew, space, tab ,qutations, question mark, exclamation, period, comma
+  //unicode-range: U+05BE-05F4, U+0590-05FF, U+0020, U+0009, U+2060, U+0022, U+0027, U+003F, U+00A1, U+002E, U+002C; 
+  unicode-range: U+0590-05FF, U+0020, U+0009, U+2060, U+0022, U+0027, U+003F, U+00A1, U+002E, U+002C; 
+}
+
+.htmlmathparagraph, .domain_QU.math, m|mtext {
+    font-family: Hebrew QU Text, Latin Modern Roman, LMRoman12;
+}
+
+.domain_QU.math.lang_ar, .domain_QU.math.lang_ar m|mtext {
+  font-family: XBNiloofar;
+}
+
+m|math {
+    font-family: Latin Modern Math;
+}
+
+.oldstylenumbers {
+    font-variant-numeric: oldstyle-nums; /* Recommended syntax */
+    font-feature-settings: 'onum';         /* OpenType feature syntax */
+    -moz-font-feature-settings: 'onum';    /* Gecko <= 33 syntax */
+    -webkit-font-feature-settings: 'onum'; /* Blink syntax */
+}
+//
+/* Calligraphic letters do not seem to be available */
+m|*.calligraphic {
+}
+

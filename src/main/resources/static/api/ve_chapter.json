@@ -1,0 +1,965 @@
+{
+	"units": [
+		{
+			"items": [
+				{
+					"name": "IN_11492_1",
+					"number": 11492,
+					"element_type": "IN",
+					"instruction_text": "",
+					"question_text": "<p><strong><u>חשיבה מילולית</u></strong></p>\r\n<strong>בפרק זה 23 שאלות.</strong><br /><br />\r\n\r\n<div id=\"content_table\">\r\n\r\n    <div class=\"tr\">\r\n        <div class=\"td rtl-word\">שאלות</div>\r\n        <div class=\"td from_number\">1</div>\r\n        <div class=\"td dash\">-</div>\r\n        <div class=\"td to_number\">6:</div>\r\n        <div class=\"td text\"><strong>אנלוגיות</strong></div>\r\n    </div>\r\n\r\n    <div class=\"tr\">\r\n        <div class=\"td rtl-word\">שאלות</div>\r\n        <div class=\"td from_number\">7</div>\r\n        <div class=\"td dash\">-</div>\r\n        <div class=\"td to_number\">18:</div>\r\n        <div class=\"td text\"><strong>שאלות הבנה והסקה</strong></div>\r\n    </div>\r\n\r\n    <div class=\"tr\">\r\n        <div class=\"td rtl-word\">שאלות</div>\r\n        <div class=\"td from_number\">19</div>\r\n        <div class=\"td dash\">-</div>\r\n        <div class=\"td to_number\">23:</div>\r\n        <div class=\"td text\"><strong>שאלות הבנת הנקרא</strong></div>\r\n    </div>\r\n\r\n</div>\r\n\r\n<br />\r\n<p>לכל שאלה מוצעות ארבע תשובות.&nbsp; עליכם לבחור את התשובה <strong>המתאימה ביותר</strong> לכל שאלה.</p>\r\n<p><strong>הזמן המוקצב הוא 20 דקות. </strong></p>\r\n\r\n\r\n<div class=\"desktop_notes\"><p>הזמן הנותר לפרק מופיע מימין למטה.</p>\r\n</div>\r\n\r\n<div class=\"mobile_notes\"><p>הזמן הנותר לפרק מופיע משמאל למעלה.</p>\r\n</div>\r\n\r\n<div class=\"desktop_notes\">\r\n<p>להמשך לחצו על הכפתור <<strong>קדימה</strong>> שמימין.</p>\r\n</div>\r\n\r\n<div class=\"mobile_notes\">\r\n<p>להמשך לחצו על החץ שמימין למעלה.</p>\r\n</div>",
+					"answer1_text": null,
+					"answer2_text": null,
+					"answer3_text": null,
+					"answer4_text": null,
+					"button_text": "הוראות",
+					"super_element_index": null,
+					"item_answers": [
+						{
+							"answer_text": null,
+							"answer_index": 1
+						},
+						{
+							"answer_text": null,
+							"answer_index": 2
+						},
+						{
+							"answer_text": null,
+							"answer_index": 3
+						},
+						{
+							"answer_text": null,
+							"answer_index": 4
+						}
+					],
+					"num_answers": 0,
+					"display_type": "normal",
+					"response": "-9"
+				}
+			]
+		},
+		{
+			"items": [
+				{
+					"name": "IN_11490_1",
+					"number": 11490,
+					"element_type": "IN",
+					"instruction_text": "",
+					"question_text": "<u><strong>אנלוגיות</strong></u><br />\r\nבכל שאלה יש זוג מילים מודגשות. &nbsp;מצאו את היחס בין המשמעויות של שתי המילים המודגשות, ובחרו מתוך התשובות המוצעות את זוג המילים שהיחס ביניהן הוא <strong>הדומה ביותר</strong> ליחס שמצאתם.<br />\r\n<strong>שימו לב:</strong> יש חשיבות לסדר המילים בזוג.<br />\r\n&nbsp;\r\n<div class=\"desktop_notes\">להמשך לחצו על הכפתור &lt;<strong>קדימה</strong>&gt; שמימין.</div>\r\n\r\n<div class=\"mobile_notes\">להמשך לחצו על החץ שמימין למעלה.</div>\r\n",
+					"answer1_text": null,
+					"answer2_text": null,
+					"answer3_text": null,
+					"answer4_text": null,
+					"button_text": "אנלוגיות",
+					"super_element_index": null,
+					"item_answers": [
+						{
+							"answer_text": null,
+							"answer_index": 1
+						},
+						{
+							"answer_text": null,
+							"answer_index": 2
+						},
+						{
+							"answer_text": null,
+							"answer_index": 3
+						},
+						{
+							"answer_text": null,
+							"answer_index": 4
+						}
+					],
+					"num_answers": 0,
+					"display_type": "normal",
+					"response": "-9"
+				}
+			]
+		},
+		{
+			"items": [
+				{
+					"name": "MC_VE_002_108072_1",
+					"number": 108072,
+					"element_type": "MC",
+					"instruction_text": "<u><strong>אנלוגיות</strong></u>",
+					"question_text": "<strong>רכס : הר -</strong>",
+					"answer1_text": "מרבה רגליים : רגל",
+					"answer2_text": "כוורת : דבורה",
+					"answer3_text": "עתיק : שנה",
+					"answer4_text": "עמוד שִדרה : חוליה",
+					"button_text": null,
+					"super_element_index": null,
+					"item_answers": [
+						{
+							"answer_text": "מרבה רגליים : רגל",
+							"answer_index": 1
+						},
+						{
+							"answer_text": "כוורת : דבורה",
+							"answer_index": 2
+						},
+						{
+							"answer_text": "עתיק : שנה",
+							"answer_index": 3
+						},
+						{
+							"answer_text": "עמוד שִדרה : חוליה",
+							"answer_index": 4
+						}
+					],
+					"num_answers": 4,
+					"display_type": "normal",
+					"response": "-9"
+				},
+				{
+					"name": "MC_VE_002_108497_1",
+					"number": 108497,
+					"element_type": "MC",
+					"instruction_text": "<u><strong>אנלוגיות</strong></u>",
+					"question_text": "<strong>שיטוט : הליכה -</strong>",
+					"answer1_text": "היסוס : הכרעה",
+					"answer2_text": "שרבוט : ציור",
+					"answer3_text": "נצנוץ : הארה",
+					"answer4_text": "ציתות : ריגול",
+					"button_text": null,
+					"super_element_index": null,
+					"item_answers": [
+						{
+							"answer_text": "היסוס : הכרעה",
+							"answer_index": 1
+						},
+						{
+							"answer_text": "שרבוט : ציור",
+							"answer_index": 2
+						},
+						{
+							"answer_text": "נצנוץ : הארה",
+							"answer_index": 3
+						},
+						{
+							"answer_text": "ציתות : ריגול",
+							"answer_index": 4
+						}
+					],
+					"num_answers": 4,
+					"display_type": "normal",
+					"response": "-9"
+				},
+				{
+					"name": "MC_VE_002_101804_1",
+					"number": 101804,
+					"element_type": "MC",
+					"instruction_text": "<u><strong>אנלוגיות</strong></u>",
+					"question_text": "<strong>מוסר כליות : חרטה -</strong>",
+					"answer1_text": "מגינת לב : שִמחה",
+					"answer2_text": "פיק ברכיים : פחד",
+					"answer3_text": "מפח נפש : תקווה",
+					"answer4_text": "חרון אף : קִנטור",
+					"button_text": null,
+					"super_element_index": null,
+					"item_answers": [
+						{
+							"answer_text": "מגינת לב : שִמחה",
+							"answer_index": 1
+						},
+						{
+							"answer_text": "פיק ברכיים : פחד",
+							"answer_index": 2
+						},
+						{
+							"answer_text": "מפח נפש : תקווה",
+							"answer_index": 3
+						},
+						{
+							"answer_text": "חרון אף : קִנטור",
+							"answer_index": 4
+						}
+					],
+					"num_answers": 4,
+					"display_type": "normal",
+					"response": "-9"
+				},
+				{
+					"name": "MC_VE_002_105423_1",
+					"number": 105423,
+					"element_type": "MC",
+					"instruction_text": "<u><strong>אנלוגיות</strong></u>",
+					"question_text": "<strong>צילום : לתעד -</strong>",
+					"answer1_text": "כבישה : לשמר",
+					"answer2_text": "נגינה : להלחין",
+					"answer3_text": "שבירה : לסדוק",
+					"answer4_text": "זריעה : לקצור",
+					"button_text": null,
+					"super_element_index": null,
+					"item_answers": [
+						{
+							"answer_text": "כבישה : לשמר",
+							"answer_index": 1
+						},
+						{
+							"answer_text": "נגינה : להלחין",
+							"answer_index": 2
+						},
+						{
+							"answer_text": "שבירה : לסדוק",
+							"answer_index": 3
+						},
+						{
+							"answer_text": "זריעה : לקצור",
+							"answer_index": 4
+						}
+					],
+					"num_answers": 4,
+					"display_type": "normal",
+					"response": "-9"
+				},
+				{
+					"name": "MC_VE_002_188047_2",
+					"number": 188047,
+					"element_type": "MC",
+					"instruction_text": "<u><strong>אנלוגיות</strong></u>",
+					"question_text": "<strong>כרית : מגבעת -</strong>",
+					"answer1_text": " מסרגה : סוודר ",
+					"answer2_text": "&nbsp;קולב : בגד",
+					"answer3_text": "הדום : נעליים&nbsp;",
+					"answer4_text": "בטנה : מעיל",
+					"button_text": null,
+					"super_element_index": null,
+					"item_answers": [
+						{
+							"answer_text": " מסרגה : סוודר ",
+							"answer_index": 1
+						},
+						{
+							"answer_text": "&nbsp;קולב : בגד",
+							"answer_index": 2
+						},
+						{
+							"answer_text": "הדום : נעליים&nbsp;",
+							"answer_index": 3
+						},
+						{
+							"answer_text": "בטנה : מעיל",
+							"answer_index": 4
+						}
+					],
+					"num_answers": 4,
+					"display_type": "normal",
+					"response": "-9"
+				},
+				{
+					"name": "MC_VE_002_105380_2",
+					"number": 105380,
+					"element_type": "MC",
+					"instruction_text": "<u><strong>אנלוגיות</strong></u>",
+					"question_text": "<strong>דרוּש : צריך -</strong>",
+					"answer1_text": "מובן : מסביר",
+					"answer2_text": "שקוף : רואה",
+					"answer3_text": "דרוּך : מוכן",
+					"answer4_text": "מֻכָּר : מכיר",
+					"button_text": null,
+					"super_element_index": null,
+					"item_answers": [
+						{
+							"answer_text": "מובן : מסביר",
+							"answer_index": 1
+						},
+						{
+							"answer_text": "שקוף : רואה",
+							"answer_index": 2
+						},
+						{
+							"answer_text": "דרוּך : מוכן",
+							"answer_index": 3
+						},
+						{
+							"answer_text": "מֻכָּר : מכיר",
+							"answer_index": 4
+						}
+					],
+					"num_answers": 4,
+					"display_type": "normal",
+					"response": "-9"
+				}
+			]
+		},
+		{
+			"items": [
+				{
+					"name": "IN_11495_1",
+					"number": 11495,
+					"element_type": "IN",
+					"instruction_text": "",
+					"question_text": "<p><u><strong>שאלות הבנה והסקה</strong></u></p>\r\n\r\n<div class=\"desktop_notes\">להמשך לחצו על הכפתור &lt;<strong>קדימה</strong>&gt; שמימין.</div>\r\n\r\n<div class=\"mobile_notes\">להמשך לחצו על החץ שמימין למעלה.</div>\r\n",
+					"answer1_text": null,
+					"answer2_text": null,
+					"answer3_text": null,
+					"answer4_text": null,
+					"button_text": "שאלות הבנה והסקה",
+					"super_element_index": null,
+					"item_answers": [
+						{
+							"answer_text": null,
+							"answer_index": 1
+						},
+						{
+							"answer_text": null,
+							"answer_index": 2
+						},
+						{
+							"answer_text": null,
+							"answer_index": 3
+						},
+						{
+							"answer_text": null,
+							"answer_index": 4
+						}
+					],
+					"num_answers": 0,
+					"display_type": "normal",
+					"response": "-9"
+				}
+			]
+		},
+		{
+			"items": [
+				{
+					"name": "MC_VE_015_108118_1",
+					"number": 108118,
+					"element_type": "MC",
+					"instruction_text": "<u><strong>שאלות הבנה והסקה</u></strong> ",
+					"question_text": "<p class=\"sc\">לפניכם משפט (או יותר ממשפט) שכמה חלקים ממנו חסרים, ולאחריו ארבע הצעות להשלמת החסר.  עליכם לבחור בהצעה <strong>המתאימה ביותר</strong> להשלמת החסר.</p>\n\n<p>שמוליק החליט <span class=\"blank\"></span> תאטרון \"הקרקס\", <span class=\"blank\"></span> שהרגיש כי עדיין לא מיצה את התחומים האמנותיים שבהם עוסק תאטרון זה, וזאת <span class=\"blank\"></span> שקיבל מתאטרון \"שוליים\" הצעת עבודה אטרקטיבית <span class=\"blank\"></span> מבחינה כלכלית.</p>\n",
+					"answer1_text": "לפרוש ממשרתו ב- / אף / משום / יותר",
+					"answer2_text": "להצטרף ל- / מכיוון / אף / פחות",
+					"answer3_text": "שלא לקבל את הצעת העבודה ב- / מה גם / אף / יותר",
+					"answer4_text": "לקבל את הצעת העבודה ב- / אף / מכיוון / פחות",
+					"button_text": null,
+					"super_element_index": null,
+					"item_answers": [
+						{
+							"answer_text": "לפרוש ממשרתו ב- / אף / משום / יותר",
+							"answer_index": 1
+						},
+						{
+							"answer_text": "להצטרף ל- / מכיוון / אף / פחות",
+							"answer_index": 2
+						},
+						{
+							"answer_text": "שלא לקבל את הצעת העבודה ב- / מה גם / אף / יותר",
+							"answer_index": 3
+						},
+						{
+							"answer_text": "לקבל את הצעת העבודה ב- / אף / מכיוון / פחות",
+							"answer_index": 4
+						}
+					],
+					"num_answers": 4,
+					"display_type": "normal",
+					"response": "-9"
+				},
+				{
+					"name": "MC_VE_015_101692_1",
+					"number": 101692,
+					"element_type": "MC",
+					"instruction_text": "<u><strong>שאלות הבנה והסקה</u></strong> ",
+					"question_text": "<p class=\"sc\">לפניכם משפט (או יותר ממשפט) שכמה חלקים ממנו חסרים, ולאחריו ארבע הצעות להשלמת החסר.&nbsp; עליכם לבחור בהצעה <strong>המתאימה ביותר</strong> להשלמת החסר.</p>\n\n<p>שאול <span class=\"blank\"></span> בפתרון בעיות בתחום המחשוב, אך עובדה זו לא <span class=\"blank\"></span> כשניסה את כוחו בפתרון בעיית המחשב הסבוכה שהוצגה לפניו בעת האחרונה.&nbsp; אדרבה, מכיוון ש<span class=\"blank\"></span> אסטרטגיה שיטתית לפתרון בעיות מחשב, הוא <span class=\"blank\"></span> להיחלץ מדפוסי החשיבה&nbsp;שלו ולמצוא את הפתרון היצירתי שהיה נחוץ במקרה זה.</p>\n",
+					"answer1_text": "מנוסה מאוד / סייעה לו / פיתח במרוצת השנים / התקשה",
+					"answer2_text": "מנוסה מאוד / סייעה לו / לא הספיק לפתח / לא התקשה",
+					"answer3_text": "עדיין טירון / הייתה בעוכריו / עדיין לא פיתח / התקשה",
+					"answer4_text": "עדיין טירון / סייעה לו / עדיין לא פיתח / לא התקשה",
+					"button_text": null,
+					"super_element_index": null,
+					"item_answers": [
+						{
+							"answer_text": "מנוסה מאוד / סייעה לו / פיתח במרוצת השנים / התקשה",
+							"answer_index": 1
+						},
+						{
+							"answer_text": "מנוסה מאוד / סייעה לו / לא הספיק לפתח / לא התקשה",
+							"answer_index": 2
+						},
+						{
+							"answer_text": "עדיין טירון / הייתה בעוכריו / עדיין לא פיתח / התקשה",
+							"answer_index": 3
+						},
+						{
+							"answer_text": "עדיין טירון / סייעה לו / עדיין לא פיתח / לא התקשה",
+							"answer_index": 4
+						}
+					],
+					"num_answers": 4,
+					"display_type": "normal",
+					"response": "-9"
+				},
+				{
+					"name": "MC_VE_015_102172_2",
+					"number": 102172,
+					"element_type": "MC",
+					"instruction_text": "<u><strong>שאלות הבנה והסקה</u></strong> ",
+					"question_text": "<p class=\"sc\">לפניכם משפט (או יותר ממשפט) שכמה חלקים ממנו חסרים, ולאחריו ארבע הצעות להשלמת החסר.  עליכם לבחור בהצעה <strong>המתאימה ביותר</strong> להשלמת החסר.</p>\n\n<p>שביתת נהגי המשאיות הבוקר <span class=\"blank\"></span> את שר התחבורה, שכן אמש, לאחר משא ומתן ממושך שבסיומו הכריז שלא <span class=\"blank\"></span> תביעותיהם, הצהירו הנהגים באוזניו כי <span class=\"blank\"></span> מתוצאות המשא ומתן, אין <span class=\"blank\"></span> לפתוח בשביתה.</p>\n",
+					"answer1_text": "לא הפתיעה / יקבל את / עקב אכזבתם / בדעתם",
+					"answer2_text": "הפתיעה / ידחה את / חרף שביעות רצונם / מנוס מבחינתם מ-",
+					"answer3_text": "הפתיעה / יֵענה ל- / חרף אכזבתם / בכוונתם",
+					"answer4_text": "לא הפתיעה / ידחה אף אחת מ- / חרף אכזבתם / מנוס מבחינתם מ-",
+					"button_text": null,
+					"super_element_index": null,
+					"item_answers": [
+						{
+							"answer_text": "לא הפתיעה / יקבל את / עקב אכזבתם / בדעתם",
+							"answer_index": 1
+						},
+						{
+							"answer_text": "הפתיעה / ידחה את / חרף שביעות רצונם / מנוס מבחינתם מ-",
+							"answer_index": 2
+						},
+						{
+							"answer_text": "הפתיעה / יֵענה ל- / חרף אכזבתם / בכוונתם",
+							"answer_index": 3
+						},
+						{
+							"answer_text": "לא הפתיעה / ידחה אף אחת מ- / חרף אכזבתם / מנוס מבחינתם מ-",
+							"answer_index": 4
+						}
+					],
+					"num_answers": 4,
+					"display_type": "normal",
+					"response": "-9"
+				},
+				{
+					"name": "MC_VE_015_108525_1",
+					"number": 108525,
+					"element_type": "MC",
+					"instruction_text": "<u><strong>שאלות הבנה והסקה</u></strong> ",
+					"question_text": "<p>דוד לשלמה: &quot;אם אתה מסוגל ללכת בבטחה על קרש רחב וארוך המונח על הרצפה, מדוע שלא תצליח לעשות זאת כשקרש כזה מחבר בין גגותיהם של שני בניינים בני עשר קומות?&quot;</p>\n\n<p>דוד אמר את הדברים בתגובה לבעיה ששלמה הציג לפניו.&nbsp; מה עשויה להיות בעיה זו?</p>\n",
+					"answer1_text": "שלמה חושש שאורחיו לא ייהנו מהארוחה שהכין, אף שאורחים רבים כבר נהנו בעבר מארוחותיו המוצלחות",
+					"answer2_text": "שלמה, שהביס את אלוף העולם בשח, חושש מתבוסה במשחק מול ידידו צפניה",
+					"answer3_text": "שלמה מפחד לשיר בנוכחות קהל, אף שהוא מיטיב לשיר במקלחת",
+					"answer4_text": "שלמה חושש שמא לא יצליח בבחינה בתנ&quot;ך, אף שהצליח בבחינה במתמטיקה",
+					"button_text": null,
+					"super_element_index": null,
+					"item_answers": [
+						{
+							"answer_text": "שלמה חושש שאורחיו לא ייהנו מהארוחה שהכין, אף שאורחים רבים כבר נהנו בעבר מארוחותיו המוצלחות",
+							"answer_index": 1
+						},
+						{
+							"answer_text": "שלמה, שהביס את אלוף העולם בשח, חושש מתבוסה במשחק מול ידידו צפניה",
+							"answer_index": 2
+						},
+						{
+							"answer_text": "שלמה מפחד לשיר בנוכחות קהל, אף שהוא מיטיב לשיר במקלחת",
+							"answer_index": 3
+						},
+						{
+							"answer_text": "שלמה חושש שמא לא יצליח בבחינה בתנ&quot;ך, אף שהצליח בבחינה במתמטיקה",
+							"answer_index": 4
+						}
+					],
+					"num_answers": 4,
+					"display_type": "normal",
+					"response": "-9"
+				},
+				{
+					"name": "MC_VE_015_190221_1",
+					"number": 190221,
+					"element_type": "MC",
+					"instruction_text": "<u><strong>שאלות הבנה והסקה</u></strong> ",
+					"question_text": "<p>משל עממי מספר על אדם המחפש מתחת לפנס מטבע שאיבד לא משום שהוא מאמין שהמטבע אכן נמצא שם, אלא כי שם הוא מסוגל לראות באופן הטוב ביותר.&nbsp; המשל לועג לאדם זה, אך לא בצדק.&nbsp; אם איבדתי מטבע, ואי אפשר לראות אלא את מה שמתחת לפנס, הדבר החכם ביותר יהיה להתחיל לחפש שם גם אם אני יודע שיש רק סיכוי קטן שאמצא אותו דווקא שם.</p><p>לפי הפסקה שלעיל, מדוע &quot;הדבר החכם ביותר יהיה להתחיל לחפש שם&quot;?</p>",
+					"answer1_text": "היות שאני יודע מה הסיכוי שהמטבע נמצא מתחת לפנס, החיפוש שם עשוי להיות מוצלח",
+					"answer2_text": "האמונה שהמטבע נמצא מתחת לפנס מסייעת לאדם המחפש אותו",
+					"answer3_text": "שלא כרמיזת המשל העממי, הסיכוי למצוא את המטבע מתחת לפנס אינו נמוך כלל",
+					"answer4_text": "גם אם הסיכוי למצוא את המטבע מתחת לפנס קטן, הוא גבוה מהסיכוי למצוא אותו במקום אחר",
+					"button_text": null,
+					"super_element_index": null,
+					"item_answers": [
+						{
+							"answer_text": "היות שאני יודע מה הסיכוי שהמטבע נמצא מתחת לפנס, החיפוש שם עשוי להיות מוצלח",
+							"answer_index": 1
+						},
+						{
+							"answer_text": "האמונה שהמטבע נמצא מתחת לפנס מסייעת לאדם המחפש אותו",
+							"answer_index": 2
+						},
+						{
+							"answer_text": "שלא כרמיזת המשל העממי, הסיכוי למצוא את המטבע מתחת לפנס אינו נמוך כלל",
+							"answer_index": 3
+						},
+						{
+							"answer_text": "גם אם הסיכוי למצוא את המטבע מתחת לפנס קטן, הוא גבוה מהסיכוי למצוא אותו במקום אחר",
+							"answer_index": 4
+						}
+					],
+					"num_answers": 4,
+					"display_type": "normal",
+					"response": "-9"
+				},
+				{
+					"name": "MC_VE_015_103189_1",
+					"number": 103189,
+					"element_type": "MC",
+					"instruction_text": "<u><strong>שאלות הבנה והסקה</u></strong> ",
+					"question_text": "<p>טענה א: טלי מוכנה לראות כל סרט מתח.<br />טענה ב: טלי מוכנה לראות כל סרט, ובלבד שאינו סרט מתח של הבמאי אנדרסן.</p><p>איזו מן הקביעות הבאות נכונה? </p>",
+					"answer1_text": "מטענה א בהכרח נובעת טענה ב",
+					"answer2_text": "מטענה ב בהכרח נובעת טענה א",
+					"answer3_text": "שתי הטענות סותרות זו את זו",
+					"answer4_text": "שום טענה אינה נובעת מהטענה האחרת או סותרת אותה",
+					"button_text": null,
+					"super_element_index": null,
+					"item_answers": [
+						{
+							"answer_text": "מטענה א בהכרח נובעת טענה ב",
+							"answer_index": 1
+						},
+						{
+							"answer_text": "מטענה ב בהכרח נובעת טענה א",
+							"answer_index": 2
+						},
+						{
+							"answer_text": "שתי הטענות סותרות זו את זו",
+							"answer_index": 3
+						},
+						{
+							"answer_text": "שום טענה אינה נובעת מהטענה האחרת או סותרת אותה",
+							"answer_index": 4
+						}
+					],
+					"num_answers": 4,
+					"display_type": "normal",
+					"response": "-9"
+				},
+				{
+					"name": "MC_VE_015_190712_1",
+					"number": 190712,
+					"element_type": "MC",
+					"instruction_text": "<u><strong>שאלות הבנה והסקה</u></strong> ",
+					"question_text": "<p>בדיון על היתרונות והחסרונות של עריכת הבחירות לכנסת באמצעות האינטרנט פרס אחד המתנגדים לשיטה את נימוקיו: &quot;שיטת בחירה זו תפלה לרעה את מי שאין ברשותם מחשב המחובר לאינטרנט, אך מנגד היא תאפשר גם למי שמוגבלים בתנועתם להצביע בקלות, ועל כל פנים סביר שתגדיל את שיעור המצביעים.&nbsp; אך עם זאת, אני בספק אם יתרונות אלו, כמו גם מהירותה של השיטה הממוחשבת ודיוקה, די בהם כדי לאזן את החשש שמעשי מרמה יפגעו קשות בטוהר הבחירות&quot;.</p><p>מה אפשר ללמוד מדברים אלה על סדרי העדיפויות של הדובר?</p>",
+					"answer1_text": "לדעתו, חשוב יותר להבטיח ששיטת הבחירה תמנע מעשי מרמה מלהגדיל את שיעור המצביעים",
+					"answer2_text": "לדעתו, חשוב יותר להבטיח ששיטת הבחירה תהיה מהירה ומדויקת מלאפשר גם למי שאין ברשותם מחשב המחובר לאינטרנט להצביע בקלות",
+					"answer3_text": "לדעתו, חשוב יותר להגדיל את שיעור המצביעים בבחירות מלשפר את הדיוק של שיטת הבחירה ואת מהירותה",
+					"answer4_text": "לדעתו, חשוב יותר למנוע את אפלייתם לרעה של מי שאין ברשותם מחשב המחובר לאינטרנט מלהקל על מי שמוגבלים בתנועתם להצביע",
+					"button_text": null,
+					"super_element_index": null,
+					"item_answers": [
+						{
+							"answer_text": "לדעתו, חשוב יותר להבטיח ששיטת הבחירה תמנע מעשי מרמה מלהגדיל את שיעור המצביעים",
+							"answer_index": 1
+						},
+						{
+							"answer_text": "לדעתו, חשוב יותר להבטיח ששיטת הבחירה תהיה מהירה ומדויקת מלאפשר גם למי שאין ברשותם מחשב המחובר לאינטרנט להצביע בקלות",
+							"answer_index": 2
+						},
+						{
+							"answer_text": "לדעתו, חשוב יותר להגדיל את שיעור המצביעים בבחירות מלשפר את הדיוק של שיטת הבחירה ואת מהירותה",
+							"answer_index": 3
+						},
+						{
+							"answer_text": "לדעתו, חשוב יותר למנוע את אפלייתם לרעה של מי שאין ברשותם מחשב המחובר לאינטרנט מלהקל על מי שמוגבלים בתנועתם להצביע",
+							"answer_index": 4
+						}
+					],
+					"num_answers": 4,
+					"display_type": "normal",
+					"response": "-9"
+				},
+				{
+					"name": "MC_VE_015_187120_1",
+					"number": 187120,
+					"element_type": "MC",
+					"instruction_text": "<u><strong>שאלות הבנה והסקה</u></strong> ",
+					"question_text": "<p>משטרת פלורידה חילקה לאסירים בבית סוהר מקומי חפיסות קלפים מיוחדות: על גבי כל קלף בחפיסה הופיע תיאור של פשע לא מפוענח שאירע בסביבה.&nbsp; המשטרה עשתה זאת בתקווה שבזמן משחקי הקלפים יהיו אסירים שיפטפטו על הפשעים האלה ויחשפו את זהות מבצעיהם.&nbsp; הסוציולוג ג'ק לוין טען כי שיטה זו לקויה משום שהיא תוביל להפללות שווא, והציע דרך לאשש את טענתו.&nbsp; </p><p>איזו מן האפשרויות הבאות היא המתאימה ביותר להיות הצעתו של לוין?</p>",
+					"answer1_text": "בחפיסות שיחולקו לאסירים יישתלו קלפים שעל גביהם מתוארים פשעים שלא התרחשו מעולם",
+					"answer2_text": "בתאיהם של האסירים יותקנו מיקרופונים מוסווים, ובאמצעותם יאזינו השוטרים לשיחות האסירים בזמן משחקי הקלפים",
+					"answer3_text": "שוטר סמוי ישתתף במשחקי הקלפים ויעודד את האסירים לדבר על הפשעים המתוארים בהם",
+					"answer4_text": "הנהלת בית הסוהר תבטיח לאסירים שאם ימסרו מידע בנוגע לאחד הפשעים המתוארים בקלפים, הם יזכו לשיפור בתנאי המאסר",
+					"button_text": null,
+					"super_element_index": null,
+					"item_answers": [
+						{
+							"answer_text": "בחפיסות שיחולקו לאסירים יישתלו קלפים שעל גביהם מתוארים פשעים שלא התרחשו מעולם",
+							"answer_index": 1
+						},
+						{
+							"answer_text": "בתאיהם של האסירים יותקנו מיקרופונים מוסווים, ובאמצעותם יאזינו השוטרים לשיחות האסירים בזמן משחקי הקלפים",
+							"answer_index": 2
+						},
+						{
+							"answer_text": "שוטר סמוי ישתתף במשחקי הקלפים ויעודד את האסירים לדבר על הפשעים המתוארים בהם",
+							"answer_index": 3
+						},
+						{
+							"answer_text": "הנהלת בית הסוהר תבטיח לאסירים שאם ימסרו מידע בנוגע לאחד הפשעים המתוארים בקלפים, הם יזכו לשיפור בתנאי המאסר",
+							"answer_index": 4
+						}
+					],
+					"num_answers": 4,
+					"display_type": "normal",
+					"response": "-9"
+				},
+				{
+					"name": "MC_VE_015_190533_1",
+					"number": 190533,
+					"element_type": "MC",
+					"instruction_text": "<u><strong>שאלות הבנה והסקה</u></strong> ",
+					"question_text": "<p>פרופסור יוסף אגסי: &quot;לפי האינדיווידואליזם אין הכלל אלא אוסף של פרטים.&nbsp; את ההשתייכות לכל גוף ציבורי, ובכלל זה המדינה, מציג האינדיווידואליזם כצעד של בחירה מרצון, שאינו שונה מההחלטה להצטרף למועדון כלשהו.&nbsp; מנגד, הקולקטיביזם מציג את הפרט כאיבר מקולקטיב, ובחברה מאורגנת הקולקטיב הוא המדינה.&nbsp; את ההשתייכות למדינה מציג הקולקטיביזם כהכרח.&quot;</p><p>איזה מן המשפטים שלהלן מביע באופן הטוב ביותר את הרעיון המרכזי בדבריו של פרופסור אגסי?</p>",
+					"answer1_text": "לפי האינדיווידואליזם, פרטים אינם רוצים בהכרח להשתייך לגוף ציבורי, ואילו לפי הקולקטיביזם, הם בהכרח רוצים בכך",
+					"answer2_text": "לפי האינדיווידואליזם, גוף ציבורי יכול להתקיים רק כל עוד הפרטים המרכיבים אותו בוחרים להשתייך אליו, ואילו לפי הקולקטיביזם, גוף ציבורי יכול להתקיים גם ללא הסכמת הפרטים",
+					"answer3_text": "לפי האינדיווידואליזם, כל גוף ציבורי הוא אוסף של פרטים המשתייכים אליו מבחירה, ואילו לפי הקולקטיביזם, המדינה היא הגוף היחיד שהמשתייכים אליו בוחרים להשתייך אליו",
+					"answer4_text": "לפי האינדיווידואליזם, השתייכותו של אדם למדינה - כמו לכל גוף ציבורי אחר - נעשית מבחירה, ואילו לפי הקולקטיביזם, השתייכותו למדינה היא כורח",
+					"button_text": null,
+					"super_element_index": null,
+					"item_answers": [
+						{
+							"answer_text": "לפי האינדיווידואליזם, פרטים אינם רוצים בהכרח להשתייך לגוף ציבורי, ואילו לפי הקולקטיביזם, הם בהכרח רוצים בכך",
+							"answer_index": 1
+						},
+						{
+							"answer_text": "לפי האינדיווידואליזם, גוף ציבורי יכול להתקיים רק כל עוד הפרטים המרכיבים אותו בוחרים להשתייך אליו, ואילו לפי הקולקטיביזם, גוף ציבורי יכול להתקיים גם ללא הסכמת הפרטים",
+							"answer_index": 2
+						},
+						{
+							"answer_text": "לפי האינדיווידואליזם, כל גוף ציבורי הוא אוסף של פרטים המשתייכים אליו מבחירה, ואילו לפי הקולקטיביזם, המדינה היא הגוף היחיד שהמשתייכים אליו בוחרים להשתייך אליו",
+							"answer_index": 3
+						},
+						{
+							"answer_text": "לפי האינדיווידואליזם, השתייכותו של אדם למדינה - כמו לכל גוף ציבורי אחר - נעשית מבחירה, ואילו לפי הקולקטיביזם, השתייכותו למדינה היא כורח",
+							"answer_index": 4
+						}
+					],
+					"num_answers": 4,
+					"display_type": "normal",
+					"response": "-9"
+				},
+				{
+					"name": "MC_VE_015_190574_1",
+					"number": 190574,
+					"element_type": "MC",
+					"instruction_text": "<u><strong>שאלות הבנה והסקה</u></strong> ",
+					"question_text": "<p>סעיף 14 לחוק החוזים קובע כי מי שהתקשר בחוזה על סמך טעות, ולולא הטעות לא היה מתקשר בחוזה - והצד השני ידע או לכל הפחות היה עליו לדעת על הטעות - רשאי לבטל את החוזה.&nbsp; סעיף 15 לחוק החוזים קובע כי מי שהתקשר בחוזה בשל טעות הנובעת מהטעיה שהטעהו הצד השני, רשאי לבטל את החוזה.&nbsp;</p>\n\n<p>איזה מהמאפיינים הבאים משותף לחוזה הניתן לביטול על פי סעיף 14 ולחוזה הניתן לביטול על פי סעיף 15?</p>\n",
+					"answer1_text": "אחד הצדדים הטעה את הצד השני",
+					"answer2_text": "לכל אחד מהצדדים מותר לבטל את החוזה",
+					"answer3_text": "אחד הצדדים ידע שהצד השני טועה",
+					"answer4_text": "התקשרותו של אחד הצדדים בחוזה התבססה על טעות",
+					"button_text": null,
+					"super_element_index": null,
+					"item_answers": [
+						{
+							"answer_text": "אחד הצדדים הטעה את הצד השני",
+							"answer_index": 1
+						},
+						{
+							"answer_text": "לכל אחד מהצדדים מותר לבטל את החוזה",
+							"answer_index": 2
+						},
+						{
+							"answer_text": "אחד הצדדים ידע שהצד השני טועה",
+							"answer_index": 3
+						},
+						{
+							"answer_text": "התקשרותו של אחד הצדדים בחוזה התבססה על טעות",
+							"answer_index": 4
+						}
+					],
+					"num_answers": 4,
+					"display_type": "normal",
+					"response": "-9"
+				},
+				{
+					"name": "MC_VE_015_186711_1",
+					"number": 186711,
+					"element_type": "MC",
+					"instruction_text": "<u><strong>שאלות הבנה והסקה</u></strong> ",
+					"question_text": "<p>בחנות בגדים תלוי שלט שאפשר להבינו בכמה אופנים: &quot;כאן מוכרים חולצות ונעליים מיובאות לנשים ולגברים&quot;.</p><p>איזו מן האפשרויות הבאות <strong>לא</strong> תיתכן על פי הכתוב בשלט?</p>",
+					"answer1_text": "בחנות לא מוכרים נעליים לגברים",
+					"answer2_text": "בחנות לא מוכרים חולצות שאינן מיובאות",
+					"answer3_text": "בחנות מוכרים נעליים מיובאות לנשים",
+					"answer4_text": "בחנות מוכרים חולצות לגברים שאינן מיובאות",
+					"button_text": null,
+					"super_element_index": null,
+					"item_answers": [
+						{
+							"answer_text": "בחנות לא מוכרים נעליים לגברים",
+							"answer_index": 1
+						},
+						{
+							"answer_text": "בחנות לא מוכרים חולצות שאינן מיובאות",
+							"answer_index": 2
+						},
+						{
+							"answer_text": "בחנות מוכרים נעליים מיובאות לנשים",
+							"answer_index": 3
+						},
+						{
+							"answer_text": "בחנות מוכרים חולצות לגברים שאינן מיובאות",
+							"answer_index": 4
+						}
+					],
+					"num_answers": 4,
+					"display_type": "normal",
+					"response": "-9"
+				},
+				{
+					"name": "MC_VE_015_107954_1",
+					"number": 107954,
+					"element_type": "MC",
+					"instruction_text": "<u><strong>שאלות הבנה והסקה</u></strong> ",
+					"question_text": "<p>בירחון &quot;למנהל&quot; פורסמה הידיעה הבאה: &quot;מסקר שנערך בעת האחרונה בקרב מנהלים עולה כי כ-57% מהם גידלו בילדותם חתול או כלב.&nbsp; לפיכך נראה כי הטיפול בחיית מחמד מפתח תכונות הנחוצות למנהל, כגון אחריות&quot;.</p>\n\n<p>איזה מן הנתונים הבאים <strong>מחליש</strong> את מסקנתם של כותבי הידיעה?</p>\n",
+					"answer1_text": "ילדים אחראים, שלא כילדים לא אחראים, נוטים להעדיף גידול חיית מחמד על פני עיסוקים אחרים",
+					"answer2_text": "מדריכים בפנימיות שכל אחד מחניכיהן הופקד על טיפול בחיית מחמד, מדווחים כי כעבור זמן מה חלה עלייה ברמת האחריות הכללית שגילו החניכים",
+					"answer3_text": "במחקר אחר נמצא כי קיימים עיסוקים נוספים שיכולים לפתח תכונות הנחוצות למנהל",
+					"answer4_text": "כמה מהמשתתפים בסקר גידלו בילדותם חיית מחמד, אך מסיבות לא ברורות לא דיווחו על כך לעורכי הסקר",
+					"button_text": null,
+					"super_element_index": null,
+					"item_answers": [
+						{
+							"answer_text": "ילדים אחראים, שלא כילדים לא אחראים, נוטים להעדיף גידול חיית מחמד על פני עיסוקים אחרים",
+							"answer_index": 1
+						},
+						{
+							"answer_text": "מדריכים בפנימיות שכל אחד מחניכיהן הופקד על טיפול בחיית מחמד, מדווחים כי כעבור זמן מה חלה עלייה ברמת האחריות הכללית שגילו החניכים",
+							"answer_index": 2
+						},
+						{
+							"answer_text": "במחקר אחר נמצא כי קיימים עיסוקים נוספים שיכולים לפתח תכונות הנחוצות למנהל",
+							"answer_index": 3
+						},
+						{
+							"answer_text": "כמה מהמשתתפים בסקר גידלו בילדותם חיית מחמד, אך מסיבות לא ברורות לא דיווחו על כך לעורכי הסקר",
+							"answer_index": 4
+						}
+					],
+					"num_answers": 4,
+					"display_type": "normal",
+					"response": "-9"
+				}
+			]
+		},
+		{
+			"items": [
+				{
+					"name": "TX_VE_006_10159_1",
+					"number": 10159,
+					"element_type": "TX",
+					"instruction_text": "<p><strong><u>קטע קריאה</u></strong><br />\r\nקראו בעיון את הקטע, וענו על השאלות שאחריו.<br />\r\n<span class=\"desktop_notes\"><em>אפשר לראות את המשך הקטע בעזרת</em><em> סרגל הגלילה שמשמאל. </em></span></p>\r\n",
+					"question_text": "<p>באמצע המאה ה-19 גילה החוקר האמריקני ג&#39;ון פליינר כי אצל מינים שונים של חרקים<br />\nהזכר מעניק לנקבה בעת ההזדווגות חבילת מזון, המחוברת לשקיק תאי הזרע (הספרמטופור),<br />\nוהנקבה אוכלת אותה במהלך ההזדווגות.&nbsp; <span class=\"blue_phrase\">&#39;מתנה&#39; זו הייתה תעלומה</span> בעיני זואולוגים רבים,<br />\nשכן לפי ההנחה שהייתה מקובלת על רוב החוקרים, מאמצי הזכר אצל מרבית בעלי החיים<br />\nמופנים אך ורק למעשי רבייה רבים ככל האפשר ולריבוי צאצאים, ואילו במקרה זה הזכר<br />\nמשקיע משאב יקר ולכאורה בלתי הכרחי במעשה רבייה יחיד.</p>\n\n<p>הביולוג בולדירב, שערך תצפיות במינים שונים של חגבים וצרצרים, שיער ב-1915 כי משום<br />\nשבמינים אלה הספרמטופור הוא איבר חשוף הנמצא מחוץ לגוף הזכר, הנקבה עלולה לאכול<br />\nאותו.&nbsp; חבילת המזון נועדה, למעשה, להסיח את דעתה ולמנוע מקרה שכזה, ואגב כך להאריך<br />\nאת משך הרבייה ולמצות את העברת הזרע.&nbsp; החוקר רוברט טרייברס הציע הסבר חלופי<br />\nלארוחת השי: לדעתו מדובר בצורה בלתי ישירה של &#39;דאגה אבהית&#39;, שתכליתה להביא לעולם<br />\nצאצאים רבים ככל האפשר, שיוכלו כולם לשרוד בתנאים הסובבים אותם ולהעמיד אף הם<br />\nדור חדש של צאצאים.&nbsp; אם הזכר יעניק לנקבה חבילת מזון שתשביח את הביצים שתטיל,<br />\nהשקעתו זו עשויה בהחלט לתת לצאצאיו יתרון על פני צאצאי זכרים אחרים.</p>\n\n<p>בניסיון להכריע בין ההסברים הללו פנו החוקרים להתחקות אחר תכונותיהן של שושלות<br />\nבעלי חיים דומים.&nbsp; אם באילן פילוגנטי* של משפחת בעלי חיים כלשהי קיימת תכונה<br />\nמשותפת לכל הענפים השונים, סביר להניח כי תכונה זו שייכת במקורה לבעל חיים קדום<br />\nיותר שהוא אבי המשפחה.&nbsp; אצל מרבית החרקים, הספרמטופור טמון בתוך גוף הזכר.&nbsp; אם<br />\nהענקת ה&#39;מתנה&#39; נועדה במקורה למנוע הפרעות בעת העברת הזרע מהזכר לנקבה, תכונה<br />\nזו יכלה להופיע רק אחרי שהתפתח מין מוקדם יותר שבו הזכרים בעלי ספרמטופור חשוף.&nbsp;<br />\nואכן, באילן הפילוגנטי של משפחת החגביים אפשר לראות כי אבותיהם של החגבים<br />\nוהצרצרים התפתחו מהענף במשפחת החרקים שבו הזכרים בעלי ספרמטופור חשוף.&nbsp; כדי<br />\nלבסס את ההסבר האחר ערכה החוקרת נינה וודל בעת האחרונה כמה ניסויים, ובהם היא<br />\nזיווגה נקבת צרצר אחת עם כמה זכרים שהביאו &#39;ארוחות שי&#39; בגדלים שונים.&nbsp; התוצאות<br />\nהראו כי מספר הביצים שהנקבה מטילה עומד ביחס ישר לכמות המזון שהזכר מביא עמו,<br />\nוכך גם גודלן של הביצים, המעיד על חוסנן ועמידותן (ביצים גדולות ישרדו בתנאי מזג אוויר<br />\nקשים).</p>\n\n<p>בעת האחרונה התגלו באוסטרליה מיני חגבים שאצלם הזכר מביא לנקבה ארוחה גדולה<br />\nבהרבה מהדרוש להסיח את דעתה בזמן הרבייה.&nbsp; לנוכח ממצאים אלו משערים החוקרים כי<br />\nמקורה של התופעה בתרגיל הסחה, שהתפתח במרוצת הדורות ונהפך לפעולת השבחה של<br />\nדור החגבים החדש.</p>\n\n<p><br />\n*&nbsp; אילן פילוגנטי - אילן יוחסין המתאר את מוצאם של בעלי חיים הקרובים זה לזה מבחינה<br />\nביולוגית וגנטית.</p>\n",
+					"answer1_text": null,
+					"answer2_text": null,
+					"answer3_text": null,
+					"answer4_text": null,
+					"button_text": "קטע קריאה",
+					"super_element_index": null,
+					"item_answers": [
+						{
+							"answer_text": null,
+							"answer_index": 1
+						},
+						{
+							"answer_text": null,
+							"answer_index": 2
+						},
+						{
+							"answer_text": null,
+							"answer_index": 3
+						},
+						{
+							"answer_text": null,
+							"answer_index": 4
+						}
+					],
+					"num_answers": 0,
+					"display_type": "normal",
+					"response": "-9"
+				}
+			]
+		},
+		{
+			"items": [
+				{
+					"name": "MC_VE_006_107559_1",
+					"number": 107559,
+					"element_type": "MC",
+					"instruction_text": "<em>(אפשר לראות את הקטע כולו בעזרת סרגל הגלילה העליון שמשמאל.)</em>",
+					"question_text": "&quot;&#39;מתנה&#39; זו הייתה תעלומה&quot; (פסקה ראשונה), מכיוון ש-",
+					"answer1_text": "היא למעשה משאב הכרחי",
+					"answer2_text": "בדרך כלל משאבי הזכר אינם מופנים רק למעשי רבייה",
+					"answer3_text": "לא היה ברור מדוע הנקבה אוכלת את המתנה במהלך ההזדווגות",
+					"answer4_text": "היא לא נתפסה כדבר-מה שיתרום לריבוי הצאצאים של הזכר",
+					"button_text": null,
+					"super_element_index": 1,
+					"item_answers": [
+						{
+							"answer_text": "היא למעשה משאב הכרחי",
+							"answer_index": 1
+						},
+						{
+							"answer_text": "בדרך כלל משאבי הזכר אינם מופנים רק למעשי רבייה",
+							"answer_index": 2
+						},
+						{
+							"answer_text": "לא היה ברור מדוע הנקבה אוכלת את המתנה במהלך ההזדווגות",
+							"answer_index": 3
+						},
+						{
+							"answer_text": "היא לא נתפסה כדבר-מה שיתרום לריבוי הצאצאים של הזכר",
+							"answer_index": 4
+						}
+					],
+					"num_answers": 4,
+					"display_type": "normal",
+					"response": "-9"
+				},
+				{
+					"name": "MC_VE_006_107568_1",
+					"number": 107568,
+					"element_type": "MC",
+					"instruction_text": "<em>(אפשר לראות את הקטע כולו בעזרת סרגל הגלילה העליון שמשמאל.)</em>",
+					"question_text": "השערתו של טרייברס מבוססת על ההנחה ש-",
+					"answer1_text": "איכות הביצה משפיעה על סיכויי ההישרדות של הצאצא",
+					"answer2_text": "איכות חבילת המזון משפיעה על סיכוייו של הזכר להזדווג",
+					"answer3_text": "איכות חבילת המזון אינה משפיעה על סיכויי ההישרדות של הצאצאים",
+					"answer4_text": "איכות חבילת המזון אינה משפיעה על איכות הביצים",
+					"button_text": null,
+					"super_element_index": 2,
+					"item_answers": [
+						{
+							"answer_text": "איכות הביצה משפיעה על סיכויי ההישרדות של הצאצא",
+							"answer_index": 1
+						},
+						{
+							"answer_text": "איכות חבילת המזון משפיעה על סיכוייו של הזכר להזדווג",
+							"answer_index": 2
+						},
+						{
+							"answer_text": "איכות חבילת המזון אינה משפיעה על סיכויי ההישרדות של הצאצאים",
+							"answer_index": 3
+						},
+						{
+							"answer_text": "איכות חבילת המזון אינה משפיעה על איכות הביצים",
+							"answer_index": 4
+						}
+					],
+					"num_answers": 4,
+					"display_type": "normal",
+					"response": "-9"
+				},
+				{
+					"name": "MC_VE_006_107560_1",
+					"number": 107560,
+					"element_type": "MC",
+					"instruction_text": "<em>(אפשר לראות את הקטע כולו בעזרת סרגל הגלילה העליון שמשמאל.)</em>",
+					"question_text": "ההבדל בין השערותיהם של בולדירב וטרייברס בנוגע להענקת ה'מתנה' הוא ש-",
+					"answer1_text": "בולדירב רואה בה פעולה שתכליתה לתת יתרון הישרדותי לזכר, וטרייברס רואה בה פעולה המשפרת את סיכויי ההישרדות של הנקבה",
+					"answer2_text": "בולדירב רואה בה דוגמה להנחה המקובלת ולפיה הזכר מקדיש את רוב מאמציו לריבוי צאצאים, ואילו טרייברס אינו רואה בה דוגמה כזו",
+					"answer3_text": "בולדירב רואה בה גורם המשפר את סיכויי ההפריה, וטרייברס רואה בה גורם המשפר את סיכויי ההישרדות של הצאצאים",
+					"answer4_text": "בולדירב אינו רואה בה מעשה הכרחי להישרדות האב, ואילו טרייברס רואה בה מעשה הכרחי להישרדות הצאצאים",
+					"button_text": null,
+					"super_element_index": 3,
+					"item_answers": [
+						{
+							"answer_text": "בולדירב רואה בה פעולה שתכליתה לתת יתרון הישרדותי לזכר, וטרייברס רואה בה פעולה המשפרת את סיכויי ההישרדות של הנקבה",
+							"answer_index": 1
+						},
+						{
+							"answer_text": "בולדירב רואה בה דוגמה להנחה המקובלת ולפיה הזכר מקדיש את רוב מאמציו לריבוי צאצאים, ואילו טרייברס אינו רואה בה דוגמה כזו",
+							"answer_index": 2
+						},
+						{
+							"answer_text": "בולדירב רואה בה גורם המשפר את סיכויי ההפריה, וטרייברס רואה בה גורם המשפר את סיכויי ההישרדות של הצאצאים",
+							"answer_index": 3
+						},
+						{
+							"answer_text": "בולדירב אינו רואה בה מעשה הכרחי להישרדות האב, ואילו טרייברס רואה בה מעשה הכרחי להישרדות הצאצאים",
+							"answer_index": 4
+						}
+					],
+					"num_answers": 4,
+					"display_type": "normal",
+					"response": "-9"
+				},
+				{
+					"name": "MC_VE_006_107571_1",
+					"number": 107571,
+					"element_type": "MC",
+					"instruction_text": "<em>(אפשר לראות את הקטע כולו בעזרת סרגל הגלילה העליון שמשמאל.)</em>",
+					"question_text": "איזה מזוגות התרשימים הבאים עשוי לתאר את ממצאי המחקר הנתונים בפסקה השלישית?",
+					"answer1_text": "<img alt=\"\" height=\"103\" src=\"/images/psycho/VERBAL/MC_VE_006_107571_1/22_mesiach 1.svg\" width=\"400\" />",
+					"answer2_text": "<img alt=\"\" height=\"105\" src=\"/images/psycho/VERBAL/MC_VE_006_107571_1/22_mesiach 2.svg\" width=\"403\" />",
+					"answer3_text": "<img alt=\"\" height=\"104\" src=\"/images/psycho/VERBAL/MC_VE_006_107571_1/22_mesiach 3.svg\" width=\"399\" />",
+					"answer4_text": "<img alt=\"\" height=\"105\" src=\"/images/psycho/VERBAL/MC_VE_006_107571_1/22_mesiach 4.svg\" width=\"400\" />",
+					"button_text": null,
+					"super_element_index": 4,
+					"item_answers": [
+						{
+							"answer_text": "<img alt=\"\" height=\"103\" src=\"/images/psycho/VERBAL/MC_VE_006_107571_1/22_mesiach 1.svg\" width=\"400\" />",
+							"answer_index": 1
+						},
+						{
+							"answer_text": "<img alt=\"\" height=\"105\" src=\"/images/psycho/VERBAL/MC_VE_006_107571_1/22_mesiach 2.svg\" width=\"403\" />",
+							"answer_index": 2
+						},
+						{
+							"answer_text": "<img alt=\"\" height=\"104\" src=\"/images/psycho/VERBAL/MC_VE_006_107571_1/22_mesiach 3.svg\" width=\"399\" />",
+							"answer_index": 3
+						},
+						{
+							"answer_text": "<img alt=\"\" height=\"105\" src=\"/images/psycho/VERBAL/MC_VE_006_107571_1/22_mesiach 4.svg\" width=\"400\" />",
+							"answer_index": 4
+						}
+					],
+					"num_answers": 4,
+					"display_type": "normal",
+					"response": "-9"
+				},
+				{
+					"name": "MC_VE_006_107563_1",
+					"number": 107563,
+					"element_type": "MC",
+					"instruction_text": "<em>(אפשר לראות את הקטע כולו בעזרת סרגל הגלילה העליון שמשמאל.)</em>",
+					"question_text": "לפי הפִּסקה האחרונה, שתי ההשערות -",
+					"answer1_text": "משלימות זו את זו",
+					"answer2_text": "אינן עולות בקנה אחד",
+					"answer3_text": "אינן מסבירות את אותה תופעה",
+					"answer4_text": "שגויות",
+					"button_text": null,
+					"super_element_index": 5,
+					"item_answers": [
+						{
+							"answer_text": "משלימות זו את זו",
+							"answer_index": 1
+						},
+						{
+							"answer_text": "אינן עולות בקנה אחד",
+							"answer_index": 2
+						},
+						{
+							"answer_text": "אינן מסבירות את אותה תופעה",
+							"answer_index": 3
+						},
+						{
+							"answer_text": "שגויות",
+							"answer_index": 4
+						}
+					],
+					"num_answers": 4,
+					"display_type": "normal",
+					"response": "-9"
+				}
+			]
+		}
+	],
+	"name": "VE4176_k",
+	"number": 4176,
+	"chapter_spec": "K",
+	"domain": "VE",
+	"lang_abbr": "he",
+	"time_between_backups": 0,
+	"exam_type_name": "psycho",
+	"mode": "testing",
+	"must_answer_all_items": false,
+	"show_number": false,
+	"fill_the_blank": true,
+	"need_mathjax": true,
+	"last_chapter": false,
+	"allowed_time": 1200,
+	"chapter_index": 4
+}

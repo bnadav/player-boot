@@ -1,0 +1,42 @@
+@import "../themes/blue_theme";
+@import "fonts";
+
+%dynamic-info-box {
+  border: 1px solid black;
+  display: block;
+  height: 25px;
+  margin: 0 auto 20px;
+  text-align: center;
+  width: 80px;
+   
+}
+
+%dynamic-highlight-info-box {
+  @extend %dynamic-info-box;
+  border: 2px solid black;
+  
+}
+
+%label-for-dynamic-info-box {
+   display: block;
+   @include box-font;
+   margin: 16px auto 2px;
+   text-align: center;
+   
+ }
+
+ %static-info-box{
+   background-color: $side-background-color;
+   font-weight: bold;
+   margin: 10px auto;
+   text-align: center;
+   width: 70px;
+ }
+
+%box-without-borders{ //for chapter number
+  color: $side-header-color;
+  @include box-font;
+  font-size: $side-header-font-size;
+  font-weight: bold;
+  margin: 5px 0 15px 0;
+}

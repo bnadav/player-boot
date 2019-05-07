@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<HTML xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <head>
+    <meta http-equiv="content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="initial&#45;scale=1.0,width=device&#45;width"/> 
+    <%= csrf_meta_tag %>
+
+    <style>
+      div#spinner {
+        margin: auto;
+        position: absolute;
+        top: 0; left: 0; bottom: 0; right: 0;
+        height: 32px; /*128px;*/
+        width: 32px; /*128px;*/
+        background-image: url("/../players/player-version-3.5/img/loading.gif");
+      }
+    </style>
+
+      <link href="https://fonts.googleapis.com/css?family=Alef:400,700&#38;amp;subset=hebrew" rel="stylesheet"> 
+      <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet"> 
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+
+    <script>
+      var NITE_DEFAULTS = {
+        SUB_URI: "<%=sub_uri-%>"
+      }
+     
+        
+    </script>
+
+    <% if Rails.env.production? %>
+      <script src="<%=sub_uri-%>/players/player-version-3.5/dist/player-version-3.5-1.0.0.js"></script>
+      <link href="<%=sub_uri-%>/players/player-version-3.5/stylesheets/screen.css" media="screen" rel="stylesheet" />
+    <% else %>
+      <%= javascript_include_tag "/../players/player-version-3.5/javascripts/libs/jquery-1.11.3.min.js",
+        "/../players/player-version-3.5/javascripts/libs/jquery.touchSwipe.min.js",
+        "/../players/player-version-3.5/javascripts/libs/underscore-min.js",
+        "/../players/player-version-3.5/javascripts/libs/backbone.js" ,
+        "/../players/player-version-3.5/js-src/app.js",
+        "/../players/player-version-3.5/js-src/router.js",
+        "/../players/player-version-3.5/javascripts/translation.js",
+        "/../players/player-version-3.5/js-src/modules/item.js",
+        "/../players/player-version-3.5/js-src/modules/item_in.js",
+        "/../players/player-version-3.5/js-src/modules/item_mc.js",
+        "/../players/player-version-3.5/js-src/modules/item_bl.js",
+        "/../players/player-version-3.5/js-src/modules/item_tx.js",
+        "/../players/player-version-3.5/js-src/modules/item_collection.js",
+        "/../players/player-version-3.5/js-src/modules/chapter.js",
+        "/../players/player-version-3.5/javascripts/jquery-linenumbers.js", 
+        "/../players/player-version-3.5/javascripts/osdetector.js" %>
+
+      <link href="/players/player-version-3.5/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" />
+      <link href="/players/player-version-3.5/stylesheets/print.css" media="print" rel="stylesheet" type="text/css" />
+      <!-- <link href="/players/player&#45;version&#45;3.5/stylesheets/lightbox.css" rel="stylesheet" /> -->
+
+    <% end -%>
+
+    <script>
+
+      // atached to img tags in as onerror handler
+    function handleImageErrors(img_name) {
+    }
+    </script>
+
+    <title>WebExam</title>
+  </head>
+  <body id="items_body"> <!--style="visibility: hidden;"> -->
+    <!--<div id="columns_container"></div>-->
+    <div id="spinner"></div>
+    <div  id="columns_inner_container" style="visibility:hidden">
+      <!--  <div id="columns"> -->
+        <div id="side">
+          <div  id="chapter_number">
+            <div id="chapter_label">
+            </div>
+          </div>
+          <div id="item_buttons"> 
+            <div id="extra_buttons">
+            <a id="formulas_link" target="_blank" title="" data-lightbox="formulas"> </a>
+              <input type="button" id="flag_button">
+              <input type="button" id="next_button">
+              
+              <label for="timer">  </label>
+              <input type="text"   id="timer"  name="timeleft" readOnly>
+              <div id="word_count_wrapper">
+                <label for="word_count"> </label>
+                <input type="text" id="word_count" name="word_count" readOnly>
+              </div>
+              <input type="button" id="submit_button">
+              <input type="text" value="" id="item_info">
+            </div>
+          </div>
+        </div>
+        <div id="main" > </div>
+        <div id="formulas_box" class="hidden"><div id="close"></div><div id="formulas_img"><img></div></div>
+      </div>
+      <!-- </div> -->
+    <div id="freespace"></div>
+    <div id="mobile_buttons" style="display:none">
+      <button class="previous_button fas fa-arrow-alt-circle-left"></button>
+      <span class="timer"></span>
+      <span class="item_counter"></span>
+      <!-- <button class="goto_text_button hidden fas fa&#45;file&#45;alt"></button>   -->
+      <button class="goto_text_button hidden">חזרה לקטע</button>  
+      <button class="next_button fas fa-arrow-alt-circle-right"></button>  
+    </div>
+  </body>
+
+</html>
+

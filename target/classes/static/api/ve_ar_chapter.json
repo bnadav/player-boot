@@ -1,0 +1,1151 @@
+{
+	"units": [
+		{
+			"items": [
+				{
+					"name": "IN_10172_1_ar",
+					"number": 10172,
+					"element_type": "IN",
+					"instruction_text": "",
+					"question_text": "<strong>في هذا الفصل 26 سؤالاً.</strong><br /><br /><div align=\"right\">الوقت المتبقّي للفصل يظهر في أسفل الجهة اليمنى.<br /><br />في هذا الفصل أصناف مختلفة من الأسئلة:<br /> <table><tbody>  <tr><td>الأسئلة &nbsp;&nbsp;1 - &nbsp;&nbsp;4:</td><td><strong>&nbsp;كلمات وتعابير</strong></td></tr></tbody>  <tr><td>الأسئلة &nbsp;&nbsp;5 - &nbsp;&nbsp;8:</td><td><strong>&nbsp;أضداد</strong></td></tr>  <tr><td>الأسئلة &nbsp;&nbsp;9 - 13:</td><td><strong>&nbsp;إكمال جمل</strong></td></tr>  <tr><td>الأسئلة 14 - 20:</td><td><strong>&nbsp;قطعة قراءة 1</strong></td></tr>  <tr><td>الأسئلة 21 - 26:</td><td><strong>&nbsp;قطعة قراءة 2</strong></td></tr></table><br />لكلّ سؤال اقتُرحت أربع إجابات. عليك اختيار الإجابة الأكثر ملاءَمة.<br /><br /><br />للمواصلة أُنقر على زرّ <<strong>إلى الأمام</strong>>.</div>",
+					"answer1_text": null,
+					"answer2_text": null,
+					"answer3_text": null,
+					"answer4_text": null,
+					"button_text": "تعليمات",
+					"super_element_index": null,
+					"item_answers": [
+						{
+							"answer_text": null,
+							"answer_index": 1
+						},
+						{
+							"answer_text": null,
+							"answer_index": 2
+						},
+						{
+							"answer_text": null,
+							"answer_index": 3
+						},
+						{
+							"answer_text": null,
+							"answer_index": 4
+						}
+					],
+					"num_answers": 0,
+					"display_type": "normal",
+					"response": "-9"
+				}
+			]
+		},
+		{
+			"items": [
+				{
+					"name": "IN_10280_1_ar",
+					"number": 10280,
+					"element_type": "IN",
+					"instruction_text": null,
+					"question_text": "<u><strong>كلمات وتعابير </strong></u><br /><br /><br /><br />للمواصلة أُنقر على زرّ &lt;<strong>إلى الأمام</strong>&gt;.",
+					"answer1_text": null,
+					"answer2_text": null,
+					"answer3_text": null,
+					"answer4_text": null,
+					"button_text": "מילים וביטויים",
+					"super_element_index": null,
+					"item_answers": [
+						{
+							"answer_text": null,
+							"answer_index": 1
+						},
+						{
+							"answer_text": null,
+							"answer_index": 2
+						},
+						{
+							"answer_text": null,
+							"answer_index": 3
+						},
+						{
+							"answer_text": null,
+							"answer_index": 4
+						}
+					],
+					"num_answers": 0,
+					"display_type": "normal",
+					"response": "-9"
+				}
+			]
+		},
+		{
+			"items": [
+				{
+					"name": "MC_VE_001_186745_1_ar",
+					"number": 186745,
+					"element_type": "MC",
+					"instruction_text": "<u><strong>كلمات وتعابير</strong></u>",
+					"question_text": "معنى التّعبير <strong>\"نَكَثَ العَهدَ\"</strong> -",
+					"answer1_text": "نَقَضَه",
+					"answer2_text": "جَدَّدَه",
+					"answer3_text": "دَوَّنَه",
+					"answer4_text": "حَرَّفَه",
+					"button_text": null,
+					"super_element_index": null,
+					"item_answers": [
+						{
+							"answer_text": "نَقَضَه",
+							"answer_index": 1
+						},
+						{
+							"answer_text": "جَدَّدَه",
+							"answer_index": 2
+						},
+						{
+							"answer_text": "دَوَّنَه",
+							"answer_index": 3
+						},
+						{
+							"answer_text": "حَرَّفَه",
+							"answer_index": 4
+						}
+					],
+					"num_answers": 4,
+					"display_type": "normal",
+					"response": "-9"
+				},
+				{
+					"name": "MC_VE_001_112032_1_ar",
+					"number": 112032,
+					"element_type": "MC",
+					"instruction_text": "<u><strong>كلمات وتعابير</strong></u>",
+					"question_text": "معنى الكلمة <strong>\"</strong><strong>إطراء\"</strong> -",
+					"answer1_text": "إقصاء",
+					"answer2_text": "إنضاج",
+					"answer3_text": "حنان شديد",
+					"answer4_text": "مَدحٌ مبالَغ فيه",
+					"button_text": null,
+					"super_element_index": null,
+					"item_answers": [
+						{
+							"answer_text": "إقصاء",
+							"answer_index": 1
+						},
+						{
+							"answer_text": "إنضاج",
+							"answer_index": 2
+						},
+						{
+							"answer_text": "حنان شديد",
+							"answer_index": 3
+						},
+						{
+							"answer_text": "مَدحٌ مبالَغ فيه",
+							"answer_index": 4
+						}
+					],
+					"num_answers": 4,
+					"display_type": "normal",
+					"response": "-9"
+				},
+				{
+					"name": "MC_VE_001_109205_1_ar",
+					"number": 109205,
+					"element_type": "MC",
+					"instruction_text": "<u><strong>كلمات وتعابير</strong></u>",
+					"question_text": "معنى التّعبير<strong>\"يُفَرِّط فيه\"</strong> -",
+					"answer1_text": "يُشَهِّر بِه",
+					"answer2_text": "يُدافع عنه",
+					"answer3_text": "يَتنازل عنه",
+					"answer4_text": "يَرغب بِه",
+					"button_text": null,
+					"super_element_index": null,
+					"item_answers": [
+						{
+							"answer_text": "يُشَهِّر بِه",
+							"answer_index": 1
+						},
+						{
+							"answer_text": "يُدافع عنه",
+							"answer_index": 2
+						},
+						{
+							"answer_text": "يَتنازل عنه",
+							"answer_index": 3
+						},
+						{
+							"answer_text": "يَرغب بِه",
+							"answer_index": 4
+						}
+					],
+					"num_answers": 4,
+					"display_type": "normal",
+					"response": "-9"
+				},
+				{
+					"name": "MC_VE_001_188627_1_ar",
+					"number": 188627,
+					"element_type": "MC",
+					"instruction_text": "<u><strong>كلمات وتعابير</strong></u>",
+					"question_text": "معنى الكلمة <strong>\"مَلاذ\"</strong> -",
+					"answer1_text": "مَلْجأ",
+					"answer2_text": "مُنتَجع",
+					"answer3_text": "مَجال",
+					"answer4_text": "رَحْمة",
+					"button_text": null,
+					"super_element_index": null,
+					"item_answers": [
+						{
+							"answer_text": "مَلْجأ",
+							"answer_index": 1
+						},
+						{
+							"answer_text": "مُنتَجع",
+							"answer_index": 2
+						},
+						{
+							"answer_text": "مَجال",
+							"answer_index": 3
+						},
+						{
+							"answer_text": "رَحْمة",
+							"answer_index": 4
+						}
+					],
+					"num_answers": 4,
+					"display_type": "normal",
+					"response": "-9"
+				}
+			]
+		},
+		{
+			"items": [
+				{
+					"name": "IN_10380_1_ar",
+					"number": 10380,
+					"element_type": "IN",
+					"instruction_text": null,
+					"question_text": "<u><strong>أضداد</strong></u><br /><br /><br /><br />للمواصلة أُنقر على زرّ &lt;إ<strong>لى الأمام</strong>&gt;.",
+					"answer1_text": null,
+					"answer2_text": null,
+					"answer3_text": null,
+					"answer4_text": null,
+					"button_text": "הפכים",
+					"super_element_index": null,
+					"item_answers": [
+						{
+							"answer_text": null,
+							"answer_index": 1
+						},
+						{
+							"answer_text": null,
+							"answer_index": 2
+						},
+						{
+							"answer_text": null,
+							"answer_index": 3
+						},
+						{
+							"answer_text": null,
+							"answer_index": 4
+						}
+					],
+					"num_answers": 0,
+					"display_type": "normal",
+					"response": "-9"
+				}
+			]
+		},
+		{
+			"items": [
+				{
+					"name": "MC_VE_001_195454_1_ar",
+					"number": 195454,
+					"element_type": "MC",
+					"instruction_text": "<u><strong>أضداد</strong></u>",
+					"question_text": "أيّة كلمة معناها <strong>مضادّ</strong> لمعنى الكلمة <strong>\"أَوْج\"</strong>؟",
+					"answer1_text": "غَباء",
+					"answer2_text": "جوع",
+					"answer3_text": "حضيض",
+					"answer4_text": "خَوْف",
+					"button_text": null,
+					"super_element_index": null,
+					"item_answers": [
+						{
+							"answer_text": "غَباء",
+							"answer_index": 1
+						},
+						{
+							"answer_text": "جوع",
+							"answer_index": 2
+						},
+						{
+							"answer_text": "حضيض",
+							"answer_index": 3
+						},
+						{
+							"answer_text": "خَوْف",
+							"answer_index": 4
+						}
+					],
+					"num_answers": 4,
+					"display_type": "normal",
+					"response": "-9"
+				},
+				{
+					"name": "MC_VE_001_195455_1_ar",
+					"number": 195455,
+					"element_type": "MC",
+					"instruction_text": "<u><strong>أضداد</strong></u>",
+					"question_text": "أيّة كلمة معناها <strong>مضادّ</strong> لمعنى الكلمة <strong>\"اِلتباس\"</strong>؟",
+					"answer1_text": "وُضوح",
+					"answer2_text": "تَجميل",
+					"answer3_text": "تَبريد",
+					"answer4_text": "وَلاء",
+					"button_text": null,
+					"super_element_index": null,
+					"item_answers": [
+						{
+							"answer_text": "وُضوح",
+							"answer_index": 1
+						},
+						{
+							"answer_text": "تَجميل",
+							"answer_index": 2
+						},
+						{
+							"answer_text": "تَبريد",
+							"answer_index": 3
+						},
+						{
+							"answer_text": "وَلاء",
+							"answer_index": 4
+						}
+					],
+					"num_answers": 4,
+					"display_type": "normal",
+					"response": "-9"
+				},
+				{
+					"name": "MC_VE_001_195456_1_ar",
+					"number": 195456,
+					"element_type": "MC",
+					"instruction_text": "<u><strong>أضداد</strong></u>",
+					"question_text": "أيّ الإمكانيّات التالية تَحمل معنًى <strong>مضادًّا </strong>لمعنى التّعبير <strong>\"يَربُو على\"</strong>؟",
+					"answer1_text": "يَستغني عن",
+					"answer2_text": "يعتاش على",
+					"answer3_text": "يَقلُّ عن",
+					"answer4_text": "يَنجذب إلى",
+					"button_text": null,
+					"super_element_index": null,
+					"item_answers": [
+						{
+							"answer_text": "يَستغني عن",
+							"answer_index": 1
+						},
+						{
+							"answer_text": "يعتاش على",
+							"answer_index": 2
+						},
+						{
+							"answer_text": "يَقلُّ عن",
+							"answer_index": 3
+						},
+						{
+							"answer_text": "يَنجذب إلى",
+							"answer_index": 4
+						}
+					],
+					"num_answers": 4,
+					"display_type": "normal",
+					"response": "-9"
+				},
+				{
+					"name": "MC_VE_001_195457_1_ar",
+					"number": 195457,
+					"element_type": "MC",
+					"instruction_text": "<u><strong>أضداد</strong></u>",
+					"question_text": "أيّ الإمكانيّات التالية تَحمل معنًى <strong>مضادًّا </strong>لمعنى الكلمة <strong>\"مثالِب\"</strong>؟",
+					"answer1_text": "أَعْداء",
+					"answer2_text": "خِصال حسنة",
+					"answer3_text": "حالات نادرة",
+					"answer4_text": "حقائق",
+					"button_text": null,
+					"super_element_index": null,
+					"item_answers": [
+						{
+							"answer_text": "أَعْداء",
+							"answer_index": 1
+						},
+						{
+							"answer_text": "خِصال حسنة",
+							"answer_index": 2
+						},
+						{
+							"answer_text": "حالات نادرة",
+							"answer_index": 3
+						},
+						{
+							"answer_text": "حقائق",
+							"answer_index": 4
+						}
+					],
+					"num_answers": 4,
+					"display_type": "normal",
+					"response": "-9"
+				}
+			]
+		},
+		{
+			"items": [
+				{
+					"name": "IN_10173_1_ar",
+					"number": 10173,
+					"element_type": "IN",
+					"instruction_text": null,
+					"question_text": "<u><strong>إكمال جمل</strong></u><br /><br />أمامك جملة (أو عدّة جمل) نَقَصَتْ منها بعض الأجزاء، تليها أربع إمكانيات لإكمال النقص. عليك اختيار الإمكانية الأكثر ملاءمة لإكمال الجملة.<br /><br /><br /><br />للمواصلة أُنقر على زرّ &lt;<strong>إلى الأمام</strong>&gt;.",
+					"answer1_text": null,
+					"answer2_text": null,
+					"answer3_text": null,
+					"answer4_text": null,
+					"button_text": "השלמת משפטים",
+					"super_element_index": null,
+					"item_answers": [
+						{
+							"answer_text": null,
+							"answer_index": 1
+						},
+						{
+							"answer_text": null,
+							"answer_index": 2
+						},
+						{
+							"answer_text": null,
+							"answer_index": 3
+						},
+						{
+							"answer_text": null,
+							"answer_index": 4
+						}
+					],
+					"num_answers": 0,
+					"display_type": "normal",
+					"response": "-9"
+				}
+			]
+		},
+		{
+			"items": [
+				{
+					"name": "MC_VE_015_17494_4_ar",
+					"number": 17494,
+					"element_type": "MC",
+					"instruction_text": "<strong><u>إكمال جمل<br /></u></strong>",
+					"question_text": "<p dir=\"RTL\">منذ القرن السّادس قبل الميلاد <span class=\"blank\"></span> الدّراسات العميقة في المؤلَّفات الأسطوريّة البورميّة. الكثير<br />\nمن المفكّرين، على مرّ أجيال كثيرة، <span class=\"blank\"></span> تحليلها، <span class=\"blank\"></span> .</p>\n",
+					"answer1_text": "لم تتوقّف / رفضوا / رغم أنّه منذ كتابتها كُتبت في العالَم مؤلَّفات بمستوى شبيه",
+					"answer2_text": "لم تتوقّف / لم يكفّوا عن / رغم أنّه منذ كتابتها كُتبت في العالَم مؤلَّفات بجودة شبيهة",
+					"answer3_text": "توقّفَت تمامًا / امتنعوا عن / وذلك رغبةً في المقارنة بينها وبين مؤلَّفات أخرى",
+					"answer4_text": "توقَّفَت تدريجيًّا / لم يكفّوا عن / إذ إنّه منذ كتابتها كُتبت في العالَم مؤلَّفات بمستوى شبيه",
+					"button_text": null,
+					"super_element_index": null,
+					"item_answers": [
+						{
+							"answer_text": "لم تتوقّف / رفضوا / رغم أنّه منذ كتابتها كُتبت في العالَم مؤلَّفات بمستوى شبيه",
+							"answer_index": 1
+						},
+						{
+							"answer_text": "لم تتوقّف / لم يكفّوا عن / رغم أنّه منذ كتابتها كُتبت في العالَم مؤلَّفات بجودة شبيهة",
+							"answer_index": 2
+						},
+						{
+							"answer_text": "توقّفَت تمامًا / امتنعوا عن / وذلك رغبةً في المقارنة بينها وبين مؤلَّفات أخرى",
+							"answer_index": 3
+						},
+						{
+							"answer_text": "توقَّفَت تدريجيًّا / لم يكفّوا عن / إذ إنّه منذ كتابتها كُتبت في العالَم مؤلَّفات بمستوى شبيه",
+							"answer_index": 4
+						}
+					],
+					"num_answers": 4,
+					"display_type": "normal",
+					"response": "-9"
+				},
+				{
+					"name": "MC_VE_015_17851_3_ar",
+					"number": 17851,
+					"element_type": "MC",
+					"instruction_text": "<strong><u>إكمال جمل<br /></u></strong>",
+					"question_text": "<p dir=\"RTL\">قرّر يعقوب <span class=\"blank\"></span> مذكّراته الشّخصيّة، <span class=\"blank\"></span> الصحفيّين والنمّامين. هذا القرار <span class=\"blank\"></span> رغبته<br />\nفي الحفاظ على خصوصيّته، <span class=\"blank\"></span> ادّعائه أنّ انشغال الجمهور بشخصيّته يلهيهم عن إنجازاته<br />\nالمهنيّة المهمّة.</p>\n",
+					"answer1_text": "أن يُمزِّق / خوفًا من أن تَقَعَ في أيدي / لم يتعارض فقط مع / وإنّما أيضًا تماشى مع",
+					"answer2_text": "ألّا يُخفي / لكي يُسهِّل عملَ / نبع فعلًا من / لكنّه تَعارَض مع",
+					"answer3_text": "أن يُمزِّق / خوفًا من أن تَقَعَ في أيدي / لم ينبع فقط من / وإنّما تَلاءَم مع",
+					"answer4_text": "<span dir=\"RTL\">ألّا</span> <span dir=\"RTL\">يُخفي</span><span dir=\"RTL\"> / </span><span dir=\"RTL\">لكي</span> <span dir=\"RTL\">يتعاون</span> <span dir=\"RTL\">مع</span><span dir=\"RTL\"> / </span><span dir=\"RTL\">مع</span> <span dir=\"RTL\">أنّه</span> <span dir=\"RTL\">تَعارَض</span> <span dir=\"RTL\">مع</span><span dir=\"RTL\"> / </span><span dir=\"RTL\">لكنّه</span> <span dir=\"RTL\">تماشى</span> <span dir=\"RTL\">مع</span>",
+					"button_text": null,
+					"super_element_index": null,
+					"item_answers": [
+						{
+							"answer_text": "أن يُمزِّق / خوفًا من أن تَقَعَ في أيدي / لم يتعارض فقط مع / وإنّما أيضًا تماشى مع",
+							"answer_index": 1
+						},
+						{
+							"answer_text": "ألّا يُخفي / لكي يُسهِّل عملَ / نبع فعلًا من / لكنّه تَعارَض مع",
+							"answer_index": 2
+						},
+						{
+							"answer_text": "أن يُمزِّق / خوفًا من أن تَقَعَ في أيدي / لم ينبع فقط من / وإنّما تَلاءَم مع",
+							"answer_index": 3
+						},
+						{
+							"answer_text": "<span dir=\"RTL\">ألّا</span> <span dir=\"RTL\">يُخفي</span><span dir=\"RTL\"> / </span><span dir=\"RTL\">لكي</span> <span dir=\"RTL\">يتعاون</span> <span dir=\"RTL\">مع</span><span dir=\"RTL\"> / </span><span dir=\"RTL\">مع</span> <span dir=\"RTL\">أنّه</span> <span dir=\"RTL\">تَعارَض</span> <span dir=\"RTL\">مع</span><span dir=\"RTL\"> / </span><span dir=\"RTL\">لكنّه</span> <span dir=\"RTL\">تماشى</span> <span dir=\"RTL\">مع</span>",
+							"answer_index": 4
+						}
+					],
+					"num_answers": 4,
+					"display_type": "normal",
+					"response": "-9"
+				},
+				{
+					"name": "MC_VE_015_14417_5_ar",
+					"number": 14417,
+					"element_type": "MC",
+					"instruction_text": "<strong><u>إكمال جمل<br /></u></strong>",
+					"question_text": "<p dir=\"RTL\"><span class=\"blank\"></span> أنّ أحداثًا كثيرة، <span class=\"blank\"></span> ، في هذه الأيّام، علامات تَحوُّل تاريخيّة، قد اعتُبرت  <span class=\"blank\"></span> أيضًا<br />\nبنظر مَن عايشوا تلك الأحداث.</p>\n",
+					"answer1_text": "لا عجب في / لا نعتبرها / أحداثًا هامّة",
+					"answer2_text": "مِن المُمْكِن / نعتبرها / أحداثًا هامشيّة",
+					"answer3_text": "ليس مفاجئًا / نعتبرها / نقاطَ تحوُّل",
+					"answer4_text": "مِن غير المعقول / لا نعتبرها / أحداثًا بالغة الأهميّة",
+					"button_text": null,
+					"super_element_index": null,
+					"item_answers": [
+						{
+							"answer_text": "لا عجب في / لا نعتبرها / أحداثًا هامّة",
+							"answer_index": 1
+						},
+						{
+							"answer_text": "مِن المُمْكِن / نعتبرها / أحداثًا هامشيّة",
+							"answer_index": 2
+						},
+						{
+							"answer_text": "ليس مفاجئًا / نعتبرها / نقاطَ تحوُّل",
+							"answer_index": 3
+						},
+						{
+							"answer_text": "مِن غير المعقول / لا نعتبرها / أحداثًا بالغة الأهميّة",
+							"answer_index": 4
+						}
+					],
+					"num_answers": 4,
+					"display_type": "normal",
+					"response": "-9"
+				},
+				{
+					"name": "MC_VE_015_18344_4_ar",
+					"number": 18344,
+					"element_type": "MC",
+					"instruction_text": "<strong><u>إكمال جمل<br /></u></strong>",
+					"question_text": "<p dir=\"RTL\"><span class=\"blank\"></span> الكتابُ أحدَ الكتب الأكثر مبيعًا، <span class=\"blank\"></span> الكاتِب <span class=\"blank\"></span> استخدام لغة مُعقَّدَة. هذا الأمر أَثبَتَ<br />\nمجدّدًا أنّه <span class=\"blank\"></span> بالضرورة علاقة بين رواج كتاب معيّن وبين تعقيد لغته.</p>\n",
+					"answer1_text": "أَصبَحَ / رغم أنّ / قلّل كثيرًا مِن /  توجد",
+					"answer2_text": "لم يُصبح / وذلك لأنّ / تَقصّدَ أن يُكثِر مِن / لا توجد",
+					"answer3_text": "أَصبَحَ / لأنّ / قلّل كثيرًا مِن / لا توجد",
+					"answer4_text": "أَصبَحَ / رغم أنّ / لم يتنازل عن / لا توجد",
+					"button_text": null,
+					"super_element_index": null,
+					"item_answers": [
+						{
+							"answer_text": "أَصبَحَ / رغم أنّ / قلّل كثيرًا مِن /  توجد",
+							"answer_index": 1
+						},
+						{
+							"answer_text": "لم يُصبح / وذلك لأنّ / تَقصّدَ أن يُكثِر مِن / لا توجد",
+							"answer_index": 2
+						},
+						{
+							"answer_text": "أَصبَحَ / لأنّ / قلّل كثيرًا مِن / لا توجد",
+							"answer_index": 3
+						},
+						{
+							"answer_text": "أَصبَحَ / رغم أنّ / لم يتنازل عن / لا توجد",
+							"answer_index": 4
+						}
+					],
+					"num_answers": 4,
+					"display_type": "normal",
+					"response": "-9"
+				},
+				{
+					"name": "MC_VE_015_19684_3_ar",
+					"number": 19684,
+					"element_type": "MC",
+					"instruction_text": "<strong><u>إكمال جمل<br /></u></strong>",
+					"question_text": "<p dir=\"RTL\"><span class=\"blank\"></span> بين الفيزياء النّظريّة والفيزياء التّطبيقيّة هو أنّ التّأثيرات العمليّة للبحث النّظريّ في العلوم<br />\nتَظهَر فقط <span class=\"blank\"></span> سنوات، وأنّ الفيزياء التّطبيقيّة <span class=\"blank\"></span> على التكنولوجيا الصّناعيّة <span class=\"blank\"></span> .</p>\n",
+					"answer1_text": "الفَرق / بعد / لا تؤثِّر / في المدى القريب",
+					"answer2_text": "وجه الشّبه / لبضْع / تؤثِّر / تأثيرًا بعيد المدى",
+					"answer3_text": "وجه الشّبه / بعد عدّة / لا تؤثِّر / لأكثر من عدّة شهور",
+					"answer4_text": "<span dir=\"RTL\"> </span><span dir=\"RTL\">الفَرق</span><span dir=\"RTL\"> / </span><span dir=\"RTL\">بعد</span><span dir=\"RTL\"> / </span><span dir=\"RTL\">تؤثِّر</span><span dir=\"RTL\"> / </span><span dir=\"RTL\">خلال</span> <span dir=\"RTL\">شهور</span> <span dir=\"RTL\">قليلة أو حتّى</span> <span dir=\"RTL\">أسابيع</span>",
+					"button_text": null,
+					"super_element_index": null,
+					"item_answers": [
+						{
+							"answer_text": "الفَرق / بعد / لا تؤثِّر / في المدى القريب",
+							"answer_index": 1
+						},
+						{
+							"answer_text": "وجه الشّبه / لبضْع / تؤثِّر / تأثيرًا بعيد المدى",
+							"answer_index": 2
+						},
+						{
+							"answer_text": "وجه الشّبه / بعد عدّة / لا تؤثِّر / لأكثر من عدّة شهور",
+							"answer_index": 3
+						},
+						{
+							"answer_text": "<span dir=\"RTL\"> </span><span dir=\"RTL\">الفَرق</span><span dir=\"RTL\"> / </span><span dir=\"RTL\">بعد</span><span dir=\"RTL\"> / </span><span dir=\"RTL\">تؤثِّر</span><span dir=\"RTL\"> / </span><span dir=\"RTL\">خلال</span> <span dir=\"RTL\">شهور</span> <span dir=\"RTL\">قليلة أو حتّى</span> <span dir=\"RTL\">أسابيع</span>",
+							"answer_index": 4
+						}
+					],
+					"num_answers": 4,
+					"display_type": "normal",
+					"response": "-9"
+				}
+			]
+		},
+		{
+			"items": [
+				{
+					"name": "TX_VE_006_10222_2_ar",
+					"number": 10222,
+					"element_type": "TX",
+					"instruction_text": "<p><strong><u>فهم المقروء</u></strong><em><br /></em>اقرأ القطعة التّالية بتمعّن، وأجب عن الأسئلة الّتي تليها.<em><br />يمكن رؤية بقيّة القطعة بواسطة مسطرة الجرّ في الجهة اليسرى.<br /></em></p>",
+					"question_text": "<p dir=\"RTL\">يتطوّر مجال الحواسيب في العقود الأخيرة بسرعة لا مثيل لها في أيّ مجال آخر. مع ذلك، يتّضح أنّ<br />\nهذا المجال فيه مشاكل تكنولوجيّة أساسية لم يُعثَر بعد على حلّ لها. كُلّ من يَستخدم الحاسوب يواجِه<br />\nإحدى هذه المشاكل عندما \"يَعلَق\" الحاسوبُ أثناء استخدامه - يَجمد فجأة، ويتوقّف عن الاستجابة<br />\nلتعليمات المُستخدِم. يُطرَح السؤال: كيف يُعقَل أنّه وعلى الرّغم من تكنولوجيا الحواسيب المتطوّرة<br />\nلم يُعثَر بعد على حلّ لهذه المشكلة الأساسية؟</p>\n\n<p dir=\"RTL\">بهدف تفسير كيفيّة حصول الجمود في الحاسوب، يجب وصف مسار عمله السليم أوّلًا. الأوامر التي<br />\nيعطيها المستخدِم للحاسوب تُترجَم إلى سلسلة طويلة جدًّا من التعليمات الأساسية التي يقوم الحاسوب<br />\nبتنفيذها واحدة تلو الأخرى. في الكثير من الأحيان يُطلَب من الحاسوب أن يتجاوز تعليمة ما وأن ينتقل<br />\nإلى تعليمة أخرى، وفي أحيان أخرى يُطلب منه أن يكرِّر تنفيذ نفس التّعليمة مرّات كثيرة. إنّ سير عملية<br />\n<strong>تشغيل</strong> <strong>البرنامج</strong><strong>* </strong> والمدّة الزمنية المطلوبة لإكمالها يختلفان من عملية تشغيل إلى أخرى، وهما مرتبطان<br />\nبمعطيات قام المُستخدِم بإدخالها إلى الحاسوب. أحيانًا، وعقب تجمُّع ظروف غير متوقَّعة، لا تنتهي عملية<br />\nالتّشغيل بعد عدد محدَّد من التعليمات، فيدخل الحاسوب في دائرة من تعليمات لانهائية لا تُوجِّهه إلى أيّ<br />\nهدف. في حالة كهذه يُقال إنّ الحاسوب قد عَلِقَ. يبدو للمستخدِم أنّ الحاسوب العالِق غير شغّال، لكن<br />\nالحاسوب في الواقع يعمل سدًى ودون توقّف. عند إنتاج برامج الحاسوب يُكرِّس المبرمِجون جهدًا كبيرًا<br />\nلكي يتفادوا مُسبقًا حصول أوضاع كهذه. ولكن، وبسبب التعقيدات الكبيرة في البرامج وفي الحواسيب،<br />\nوهي تعقيدات آخذة في التّزايد على مرّ السنين، لا يُفلح المبرمِجون دائمًا في ذلك.</p>\n\n<p dir=\"RTL\">من الصعب إنتاج برنامج لا يَعْلَق أبدًا. ولكن، هل يمكن التغلُّب على هذا الخلل وقت حصوله، بحيث<br />\nيلاحِظ الحاسوب أنّه قد عَلِقَ ويُنقِذ نفسه؟ لغرض النقاش، لنفترض أنّ لدينا برنامج حاسوب يقرأ سلسلة<br />\nالتّعليمات التي يقوم الحاسوب بتشغيلها وفي نفس الوقت يقرأ أيضًا كلّ المعطيات الموجودة في الحاسوب،<br />\nويَحسم: هل يُفترَض بعملية التشغيل أن تنتهي، أم أنّها تحوَّلت إلى مجرّد دائرة لانهائية بلا غاية؟ إنّ برنامجًا<br />\nقادرًا على الحسم في هذه المسألة، وهي المسألة المسمّاة <strong>مشكلة</strong> <strong>التوقُّف</strong>، من شأنه أن يكون ناجعًا جدًّا:<br />\nسيكون بإمكاننا أن نأمر الحاسوب بأن يفحص بواسطته كلّ عملية، وأن يوقِف عمليّات تؤدّي إلى الجمود.</p>\n\n<p dir=\"RTL\">لا يوجد برنامج يحلّ مشكلة التوقُّف في هذه الأيّام. من هذه الحقيقة لوحدها لا يُمْكِن أن نَستنتج أنّه لن<br />\nيُنتَج برنامج كهذا مستقبلًا: إنّ التطوُّر العلمي يُثمِر حلولًا لمشاكل كثيرة لم تكن لها حلول في الماضي. ولكن،<br />\nليس محبّذًا أن نتحلّى بالأمل في هذا الموضوع، إذ قد عُثر على برهان رياضيّ يُثبِت عدم إمكانية وجود حلّ<br />\nكهذا. إنّ هذا البرهان البسيط نسبيًّا (والذي لن يُعرَض هنا) يُظهر أنّ وجود برنامج كهذا مُستحيل من ناحية<br />\nمنطقيّة. من هنا، فحتّى لو ظَهرَ مُبرمِجون عباقرة، ووُضِعت تحت تصرُّفهم حواسيب ذات قدرات حسابية هائلة،<br />\nفلن يفلحوا في إنتاج البرنامج المطلوب. إنّ مشكلة التوقُّف تنتمي إلى مجموعة كبرى من المشاكل المسمّاة<br />\n\"<strong>مشاكل</strong> <strong>غير</strong><strong>محسومة\"</strong> - وهي مشاكل لن يكون بالإمكان أبدًا إنتاج برنامج حاسوب يقوم بحلّها.</p>\n\n<p dir=\"RTL\">* <strong>برنامج</strong> - نظام تعليمات لتنفيذ مهمّة معيّنة، تتمّ صياغته بلغةِ برمجة.<br />\n<strong>عملية تشغيل</strong> - تنفيذ الحاسوب للتّعليمات.</p>\n",
+					"answer1_text": null,
+					"answer2_text": null,
+					"answer3_text": null,
+					"answer4_text": null,
+					"button_text": "קטע קריאה",
+					"super_element_index": null,
+					"item_answers": [
+						{
+							"answer_text": null,
+							"answer_index": 1
+						},
+						{
+							"answer_text": null,
+							"answer_index": 2
+						},
+						{
+							"answer_text": null,
+							"answer_index": 3
+						},
+						{
+							"answer_text": null,
+							"answer_index": 4
+						}
+					],
+					"num_answers": 0,
+					"display_type": "normal",
+					"response": "-9"
+				}
+			]
+		},
+		{
+			"items": [
+				{
+					"name": "MC_VE_006_109291_2_ar",
+					"number": 109291,
+					"element_type": "MC",
+					"instruction_text": "<em>(يمكن رؤية القطعة بأكملها بواسطة مسطرة الجرّ في أعلى الجهة اليسرى.)</em>",
+					"question_text": "<p dir=\"RTL\"><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\"></span>\"في حالة كهذه\" (سطر 13)، أي عندما -</p>\n",
+					"answer1_text": "لا ينفِّذ الحاسوب أي تعليمة أساسية",
+					"answer2_text": "لا تنتهي عملية تشغيل البرنامج بنفسها",
+					"answer3_text": "يكون سير عملية تشغيل البرنامج مرتبطًا بمعطيات أَدخلها مستخدِم آخر",
+					"answer4_text": "تنتهي عملية التشغيل بعد عدد محدَّد من التعليمات",
+					"button_text": null,
+					"super_element_index": 1,
+					"item_answers": [
+						{
+							"answer_text": "لا ينفِّذ الحاسوب أي تعليمة أساسية",
+							"answer_index": 1
+						},
+						{
+							"answer_text": "لا تنتهي عملية تشغيل البرنامج بنفسها",
+							"answer_index": 2
+						},
+						{
+							"answer_text": "يكون سير عملية تشغيل البرنامج مرتبطًا بمعطيات أَدخلها مستخدِم آخر",
+							"answer_index": 3
+						},
+						{
+							"answer_text": "تنتهي عملية التشغيل بعد عدد محدَّد من التعليمات",
+							"answer_index": 4
+						}
+					],
+					"num_answers": 4,
+					"display_type": "normal",
+					"response": "-9"
+				},
+				{
+					"name": "MC_VE_006_109285_3_ar",
+					"number": 109285,
+					"element_type": "MC",
+					"instruction_text": "<em>(يمكن رؤية القطعة بأكملها بواسطة مسطرة الجرّ في أعلى الجهة اليسرى.)</em>",
+					"question_text": "<p dir=\"RTL\">بحسب الفقرة الثانية، عندما يَعلَق الحاسوب، فهو -</p>\n",
+					"answer1_text": "يكون شغّالًا دون توقُّف",
+					"answer2_text": "ينفِّذ كلّ تعليمة مرّة واحدة فقط",
+					"answer3_text": "يُلاحِظ ذلك فورًا",
+					"answer4_text": "يُنهي مهمّة أيًّا كانت",
+					"button_text": null,
+					"super_element_index": 2,
+					"item_answers": [
+						{
+							"answer_text": "يكون شغّالًا دون توقُّف",
+							"answer_index": 1
+						},
+						{
+							"answer_text": "ينفِّذ كلّ تعليمة مرّة واحدة فقط",
+							"answer_index": 2
+						},
+						{
+							"answer_text": "يُلاحِظ ذلك فورًا",
+							"answer_index": 3
+						},
+						{
+							"answer_text": "يُنهي مهمّة أيًّا كانت",
+							"answer_index": 4
+						}
+					],
+					"num_answers": 4,
+					"display_type": "normal",
+					"response": "-9"
+				},
+				{
+					"name": "MC_VE_006_109286_2_ar",
+					"number": 109286,
+					"element_type": "MC",
+					"instruction_text": "<em>(يمكن رؤية القطعة بأكملها بواسطة مسطرة الجرّ في أعلى الجهة اليسرى.)</em>",
+					"question_text": "<p dir=\"RTL\">من الفقرة الثانية يمكن الاستنتاج أنّ التعقيدات الآخذة في التّزايد في الحواسيب -</p>\n",
+					"answer1_text": "تُصعِّب على المبرمِجين تفادي المشاكل",
+					"answer2_text": "تُوفِّر على المبرمِجين جزءًا كبيرًا من الجهود التي كانت مطلوبة في الماضي لتفادي المشاكل",
+					"answer3_text": "تُصعِّب ترجمة أوامر المُستخدم إلى تعليمات أساسية",
+					"answer4_text": "<span dir=\"RTL\"></span><span dir=\"RTL\">تؤدّي</span> <span dir=\"RTL\">إلى</span> أنْ <span dir=\"RTL\">تكون</span> <span dir=\"RTL\">البرامج</span> <span dir=\"RTL\">الجديدة</span> <span dir=\"RTL\">مرتبطة</span> <span dir=\"RTL\">بمشاكل أقلّ</span>",
+					"button_text": null,
+					"super_element_index": 3,
+					"item_answers": [
+						{
+							"answer_text": "تُصعِّب على المبرمِجين تفادي المشاكل",
+							"answer_index": 1
+						},
+						{
+							"answer_text": "تُوفِّر على المبرمِجين جزءًا كبيرًا من الجهود التي كانت مطلوبة في الماضي لتفادي المشاكل",
+							"answer_index": 2
+						},
+						{
+							"answer_text": "تُصعِّب ترجمة أوامر المُستخدم إلى تعليمات أساسية",
+							"answer_index": 3
+						},
+						{
+							"answer_text": "<span dir=\"RTL\"></span><span dir=\"RTL\">تؤدّي</span> <span dir=\"RTL\">إلى</span> أنْ <span dir=\"RTL\">تكون</span> <span dir=\"RTL\">البرامج</span> <span dir=\"RTL\">الجديدة</span> <span dir=\"RTL\">مرتبطة</span> <span dir=\"RTL\">بمشاكل أقلّ</span>",
+							"answer_index": 4
+						}
+					],
+					"num_answers": 4,
+					"display_type": "normal",
+					"response": "-9"
+				},
+				{
+					"name": "MC_VE_006_109287_2_ar",
+					"number": 109287,
+					"element_type": "MC",
+					"instruction_text": "<em>(يمكن رؤية القطعة بأكملها بواسطة مسطرة الجرّ في أعلى الجهة اليسرى.)</em>",
+					"question_text": "<p dir=\"RTL\"><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\"></span><span dir=\"RTL\"></span>\"بواسطته\" (سطر 22)، أي بواسطة -</p>\n",
+					"answer1_text": "البرنامج",
+					"answer2_text": "الجمود",
+					"answer3_text": "التشغيل",
+					"answer4_text": "الحسم",
+					"button_text": null,
+					"super_element_index": 4,
+					"item_answers": [
+						{
+							"answer_text": "البرنامج",
+							"answer_index": 1
+						},
+						{
+							"answer_text": "الجمود",
+							"answer_index": 2
+						},
+						{
+							"answer_text": "التشغيل",
+							"answer_index": 3
+						},
+						{
+							"answer_text": "الحسم",
+							"answer_index": 4
+						}
+					],
+					"num_answers": 4,
+					"display_type": "normal",
+					"response": "-9"
+				},
+				{
+					"name": "MC_VE_006_109293_3_ar",
+					"number": 109293,
+					"element_type": "MC",
+					"instruction_text": "<em>(يمكن رؤية القطعة بأكملها بواسطة مسطرة الجرّ في أعلى الجهة اليسرى.)</em>",
+					"question_text": "<p dir=\"RTL\">ما هو <strong>الهدف </strong>من البرنامج الذي تمّ التطرّق إليه في السطور 18- 22 ؟</p>\n",
+					"answer1_text": "تشغيل سلسلة التعليمات التي أَدخلها المستخدِم إلى الحاسوب",
+					"answer2_text": "الكشف عن حالات جُمود لم يتفادَها المبرمِجون مسبقًا",
+					"answer3_text": "الدخول في دائرة تعليمات لانهائية",
+					"answer4_text": "<span dir=\"RTL\">حفظ</span> <span dir=\"RTL\">كافّة</span> <span dir=\"RTL\">المعطيات</span> <span dir=\"RTL\">الموجودة</span> <span dir=\"RTL\">في</span> <span dir=\"RTL\">الحاسوب</span> <span dir=\"RTL\">في</span> <span dir=\"RTL\">زمن</span> <span dir=\"RTL\">معيّن</span>",
+					"button_text": null,
+					"super_element_index": 5,
+					"item_answers": [
+						{
+							"answer_text": "تشغيل سلسلة التعليمات التي أَدخلها المستخدِم إلى الحاسوب",
+							"answer_index": 1
+						},
+						{
+							"answer_text": "الكشف عن حالات جُمود لم يتفادَها المبرمِجون مسبقًا",
+							"answer_index": 2
+						},
+						{
+							"answer_text": "الدخول في دائرة تعليمات لانهائية",
+							"answer_index": 3
+						},
+						{
+							"answer_text": "<span dir=\"RTL\">حفظ</span> <span dir=\"RTL\">كافّة</span> <span dir=\"RTL\">المعطيات</span> <span dir=\"RTL\">الموجودة</span> <span dir=\"RTL\">في</span> <span dir=\"RTL\">الحاسوب</span> <span dir=\"RTL\">في</span> <span dir=\"RTL\">زمن</span> <span dir=\"RTL\">معيّن</span>",
+							"answer_index": 4
+						}
+					],
+					"num_answers": 4,
+					"display_type": "normal",
+					"response": "-9"
+				},
+				{
+					"name": "MC_VE_006_109288_2_ar",
+					"number": 109288,
+					"element_type": "MC",
+					"instruction_text": "<em>(يمكن رؤية القطعة بأكملها بواسطة مسطرة الجرّ في أعلى الجهة اليسرى.)</em>",
+					"question_text": "<p dir=\"RTL\">البرهان المذكور في السطرين 26-27  -</p>\n",
+					"answer1_text": "يُظهر استحالة وجود برنامج حاسوبي يحلّ مشكلة التّوقُّف",
+					"answer2_text": "يُعطي حلًّا بسيطًا نسبيًّا لمشكلة التوقُّف",
+					"answer3_text": "خاطئ من ناحية منطقيّة، ولذلك ليس صحيحًا",
+					"answer4_text": "يَحسِم بين البرامج التي ستشتغل بصورة سليمة، وبين التي ستؤدّي إلى جمود الحاسوب",
+					"button_text": null,
+					"super_element_index": 6,
+					"item_answers": [
+						{
+							"answer_text": "يُظهر استحالة وجود برنامج حاسوبي يحلّ مشكلة التّوقُّف",
+							"answer_index": 1
+						},
+						{
+							"answer_text": "يُعطي حلًّا بسيطًا نسبيًّا لمشكلة التوقُّف",
+							"answer_index": 2
+						},
+						{
+							"answer_text": "خاطئ من ناحية منطقيّة، ولذلك ليس صحيحًا",
+							"answer_index": 3
+						},
+						{
+							"answer_text": "يَحسِم بين البرامج التي ستشتغل بصورة سليمة، وبين التي ستؤدّي إلى جمود الحاسوب",
+							"answer_index": 4
+						}
+					],
+					"num_answers": 4,
+					"display_type": "normal",
+					"response": "-9"
+				},
+				{
+					"name": "MC_VE_006_109294_2_ar",
+					"number": 109294,
+					"element_type": "MC",
+					"instruction_text": "<em>(يمكن رؤية القطعة بأكملها بواسطة مسطرة الجرّ في أعلى الجهة اليسرى.)</em>",
+					"question_text": "<p dir=\"RTL\">بحسب الفقرة الأخيرة، نقول عن مشكلة إنها \"مشكلة غير محسومة\"  في حال -</p>\n",
+					"answer1_text": "عدم وجود برنامج في هذه الأيام يقوم بحلّها، لكن قد يُنتَج مستقبلًا",
+					"answer2_text": "تمّ إثبات استحالة وجود برنامج حاسوب يقوم بحلّها",
+					"answer3_text": "وجود برنامج حاسوب يقوم بحلّها",
+					"answer4_text": "عدم قدرتها على حلّ مشكلة التوقُّف",
+					"button_text": null,
+					"super_element_index": 7,
+					"item_answers": [
+						{
+							"answer_text": "عدم وجود برنامج في هذه الأيام يقوم بحلّها، لكن قد يُنتَج مستقبلًا",
+							"answer_index": 1
+						},
+						{
+							"answer_text": "تمّ إثبات استحالة وجود برنامج حاسوب يقوم بحلّها",
+							"answer_index": 2
+						},
+						{
+							"answer_text": "وجود برنامج حاسوب يقوم بحلّها",
+							"answer_index": 3
+						},
+						{
+							"answer_text": "عدم قدرتها على حلّ مشكلة التوقُّف",
+							"answer_index": 4
+						}
+					],
+					"num_answers": 4,
+					"display_type": "normal",
+					"response": "-9"
+				}
+			]
+		},
+		{
+			"items": [
+				{
+					"name": "TX_VE_006_10240_1_ar",
+					"number": 10240,
+					"element_type": "TX",
+					"instruction_text": "<p><strong><u>فهم المقروء</u></strong><br />اقرأ القطعة التّالية بتمعّن، وأجب عن الأسئلة الّتي تليها.<br /><em>يمكن رؤية بقيّة القطعة بواسطة مسطرة الجرّ في الجهة اليسرى.</em></p>",
+					"question_text": "<p dir=\"RTL\">أحد الأسس الهامّة في المجتمع البشري هو الجهاز القضائي، ووظيفته فرض النظام والاستقرار. يرتكز الجهاز<br />\nالقضائي على قوانين تُعرِّف الحقوق والواجبات. من تعريف الحَقّ ينبع بالضرورة تعريف الواجب: إذا كان يوجد<br />\nحقّ معيّن لفلانٍ، عندئذٍ تكون المسؤولية المُلقاة على الآخر هي واجب عدم انتهاك هذا الحق. مثلًا، إذا أُقيل<br />\nموظّف من عمله وهو يَستحقّ بحسب القانون تعويضات إقالة، فعندئذ يجب على المُشغِّل الذي أَقاله أن يَدفع له<br />\nهذه التعويضات. كثير من الواجبات هي في الواقع محظورات عامّة. إنّ هذه المحظورات هي السبيل لحماية<br />\nحقوق جميع الناس. على سبيل المثال، إنّ حظر القَتْل يحمي حقّ الحياة، وحظر السرقة يحمي حقّ الإنسان في<br />\nحيازة أملاك خاصة به، وهكذا.</p>\n\n<p dir=\"RTL\">في هذا السياق تُطرح الأسئلة التالية: مَن هم أصحاب الحقوق، على مَن تُلقى الواجبات، وفي أيّ الحالات<br />\nيمكن معاقبة من لا يقوم بواجب معيّن. بصورة عامّة، الحقوق تُمنح لبني البشر، كما إنّ الواجبات تُلقى على بني<br />\nالبشر. الحيوانات عادة لا تمتلك حقوقًا كثيرة في الأجهزة القضائية المختلفة السائدة في العالَم. مثلًا، في الكثير<br />\nمن الدول لا يُحاكَم شخصٌ بسبب قتل دجاجة (إلاّ إذا كانت الدجاجة مُلْكًا لشخص آخر)، لأنّ القانون في هذه<br />\nالدول لا يمنح الدجاجة الحقّ في الحياة. وهكذا أيضًا لا يُحاكَم شخص لأنّه سَرقَ شيئًا من قِطّ، لأنّ القطّ لا<br />\nيمتلك حقًّا قانونيًّا في أن يكون صاحب أملاك.</p>\n\n<p dir=\"RTL\">القوانين، إذن، تتطرّق عادة إلى بني البشر. ولكن، بالإضافة إلى بني البشر أنفسهم فإنّ التنظيمات المختلفة التي<br />\nيشكلها بنو البشر، كالشركات التجارية مثلًا، تُعتبر كيانات قانونية ذات حقوق وواجبات. الشركة التجارية هي<br />\nاتحاد أشخاص للعمل معًا بشراكة، بعد أن أَتمّوا الاجراءات الرسمية التي يفرضها القانون لغرض تسجيل شركة.<br />\nمع أنّها كيان غير محسوس، توجد للشركة حقوق يحميها القانون، ملقاة عليها واجبات، وهي كذلك عُرضَة<br />\nللعقوبة. لتعريف اتحاد الأشخاص هذا ككيان قانوني قائم بحد ذاته توجد أفضليات من ناحية التوزيع العادل<br />\nللمسؤولية القانونية ومن ناحية إدارية واقتصادية. لنأخذ على سبيل المثال شركة خيالية اسمها \"شبّيط\". داود<br />\nودالية هما مالِكا \"شبّيط\"، و\"شبّيط\" هي الشركة المالِكة لمصنع إنتاج ورق. إنّ \"شبّيط\"، وليس داود ودالية،<br />\nهي المُشغّل للعمّال في المصنع. لنفترض أنّ جوادًا، وهو عامِل في المصنع، أَهمَلَ في تأدية وظيفته وعقب<br />\nذلك تسرَّبَت نفايات أدّت إلى تلوُّث بيئي. في هذه الحالة، من غير المرجَّح أن تُقدَّم الشّكوى بشأن التلويث<br />\nضدّ جواد، ولا حتّى ضدّ داود ودالية، وإنّما ضدّ \"شبّيط\". من شأن \"شبّيط\" أيضًا أن تُقدَّم للمحاكَمة، وإذا<br />\nأُدينت، يُمْكن أن تُفرَض عليها غرامة مالية وأن تُلزَم بالعمل على إصلاح الضرر البيئي. لو أنّ جوادًا هو الذي<br />\nقُدّم للمحاكمة لأثارَ الأمرُ عدّة مشاكل. أوّلًا، جواد يؤدّي وظيفته بناءً على تعليمات الشركة وليس بحسب<br />\nرغباته الشخصيّة، ويُحتمَل أيضًا أنّ التّلوّث نَتَجَ عن طريقة العمل المتّبعة في المصنع أو أنّه نَتَجَ عن ضغوطات<br />\nمختلفة مورِسَتْ على جواد. لذلك فإن اتّهامه لوحده لن يكون عادلًا. ثانيًا، يُحتمل جدًّا أن لا يكون جواد<br />\nقادرًا على دفع تكاليف إصلاح الضرر، وبالتالي لن يكون بالامكان الحصول على التمويل الكافي لإصلاحه.</p>\n\n<p dir=\"RTL\">على الرغم من ذلك، يَسمح القانون في حالات معيّنة بتوجيه اتّهام شخصي لعُمّال الشركات أو مالِكيها. مثلًا،<br />\nإذا ارتُكبت في شركة معيّنة مخالَفةٌ خطيرة عقوبتها السجن، فيُمْكن إلزام مرتَكِب المخالَفة بتحمُّل العقوبة، وعدم<br />\nتمكينه من التّستُّر وراء انتمائه إلى الشركة. في حالات كهذه، الأشخاص الذين ارتكبوا المخالَفة هم الذين يُقدَّمون<br />\nللمحاكَمة، وليس الشركة، لأنّه لا يمكن إدخال الشركة إلى السجن، وكذلك لأنّه توجد حدودٌ مُتّفَق عليها ويُتوقَّع<br />\nمن كلّ إنسان ألّا يتخطّاها، حتّى وإن مورِسَتْ عليه ضغوطات.</p>\n",
+					"answer1_text": null,
+					"answer2_text": null,
+					"answer3_text": null,
+					"answer4_text": null,
+					"button_text": "קטע קריאה",
+					"super_element_index": null,
+					"item_answers": [
+						{
+							"answer_text": null,
+							"answer_index": 1
+						},
+						{
+							"answer_text": null,
+							"answer_index": 2
+						},
+						{
+							"answer_text": null,
+							"answer_index": 3
+						},
+						{
+							"answer_text": null,
+							"answer_index": 4
+						}
+					],
+					"num_answers": 0,
+					"display_type": "normal",
+					"response": "-9"
+				}
+			]
+		},
+		{
+			"items": [
+				{
+					"name": "MC_VE_006_109644_1_ar",
+					"number": 109644,
+					"element_type": "MC",
+					"instruction_text": "<em>(يمكن رؤية القطعة بأكملها بواسطة مسطرة الجرّ في أعلى الجهة اليسرى.)</em>",
+					"question_text": "<p dir=\"RTL\">ما هو المقصود من الجملة \"من تعريف الحَقّ ينبع بالضرورة تعريف الواجب\"(سطر 2)؟</p>\n",
+					"answer1_text": "الحقوق تُمنَح فقط للشخص الذي يقوم بواجباته تجاه الأشخاص الآخرين",
+					"answer2_text": "إذا كان يوجد حقّ معيّن لشخص ما، فواجبه أن يُمارِس هذا الحقّ",
+					"answer3_text": "كلّ حقّ ممنوح لشخص معيّن يَفرِض واجبًا على شخص آخر",
+					"answer4_text": "من حقّ كلّ شخص أن يحدِّد لنفسه الواجبات",
+					"button_text": null,
+					"super_element_index": 1,
+					"item_answers": [
+						{
+							"answer_text": "الحقوق تُمنَح فقط للشخص الذي يقوم بواجباته تجاه الأشخاص الآخرين",
+							"answer_index": 1
+						},
+						{
+							"answer_text": "إذا كان يوجد حقّ معيّن لشخص ما، فواجبه أن يُمارِس هذا الحقّ",
+							"answer_index": 2
+						},
+						{
+							"answer_text": "كلّ حقّ ممنوح لشخص معيّن يَفرِض واجبًا على شخص آخر",
+							"answer_index": 3
+						},
+						{
+							"answer_text": "من حقّ كلّ شخص أن يحدِّد لنفسه الواجبات",
+							"answer_index": 4
+						}
+					],
+					"num_answers": 4,
+					"display_type": "normal",
+					"response": "-9"
+				},
+				{
+					"name": "MC_VE_006_109638_1_ar",
+					"number": 109638,
+					"element_type": "MC",
+					"instruction_text": "<em>(يمكن رؤية القطعة بأكملها بواسطة مسطرة الجرّ في أعلى الجهة اليسرى.)</em>",
+					"question_text": "<p dir=\"RTL\">من القطعة يمكن الاستنتاج أنّه لو مُنِحَت الحيوانات الحقّ في التّنقل بحرية -</p>\n",
+					"answer1_text": "لكان بالإمكان تقديم شخص للمحاكمة لأنه ترك كلبه يتجوّل لوحده",
+					"answer2_text": "لكان فُرِضَ حظرٌ على وَضْعِ عصافير في أقفاص",
+					"answer3_text": "لما كان بالإمكان تقديم بقرة للمحاكمة لأنّها عرقلت حركة السير في الشارع",
+					"answer4_text": "لكان بالإمكان تقديم شكوى ضدّ القطط بسبب سرقة شيء ما",
+					"button_text": null,
+					"super_element_index": 2,
+					"item_answers": [
+						{
+							"answer_text": "لكان بالإمكان تقديم شخص للمحاكمة لأنه ترك كلبه يتجوّل لوحده",
+							"answer_index": 1
+						},
+						{
+							"answer_text": "لكان فُرِضَ حظرٌ على وَضْعِ عصافير في أقفاص",
+							"answer_index": 2
+						},
+						{
+							"answer_text": "لما كان بالإمكان تقديم بقرة للمحاكمة لأنّها عرقلت حركة السير في الشارع",
+							"answer_index": 3
+						},
+						{
+							"answer_text": "لكان بالإمكان تقديم شكوى ضدّ القطط بسبب سرقة شيء ما",
+							"answer_index": 4
+						}
+					],
+					"num_answers": 4,
+					"display_type": "normal",
+					"response": "-9"
+				},
+				{
+					"name": "MC_VE_006_109648_1_ar",
+					"number": 109648,
+					"element_type": "MC",
+					"instruction_text": "<em>(يمكن رؤية القطعة بأكملها بواسطة مسطرة الجرّ في أعلى الجهة اليسرى.)</em>",
+					"question_text": "<p dir=\"RTL\">بحسب الفقرة الثالثة، إحدى الأفضليات لتعريف اتّحاد أشخاص معًا كـ \"كيان قانوني\"<br />\n(سطر 18) هي -</p>\n",
+					"answer1_text": "تجنُّب حالات يقوم فيها مالِكو الشركة بممارسة ضغوط على العمّال",
+					"answer2_text": "التسجيل القانوني لكيانات غير محسوسة فقط",
+					"answer3_text": "إمكانية إلزام شخص، ارتَكَبَ مخالَفة خطيرة، بتحمُّل العقوبة",
+					"answer4_text": "<span dir=\"RTL\">الأخذ</span> بعين الاعتبار <span dir=\"RTL\"></span> <span dir=\"RTL\">أنّ</span> العامِل <span dir=\"RTL\">يَخضع لتعليمات الشركة</span> <span dir=\"RTL\">ولا</span> <span dir=\"RTL\">يؤّدي وظيفته بحسب<br />\nرغباته الشخصيّة</span><span dir=\"RTL\"></span>",
+					"button_text": null,
+					"super_element_index": 3,
+					"item_answers": [
+						{
+							"answer_text": "تجنُّب حالات يقوم فيها مالِكو الشركة بممارسة ضغوط على العمّال",
+							"answer_index": 1
+						},
+						{
+							"answer_text": "التسجيل القانوني لكيانات غير محسوسة فقط",
+							"answer_index": 2
+						},
+						{
+							"answer_text": "إمكانية إلزام شخص، ارتَكَبَ مخالَفة خطيرة، بتحمُّل العقوبة",
+							"answer_index": 3
+						},
+						{
+							"answer_text": "<span dir=\"RTL\">الأخذ</span> بعين الاعتبار <span dir=\"RTL\"></span> <span dir=\"RTL\">أنّ</span> العامِل <span dir=\"RTL\">يَخضع لتعليمات الشركة</span> <span dir=\"RTL\">ولا</span> <span dir=\"RTL\">يؤّدي وظيفته بحسب<br />\nرغباته الشخصيّة</span><span dir=\"RTL\"></span>",
+							"answer_index": 4
+						}
+					],
+					"num_answers": 4,
+					"display_type": "normal",
+					"response": "-9"
+				},
+				{
+					"name": "MC_VE_006_109649_1_ar",
+					"number": 109649,
+					"element_type": "MC",
+					"instruction_text": "<em>(يمكن رؤية القطعة بأكملها بواسطة مسطرة الجرّ في أعلى الجهة اليسرى.)</em>",
+					"question_text": "<p dir=\"RTL\">من الفقرة الثالثة ينبع أنّه: إذا كان العامِل المذكور في سطر 4 يشتغل في شركة تجارية، فإنّ دفع<br />\nالتعويضات ملقى على -</p>\n",
+					"answer1_text": "الشركة",
+					"answer2_text": "المدير المباشر للعامِل",
+					"answer3_text": "كلّ عُمّال الشركة",
+					"answer4_text": "مالِكي الشركة",
+					"button_text": null,
+					"super_element_index": 4,
+					"item_answers": [
+						{
+							"answer_text": "الشركة",
+							"answer_index": 1
+						},
+						{
+							"answer_text": "المدير المباشر للعامِل",
+							"answer_index": 2
+						},
+						{
+							"answer_text": "كلّ عُمّال الشركة",
+							"answer_index": 3
+						},
+						{
+							"answer_text": "مالِكي الشركة",
+							"answer_index": 4
+						}
+					],
+					"num_answers": 4,
+					"display_type": "normal",
+					"response": "-9"
+				},
+				{
+					"name": "MC_VE_006_109641_1_ar",
+					"number": 109641,
+					"element_type": "MC",
+					"instruction_text": "<em>(يمكن رؤية القطعة بأكملها بواسطة مسطرة الجرّ في أعلى الجهة اليسرى.)</em>",
+					"question_text": "<p dir=\"RTL\">من المثال الذي بموجبه قد تُقدَّم شركة \"شبّيط\" للمحاكمة بسبب تلويث بيئي (سطر 19-24) يمكن<br />\nالاستنتاج أنّ الجهاز القضائي يحمي الحق في -</p>\n",
+					"answer1_text": "امتلاك مصنع",
+					"answer2_text": "فرض غرامة مالية",
+					"answer3_text": "العيش في بيئة خالية من التلوُّث",
+					"answer4_text": "<span dir=\"RTL\">إصلاح</span> <span dir=\"RTL\">أضرار</span> <span dir=\"RTL\">حَصلَتْ</span> <span dir=\"RTL\">نتيجة</span> <span dir=\"RTL\">إهمال</span>",
+					"button_text": null,
+					"super_element_index": 5,
+					"item_answers": [
+						{
+							"answer_text": "امتلاك مصنع",
+							"answer_index": 1
+						},
+						{
+							"answer_text": "فرض غرامة مالية",
+							"answer_index": 2
+						},
+						{
+							"answer_text": "العيش في بيئة خالية من التلوُّث",
+							"answer_index": 3
+						},
+						{
+							"answer_text": "<span dir=\"RTL\">إصلاح</span> <span dir=\"RTL\">أضرار</span> <span dir=\"RTL\">حَصلَتْ</span> <span dir=\"RTL\">نتيجة</span> <span dir=\"RTL\">إهمال</span>",
+							"answer_index": 4
+						}
+					],
+					"num_answers": 4,
+					"display_type": "normal",
+					"response": "-9"
+				},
+				{
+					"name": "MC_VE_006_109643_1_ar",
+					"number": 109643,
+					"element_type": "MC",
+					"instruction_text": "<em>(يمكن رؤية القطعة بأكملها بواسطة مسطرة الجرّ في أعلى الجهة اليسرى.)</em>",
+					"question_text": "<p dir=\"RTL\">بحسب الفقرة الأخيرة، متى يمكن توجيه اتهام شخصي لعامِل في الشركة؟</p>\n",
+					"answer1_text": "فقط في حال توجيه اتّهام لمالِكي الشركة أيضًا",
+					"answer2_text": "عندما يرتكب العامِل مخالَفة خطيرة",
+					"answer3_text": "عندما يَثبُت أنّه قد مورست على العامِل ضغوطات",
+					"answer4_text": "فقط في حال أن العامِل ليس أحد مالِكي الشركة",
+					"button_text": null,
+					"super_element_index": 6,
+					"item_answers": [
+						{
+							"answer_text": "فقط في حال توجيه اتّهام لمالِكي الشركة أيضًا",
+							"answer_index": 1
+						},
+						{
+							"answer_text": "عندما يرتكب العامِل مخالَفة خطيرة",
+							"answer_index": 2
+						},
+						{
+							"answer_text": "عندما يَثبُت أنّه قد مورست على العامِل ضغوطات",
+							"answer_index": 3
+						},
+						{
+							"answer_text": "فقط في حال أن العامِل ليس أحد مالِكي الشركة",
+							"answer_index": 4
+						}
+					],
+					"num_answers": 4,
+					"display_type": "normal",
+					"response": "-9"
+				}
+			]
+		}
+	],
+	"name": "VE4882_ar",
+	"number": 4882,
+	"chapter_spec": "0",
+	"domain": "VE",
+	"lang_abbr": "ar",
+	"time_between_backups": 0,
+	"exam_type_name": "meimad_practice",
+	"mode": "testing",
+	"must_answer_all_items": false,
+	"show_number": false,
+	"fill_the_blank": false,
+	"need_mathjax": true,
+	"last_chapter": false,
+	"allowed_time": 1500,
+	"chapter_index": 1
+}

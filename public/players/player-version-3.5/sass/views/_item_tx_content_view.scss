@@ -1,0 +1,166 @@
+
+
+
+
+//------------
+.TX
+{
+
+  background-color: $text-background-color;
+  height: $page-height - $item-padding*2;
+  overflow: auto;
+  margin-top: 0px;
+  @include text(19px);
+  @extend %text-he-verbal;
+  @include iphone{
+  
+    height: unset;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    
+
+    .line_numbers {
+      display: none;// !important;
+    }
+    p br {  // Do not break lines in mobile
+      display: none;
+    }
+    img {
+      width: 100%;
+      height: unset;
+    }
+    .blue_phrase{ 
+      color: rgb(0, 28, 210);
+    }
+  }
+  
+  .lang_ar.verbal & {//MZ 
+    @include text(21.3333px); //MZ change font so lineheight for ar is 32px  
+    @extend %text-ar-verbal;
+  }
+
+  .lang_he.math & {
+    @include text(19px);
+  }
+
+  .lang_ar.math & {
+    @include text(19px);
+    @extend %text-ar-math;
+  }
+ 
+  .question_text { 
+    margin-top: 0;
+    @include iphone{
+      width: unset;
+    }
+    //word-wrap: normal;
+    //width: $kernel-width;
+ 
+ }
+ 
+  .question_text p , 
+  .instructions p {
+    margin-bottom : 28.5px;
+  }
+
+ // .blue_phrase {
+ //     color: black;
+ // }
+  //when do we need this?
+   // br::after {
+   //   content: "*****************";   
+   //   color: red;
+   // }
+
+  //counter-reset: itemx;
+  //   &:before {
+  //    color: $question-part-instructions-color;
+  //    display: inline-block;
+     
+  //    counter-increment: itemx;
+  //    content: "(" counter(itemx) ")";
+  //    font-size: 16px;
+  //    .lang_ar & {font-size: 15px;}
+     
+  //    font-style: italic;
+  //    position:absolute;
+  //    //left: -30px;
+  //    visibility: hidden;
+  //   }
+  // // show line number in full and half screen kernel
+  // &.current li.show_number:before,
+  // &.kernel li.show_number:before {
+  //   visibility: visible;
+
+  // }
+   .instructions {
+      @include iphone{
+       
+       
+        p {
+          u strong {
+          display: block;
+          }
+        strong u {
+          display: block;
+          }
+        em {
+          display: none;
+          }
+        margin-bottom: 9px;
+       }
+       margin-top: 15px;
+    }
+  }
+}
+//--------------------
+
+
+/* NOTE: top half of screen when item has an associated kernel */
+.item.TX.kernel {
+  
+  @extend %text-for-reading; 
+  
+  .blue_phrase {
+    color: rgb(0, 28, 210);
+  //color: blue;
+  }
+
+
+
+  &.big_kernel {
+  @extend %text-for-reading-big;  
+    
+   
+  }
+}
+
+//check if need it 
+.domain_EN .TX ol {
+  margin: 20px 0;
+}
+
+.domain_EN .TX .instructions{
+  @include iphone{
+      font-size: 0.9375rem; // 16px * 0.9375 = 15px
+      p u {
+        font-size: 1.0625rem; // 16px * 1.0625 = 17px
+      }
+  }
+
+   
+}
+
+.break {
+  color: red;
+  font-size: 14px;  
+}
+
+// need to check if after br
+br::after { 
+    content: " - Remember this";
+    background-color: yellow;
+    color: red;
+    font-weight: bold;
+}

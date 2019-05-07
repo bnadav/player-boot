@@ -1,0 +1,230 @@
+@import "../elements/text_blocks";
+@import "../elements/texts";
+//@import "../elements/lists";
+
+ .item.IN{
+  //	margin-top: 15px; seems unnecessary 
+    @include iphone {
+      font-size: 1.08rem; // 16px * 1.1 = 17.28px
+
+    }
+  
+// 	@extend %text-framework;
+// 	@extend %text-default;
+
+// 	.psycho &{
+// 		@extend %text-default-open;
+// 	}
+// 	.psycho.lang_ar &{
+// 		@extend %text-ar-verbal-open;
+// 	}
+		
+// 	.lang_he.verbal & {
+// 		@extend	%text-he-verbal;
+// 	}
+
+// 	.lang_ar.verbal & {
+// 		@extend	%text-ar-verbal;
+// 	}
+
+// 	.psycho.lang_he.verbal & {
+// 		@extend	%text-he-verbal-open;
+// 	}
+
+// 	.psycho.lang_ar.verbal & {
+// 		@extend	%text-ar-verbal-open;
+// 	}
+
+ 	.lang_he.math & {
+ 		@include text(19.5px);
+    @include iphone{
+      font-size: 1.08rem; // 16px * 1.1 = 17.28px
+
+    }
+  }
+//    		@extend %text-he-math;   
+   
+//    		ol, ul {
+//     		@extend %notes-list;
+//    		}
+    
+
+//    	.lang_ar.math & {
+//    		@include text(19.5px);
+//    		@extend %text-ar-math;   
+//    	}
+
+//    	.psycho.lang_he.domain_EN &,
+//    	.psycho.lang_ar.domain_EN &{
+//    		@extend %text-english-open;
+  	
+    }
+
+
+   		
+ 
+
+
+// instructions chapter
+.instructions {
+  .item.IN {
+    @include text(20px);
+  
+  }
+}
+
+.item.IN .question_text {
+   margin-top: 15px;
+   margin-bottom: 15px;
+   @include iphone{
+     margin-top: 0;
+   }
+}
+
+.domain_WR .item.IN{
+	@extend %text-for-writing;
+  @include iphone {
+    font-size: 1.08rem; // 16px * 1.1 = 17.28px
+  }
+  
+	//@extend %text-default;
+}
+
+.item.IN .notes_title {
+     font-size: 15px;
+}
+
+  // for iphones= IN view in English oveflows in a strange way, 
+  //so we do not user table-cell display in this case
+
+
+
+  .instructions{
+    &.number_501 , &.number_503 , &.number_504 {
+      .item.IN {      
+         text-align:  left;
+          caption, th, td, div , .second_line_instructions{
+            text-align: left;
+            direction: ltr;
+          }
+          
+      }
+     } 
+     
+     &.number_503, &.number_501 , &.number_504 {
+        .item.IN {
+            @extend %text-default;
+            
+            @include text(18px);
+         }
+     }
+    
+
+  }
+
+.item.IN {  
+  #content_table{ 
+    display: table; 
+  }
+
+
+  
+  .tr{ 
+    display: table-row; 
+  }
+
+  .td{
+  
+  display: table-cell;
+  // @include iphone{
+  //    display: inline-block;
+  // }
+
+  &.from_number { 
+    padding-right: 5px;
+    padding-left:5px; 
+    width: 10px; 
+  }
+  
+  &.to_number { 
+    padding-right: 5px;
+    padding-left:5px;
+    width: 35px; 
+  }
+
+  &.ltr-word {
+     @include iphone{
+       width: unset;
+    }
+    padding-right: 5px;
+    width: 50px;
+  }
+  
+  &.rtl-word {
+    padding-left: 5px;
+    width: 50px;
+  }
+  
+  &.dash {
+   width: 7px
+  }
+
+}
+  
+.domain_EN & {
+  .td {
+    @include iphone{
+        display: inline-block;
+  //        .ltr-word {
+  //          width: unset;
+  //        }
+         &.to_number {
+            padding-right: 5px;
+            padding-left: 5px;
+            width: 40px;        
+         } 
+        // add some padding to left of dash
+       &.dash {// comment since was different from ruby version
+           padding-left: 10px;
+       }
+      
+      }
+    }
+      .td.to_number {
+        padding-right: 5px;
+        padding-left: 5px;
+        width: 40px; 
+      }
+    
+  }
+
+
+
+}
+
+
+// .domain_EN .item.IN{
+//     @include iphone{
+//       .td {
+//         display: inline-block;
+//           &.ltr-word {
+//             width: unset;
+//           }
+//          &.to_number{
+//           padding-right: 5px;
+//           padding-left: 5px;
+//           width: 40px;        
+//          } 
+//       }
+    
+//       // add some padding to left of dash
+//       .td.dash {
+//           padding-left: 10px;
+//       }
+//       .td.to_number{
+//         padding-right: 5px;
+//         padding-left: 5px;
+//         width: 40px; 
+//       }
+//     }
+// }

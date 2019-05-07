@@ -1,0 +1,34 @@
+@import "../elements/buttons";
+//buttons of chapter side view
+%item-button {//or write .item_button- MZ
+   & > input {
+    @extend %input-button;
+  }
+    
+  .IN, .TX, .BL {
+    
+    @extend %inst-button;
+  
+  }
+  
+  .MC {
+    
+    @extend %question-button;
+
+    // &.flagged {
+    //   background: url($sprite_path) $side-background-color -45px -156px;
+    // }
+    // &.answered{
+    //   background: url($sprite_path) $side-background-color -1px -111px;
+    // }
+    // &.answered.flagged {
+    //   background: url($sprite_path) $side-background-color -45px -111px;
+    // }
+
+    
+  }
+
+   .current { @extend %current-button; }
+}
+
+

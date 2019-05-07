@@ -1,0 +1,17 @@
+
+%text_framework_div{
+    @include text(23px);
+    height: $item-height;
+    margin: $question-part-margin 0 0 0;
+    overflow: auto;
+    padding: $item-padding;
+    position: absolute;
+    visibility: hidden;
+    width: $item-width;// - 2*$item-padding;
+    z-index: 1;
+
+
+//.question_part { // not in tx, yes in IN and MC    
+
+    overflow: hidden;
+    padding: 0;

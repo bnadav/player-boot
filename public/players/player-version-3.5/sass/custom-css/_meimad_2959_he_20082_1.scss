@@ -1,0 +1,6 @@
+// Quatitive TX item, image should span the entire width view port
+@media screen and (max-width: 1019px) {
+  div#qt_20082 img {
+    max-width: unset; 
+  }
+}

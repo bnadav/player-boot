@@ -1,0 +1,137 @@
+.lang_en {
+  #columns_inner_container {
+    flex-direction: row;
+  }
+  /*
+  #main {
+    float: right;
+  }
+  #side {
+    float: left;
+  }
+  */
+}
+
+.lang_he, .lang_ar {
+  #columns_inner_container {
+    flex-direction: row-reverse;
+  }
+  /*
+  #main {
+    float: left;
+  }
+  #side {
+    float: right;
+  }
+  */
+
+  &.domain_EN {
+    .instructions em {
+       display: block;
+       text-align: right;
+    }
+  }
+}
+
+.domain_EN {
+  #main {
+    text-align: left;
+    caption, th, td, div {
+      text-align: left;
+      direction: ltr;
+    }
+  }
+
+  #main .TX {
+    li {
+      width: 752px;
+      margin-left: 15px;
+      padding-left: 15px;
+      margin-right: -12px;
+      &:before {
+        left: -30px;
+      }
+      &:first-child {
+        padding-left: 15px;
+      }
+    }
+  }
+}
+
+.lang_he, .lang_ar{
+ //  .item { //??
+//  #items_body.lang_he, #items_body.lang_ar  {
+ .item {
+    text-align: right;
+    direction: rtl;
+    caption, th, td, div {
+      text-align: right;
+      direction: rtl;
+    }
+  }
+}
+
+#items_body.lang_he.domain_EN, #items_body.lang_ar.domain_EN {
+  #main {
+    text-align: left;
+    caption, th, td, div {
+      text-align: left;
+      direction: ltr;
+    }
+  }
+}
+
+//french. russian, english is ltr instructions
+// #items_body.lang_he.domain_YC.verbal.instructions{
+// &.number_501 , &.number_503 , &.number_504 {
+//  #main {
+  
+
+//       .IN {
+//         text-align:  left;
+//         caption, th, td, div {
+//           text-align: left;
+//           direction: ltr;
+//         }
+//       }
+//       div.second_line_instructions {
+//         text-align: left;
+//         direction: ltr;
+//       }
+//     }
+
+// }
+// }
+
+.verbal, .instructions{
+  #main .TX {
+    li {
+      width: 732px;
+      margin-left: -12px;
+      padding-right: 15px;
+      margin-right: 30px;
+      &:before {
+        right: -30px;
+      }
+    }
+  }
+}
+
+.math:not(.instructions) {
+
+  #main .TX {
+    li {
+      &:before {
+        content: "";
+      }
+    }
+  }
+}
+
+body.instructions {
+  #main .TX li:before {
+    font-family: arial;
+    font-size: 15px;
+  }
+}
+

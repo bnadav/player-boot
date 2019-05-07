@@ -1,0 +1,374 @@
+@import "../elements/text_responsive_blocks";
+
+
+@mixin iphone {
+ @media screen and (max-width: 1019px) {
+    @content;
+  }
+}
+
+
+@mixin tablet {
+ @media screen and (min-width: 1440px) and (min-height: 900px) {
+    @content;
+  }
+}
+
+@mixin desktop-small {
+  @media screen and (min-width: 1680px) and (min-height: 1050px) {
+    @content;
+  }
+}
+
+@mixin desktop-large {
+  @media screen and (min-width: 1920px) and (min-height: 1080px) {
+    @content;
+  }
+}
+
+@mixin desktop-very-large {
+  @media screen and (min-width: 1920px) and (min-height: 1200px) {
+    @content;
+  }
+}
+
+
+//-------------------------------------
+// what is this for?
+.yellow_marker {
+  background-color: yellow;
+}
+
+.desktop_notes{
+  display: block;
+  @include iphone{
+    display: none;
+  }
+  
+}
+
+.mobile_notes{
+  display: none;
+  @include iphone{
+    display: block;
+  }
+  
+
+}
+
+//@media screen and (max-width: 1019px) {
+
+//in screen.scss
+  // // flex experimental fixes
+  // html {
+  //   background-color: #FAFAFA;
+  // }
+
+  // #items_body {
+  //   overflow: hidden;
+  //   flex-direction: column-reverse;
+  //   //justify-content: flex-end;
+  // }
+
+  // #columns_inner_container {
+  //   height: calc(100% - 40px) !important; // #mobile_buttons height is 40px
+  //   //height: 100% !important;
+  //   width: unset !important;
+
+  // }
+
+  // #side {
+  //   display: none;
+  // }
+
+  // #main {
+  //   //flex-grow: 1;
+  // //!! mz- is this !important necessary here?
+  //   min-width: unset !important;
+  //   width: unset !important;
+  //   overflow: auto;
+  //   height: 100% !important;
+  // }
+
+  // // Make images responsive!
+  // //!!mz- why not img in side? also there is no side anyway
+  // // See: https://www.w3schools.com/howto/howto_css_image_responsive.asp
+  // img {
+  //   width: 100%;
+  //   max-width: 60vw;  // restrict size to half width
+  //   height: auto;
+  //   &.full_width {
+  //     max-width: unset;
+  //   }
+  // }
+
+// in item_content_view
+  //html #main > div {
+  // .item{
+  //  @extend %text-responsive-framework;
+   
+  //  }
+
+  //  span.blank {
+  //    border-width: 1px; 
+  //  }
+   
+  //  p.sc {  // sentnece completion instructions
+  //     margin: 0;
+  //  }
+   
+  //  .question_text {
+  //     margin-top: 0;
+  //     overflow-x: auto; // Needed in case of wide mathml equation
+  //  }
+  
+  
+  // // item_BL
+  // //--------------------change
+  // .item.BL .question_text {
+  // //html .domain_WR #main div.question_text {
+  //     overflow: hidden;
+  // }
+
+  // .item.BL textarea {
+  //   width: 98%;
+  // }
+
+
+ // .answer_options {
+ //    overflow-x: auto; 
+ //  }
+
+ //  .answer_options ,
+ //  .answer_options table {
+ //    width: 100%;
+ //    th {
+ //      width: 30px;
+ //      padding: 0 10px;
+ //    }
+ //    td {
+ //      padding: 8px;
+ //    }
+ //  }
+
+ // //i'm here :)-----
+ //  .item.TX {
+ //    .instructions {
+ //      p {
+ //        u strong {
+ //          display: block;
+ //        }
+ //        strong u {
+ //          display: block;
+ //        }
+ //        em {
+ //          display: none;
+ //        }
+ //        margin-bottom: 9px;
+ //      }
+ //      margin-top: 15px;
+ //    }
+
+ //    // .instructions p :not(u){
+ //    .line_numbers {
+ //      display: none;// !important;
+ //    }
+
+ //    .question_text {
+ //      width: unset;
+ //    }
+ //    p br {  // Do not break lines in mobile
+ //      display: none;
+ //    }
+ //    img {
+ //      width: 100%;
+ //      height: unset;
+ //    }
+ //    overflow: hidden;
+ //    height: unset;
+ //    position: relative;
+ //    margin: 0 auto;
+ //  }
+
+  // .item.MC.with_kernel {
+  //   border-top: unset;
+  //   overflow: hidden;
+  //   top: unset;
+  //   height: unset;
+  //   position: unset;
+
+  //   .instructions {
+  //     display: none;
+  //   }
+  // }
+
+  // #mobile_buttons {
+  //   display: block !important;
+  //   background-color: #FAFAFA;
+  //   font-family: alef;
+  //   min-height: 40px;
+  //   position: relative;
+  //   button {
+  //     border: none;
+  //     background-color: inherit;
+  //     height: 40px;
+  //     font-size: 25px;
+  //     z-index: 9;
+  //   }
+
+  //  .previous_button {
+  //     color: black;
+  //     position: absolute;
+  //     left: 2px;
+  //   }
+
+  //   .next_button {
+  //     //color: white;
+  //     position: absolute;
+  //     right: 2px;
+  //   }
+
+  //   .goto_text_button {
+  //     //font-size: 17px;
+  //     position: absolute;
+  //     //right: 15vw;
+  //     font-size: 9px;
+  //     width: 38px;
+  //     height: 30px;
+  //     top: 5px;
+  //     right: 18vw;
+  //     border: 1px solid;
+  //     border-radius: 5px;
+  //   }
+
+  //   .item_counter {
+  //     display: inline-block;
+  //     margin: 7px;
+  //     position: relative;
+  //     top: 1px;
+  //   }
+     
+  //   .timer {
+  //     display: inline-block;
+  //     //border: 1px solid;
+  //     position: absolute;
+  //     left: 15vw;
+  //     top: 1.5vh;
+  //     padding: 2px;
+  //     font-size: 15px;
+  //   }
+
+  //   .round {
+  //     border-radius: 50%;
+  //   }
+
+  //   .hidden {
+  //     display: none;
+  //   }
+  // }
+  // font sizes he
+  // base font size is 16px;
+  // html #main > div ,
+  // html .math #main > div {
+  //   font-size: 1.25rem; //16px * 1.25 = 20px
+  //   &.IN {
+  //     font-size: 1.08rem; // 16px * 1.1 = 17.28px
+  //   }
+  //   .instructions {
+  //     font-size: 1.1rem; // 16px * 1.1 = 17.6px
+  //   }
+  //   .answer_options {
+  //     font-size: 1.125rem; // 16px * 1.125 = 18px
+  //   }
+  //   .sc {
+  //     font-size: 0.9375rem; // 16px x 0.9375 = 15px
+  //   }
+  // }
+
+  // html .domain_EN #main > div {
+  //   font-size: 1.1875rem; //16px * 1.875 = 19px
+  //   .answer_options {
+  //     font-size: 1.0625rem; // 16px * 1.0625 = 17px
+  //   }
+  //   &.TX .instructions {
+  //     font-size: 0.9375rem; // 16px * 0.9375 = 15px
+  //     p u {
+  //     font-size: 1.0625rem; // 16px * 1.0625 = 17px
+  //     }
+  //   }
+  // }
+
+  // // IN view in English oveflows in a strange way, so we do not user table-cell display in this case
+  // html .domain_EN #main .IN {
+  //   div.td {
+  //      display: inline-block;
+  //      &.ltr-word {
+  //        width: unset;
+  //      }
+  //   }
+    
+  //   // add some padding to left of dash
+  //   div.td.dash {
+  //     padding-left: 10px;
+  //   }
+  // }
+
+// .blue_phrase {
+//   color: rgb(0, 28, 210);
+
+//  }
+
+//} 
+
+// @media screen and (min-width: 1440px) and (min-height: 900px) {
+//   #columns_inner_container {
+//     transform: scale(1.17);
+//   }
+ 
+// } 
+
+// @media screen and (min-width: 1680px) and (min-height: 1050px) {
+//   #columns_inner_container {
+//     transform: scale(1.3);
+//   }
+// } 
+
+// @media screen and (min-width: 1920px) and (min-height: 1080px) {
+//   #columns_inner_container {
+//     transform: scale(1.38);
+//   }
+//    .blue_phrase {
+//       color: black;
+//   }
+// } 
+
+// @media screen and (min-width: 1920px) and (min-height: 1200px) {
+//   #columns_inner_container {
+//     transform: scale(1.5);
+//   }
+//    .blue_phrase {
+//       color: black;
+//   }
+// } 
+
+
+
+
+
+
+// // phrases colors
+// .blue_phrase {
+//   //color: rgb(0, 28, 210);
+//   color: black;
+ //}
+
+/*
+.red_phrase {
+  color: red;
+}
+*/
+
+
+
+
+

@@ -1,0 +1,44 @@
+@mixin text($size : 22px) {
+  color: black;//?
+  font-size: $size;
+  line-height: 1.5*$size;
+  p {margin-bottom: 1.5*$size;}
+
+}
+
+
+%text-default {
+ font-family: arial;
+}
+
+%text-default-open{
+ font-family: 'alef';
+}
+
+%text-he-verbal {
+  font-family: narkisim, david;
+}
+
+%text-he-verbal-open {
+  font-family: alef, david;
+}
+
+%text-english-open{
+ font-family: 'Open Sans';
+}
+
+%text-ar-verbal {
+  font-family: "XBNiloofar", "Narkisim";
+}
+
+%text-ar-verbal-open {
+  font-family: "XBNiloofar", "alef";
+}
+
+%text-he-math {
+  font-family: Hebrew QU Text, Latin Modern Roman, LMRoman12;
+}
+
+%text-ar-math {
+ font-family: XBNiloofar;
+} 

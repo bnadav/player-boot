@@ -1,0 +1,198 @@
+@import "../responsive/_media_queries";
+@import "../elements/text_responsive_blocks";
+
+ .item.MC{
+ 	.lang_he.math &,
+ 	.lang_ar.math & {
+ 		@include text(24px);
+    @include iphone{
+     // @include text-responsive-framework;
+      font-size: 1.25rem; //16px * 1.25 = 20px
+      .math_placeholder.wide_math{
+        font-size: 0.85rem; //16px * 1.25 = 20px
+      }
+    }
+ 	 }	
+ 
+ 
+ }
+
+// .item.MC.with_kernel {
+//   @include iphone{
+//     border-top: unset;
+//     overflow: hidden;
+//     top: unset;
+//     height: unset;
+//     position: unset;
+
+//     .instructions {
+//       display: none;
+//     }
+//    }
+//   }
+
+.with_kernel
+{
+  @extend %text-for-distractor;
+  &.big_kernel {
+  	@extend %text-for-small-distractor;
+    @include iphone{
+      @include text-with-kernel-responsive;
+      .instructions {
+        display: none;
+    }
+  }
+  }
+  @include iphone{
+  	@include text-with-kernel-responsive;
+ 	.instructions {
+      display: none;
+    }
+  }
+}
+
+.item.MC span.blank {
+  @extend %text-blank;	
+
+  @include iphone{
+  	border-width: 1px; 
+  }
+}
+
+
+.item.MC span.with_content {
+  @extend %text-blank-with-content;
+}
+
+
+.with_kernel
+{
+ 
+  &.big_kernel {
+   
+    .question_text, .answer_options {
+      @include text(21px);
+    }
+    .question_text p {
+      margin-bottom: 15px;
+    }
+   }
+  
+}
+
+//fix returnings
+.item .answer_options
+{
+
+  width: $answer-options-width;
+  @include text(21px);
+  .math & {
+    @include text(24px);
+    @include iphone{
+     font-size: 1.125rem; // 16px * 1.125 = 18px
+     overflow-x: auto; 
+     width: 100%;
+    }
+  } 
+    
+  @include iphone{
+     font-size: 1.125rem; // 16px * 1.125 = 18px
+      overflow-x: auto; 
+      width: 100%;
+      
+  }
+
+  table {
+    margin-top: 5px;
+    width: $answer-options-table-width;
+    @include iphone {
+      width: 100%;
+    }
+    
+    .even { background-color: $even-row-color; }
+    .odd { background-color: $odd-row-color; }
+    th {
+      padding: 0 $answer-options-table-th-padding;
+      width:  $answer-options-table-th-width;
+      text-align: center;
+      @include iphone{
+        width: 30px;
+        padding: 0 10px;   
+      }
+    }
+    td {
+      padding: $answer-options-table-td-padding;
+      @include iphone{
+        padding: 8px;
+      }
+      
+    }
+
+    td, th {border: 2px solid $main-background-color;}
+
+    //border: 2px ridge darken($even-row-color, 4%);
+    
+    input[type="radio"] {
+       width: 18px;
+       height: 18px;
+    }
+
+    &.display_type_normal {
+      tr{
+        &:nth-child(odd) {
+          background-color: $odd-row-color;
+        }
+        &:nth-child(even) {
+          background-color: $even-row-color;
+        }
+      }
+    }
+
+    &.display_type_square {
+      td {
+        width: $answer-options-table-td-width
+      }
+      
+      tr:nth-child(odd){
+        
+        td, th {
+          &:nth-of-type(odd) {
+            background-color: $odd-row-color;
+          }
+          &:nth-of-type(even) {
+            background-color: $even-row-color;
+          }
+        }
+      }
+
+      tr:nth-child(even){
+        td, th {
+          &:nth-of-type(odd) {
+            background-color: $even-row-color;
+          }
+          &:nth-of-type(even) {
+            background-color: $odd-row-color;
+          }
+        }
+      }
+    }
+  }
+
+}
+
+
+.domain_EN .item .answer_options{
+      @include iphone{
+      font-size: 1.0625rem; // 16px * 1.0625 = 17px
+      
+    //   th {
+    //       padding: 0 10px;
+    //       width: 30px;
+    //   }
+    //   td {
+    //       padding: 8px;
+    //   }
+    //   width: 100%;
+    // }
+  }
+}

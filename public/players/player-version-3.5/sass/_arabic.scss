@@ -1,0 +1,67 @@
+@font-face {
+  font-family: 'Bahij_Yakout';
+  src: font-url('/players/#{$PLAYER_VERSION}/fonts/Bahij_Yakout-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Bahij_Yakout';
+  src: font-url('/players/#{$PLAYER_VERSION}/fonts/Bahij_Yakout-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'XBNiloofar';
+  src: font-url('/players/#{$PLAYER_VERSION}/fonts/XBNiloofar.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'XBNiloofar';
+  src: font-url('/players/#{$PLAYER_VERSION}/fonts/XBNiloofarBd.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'XBNiloofar';
+  src: font-url('/players/#{$PLAYER_VERSION}/fonts/XBNiloofarIt.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'XBNiloofar';
+  src: font-url('/players/#{$PLAYER_VERSION}/fonts/XBNiloofarBdIt.ttf') format('truetype');
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'XBYagut';
+  src: font-url('XBYagut.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'XBYagut';
+  src: font-url('XBYagutBd.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'XBYagut';
+  src: font-url('XBYagutIt.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'XBYagut';
+  src: font-url('XBYagutBdIt.ttf') format('truetype');
+  font-weight: bold;
+  font-style: italic;
+}

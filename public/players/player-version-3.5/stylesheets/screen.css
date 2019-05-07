@@ -1,0 +1,3367 @@
+/* Welcome to Compass.
+ *
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+@namespace url(http://www.w3.org/1999/xhtml);
+@namespace m url(http://www.w3.org/1998/Math/MathML);
+/* Player Version */
+/* theme */
+/* colors */
+/* side colors */
+/* spite path */
+/* compass */
+/* line 5, ../../../../vendor/ruby/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../vendor/ruby/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../vendor/ruby/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../vendor/ruby/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../vendor/ruby/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../vendor/ruby/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../vendor/ruby/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../vendor/ruby/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../vendor/ruby/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* dimensions */
+/* item */
+/* 350px */
+/* 450px */
+/* 413px */
+/* 413px */
+/* side */
+/* Answer options */
+/* 770px */
+@font-face {
+  font-family: 'Bahij_Yakout';
+  src: url(/players/3.5/fonts/Bahij_Yakout-Regular.ttf) format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Bahij_Yakout';
+  src: url(/players/3.5/fonts/Bahij_Yakout-Bold.ttf) format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'XBNiloofar';
+  src: url(/players/3.5/fonts/XBNiloofar.ttf) format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'XBNiloofar';
+  src: url(/players/3.5/fonts/XBNiloofarBd.ttf) format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'XBNiloofar';
+  src: url(/players/3.5/fonts/XBNiloofarIt.ttf) format("truetype");
+  font-weight: normal;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'XBNiloofar';
+  src: url(/players/3.5/fonts/XBNiloofarBdIt.ttf) format("truetype");
+  font-weight: bold;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'XBYagut';
+  src: url('/fonts/XBYagut.ttf?1494499271') format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'XBYagut';
+  src: url('/fonts/XBYagutBd.ttf?1494499271') format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'XBYagut';
+  src: url('/fonts/XBYagutIt.ttf?1494499271') format("truetype");
+  font-weight: normal;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'XBYagut';
+  src: url('/fonts/XBYagutBdIt.ttf?1494499271') format("truetype");
+  font-weight: bold;
+  font-style: italic;
+}
+/* line 1, ../sass/_directions.scss */
+.lang_en {
+  /*
+  #main {
+    float: right;
+  }
+  #side {
+    float: left;
+  }
+  */
+}
+/* line 2, ../sass/_directions.scss */
+.lang_en #columns_inner_container {
+  flex-direction: row;
+}
+
+/* line 15, ../sass/_directions.scss */
+.lang_he, .lang_ar {
+  /*
+  #main {
+    float: left;
+  }
+  #side {
+    float: right;
+  }
+  */
+}
+/* line 16, ../sass/_directions.scss */
+.lang_he #columns_inner_container, .lang_ar #columns_inner_container {
+  flex-direction: row-reverse;
+}
+/* line 29, ../sass/_directions.scss */
+.lang_he.domain_EN .instructions em, .lang_ar.domain_EN .instructions em {
+  display: block;
+  text-align: right;
+}
+
+/* line 37, ../sass/_directions.scss */
+.domain_EN #main {
+  text-align: left;
+}
+/* line 39, ../sass/_directions.scss */
+.domain_EN #main caption, .domain_EN #main th, .domain_EN #main td, .domain_EN #main div {
+  text-align: left;
+  direction: ltr;
+}
+/* line 46, ../sass/_directions.scss */
+.domain_EN #main .TX li {
+  width: 752px;
+  margin-left: 15px;
+  padding-left: 15px;
+  margin-right: -12px;
+}
+/* line 51, ../sass/_directions.scss */
+.domain_EN #main .TX li:before {
+  left: -30px;
+}
+/* line 54, ../sass/_directions.scss */
+.domain_EN #main .TX li:first-child {
+  padding-left: 15px;
+}
+
+/* line 64, ../sass/_directions.scss */
+.lang_he .item, .lang_ar .item {
+  text-align: right;
+  direction: rtl;
+}
+/* line 67, ../sass/_directions.scss */
+.lang_he .item caption, .lang_he .item th, .lang_he .item td, .lang_he .item div, .lang_ar .item caption, .lang_ar .item th, .lang_ar .item td, .lang_ar .item div {
+  text-align: right;
+  direction: rtl;
+}
+
+/* line 75, ../sass/_directions.scss */
+#items_body.lang_he.domain_EN #main, #items_body.lang_ar.domain_EN #main {
+  text-align: left;
+}
+/* line 77, ../sass/_directions.scss */
+#items_body.lang_he.domain_EN #main caption, #items_body.lang_he.domain_EN #main th, #items_body.lang_he.domain_EN #main td, #items_body.lang_he.domain_EN #main div, #items_body.lang_ar.domain_EN #main caption, #items_body.lang_ar.domain_EN #main th, #items_body.lang_ar.domain_EN #main td, #items_body.lang_ar.domain_EN #main div {
+  text-align: left;
+  direction: ltr;
+}
+
+/* line 108, ../sass/_directions.scss */
+.verbal #main .TX li, .instructions #main .TX li {
+  width: 732px;
+  margin-left: -12px;
+  padding-right: 15px;
+  margin-right: 30px;
+}
+/* line 113, ../sass/_directions.scss */
+.verbal #main .TX li:before, .instructions #main .TX li:before {
+  right: -30px;
+}
+
+/* line 124, ../sass/_directions.scss */
+.math:not(.instructions) #main .TX li:before {
+  content: "";
+}
+
+/* line 132, ../sass/_directions.scss */
+body.instructions #main .TX li:before {
+  font-family: arial;
+  font-size: 15px;
+}
+
+/* line 10, ../sass/elements/_texts.scss */
+.instructions .item .instructions .left_line_instructions, .instructions.number_503 .item.IN, .instructions.number_501 .item.IN, .instructions.number_504 .item.IN, .item {
+  font-family: arial;
+}
+
+/* line 14, ../sass/elements/_texts.scss */
+.psycho label[for=word_count], .psycho label[for=timer], .psycho .item {
+  font-family: 'alef';
+}
+
+/* line 18, ../sass/elements/_texts.scss */
+.TX, .lang_he.verbal .item {
+  font-family: narkisim, david;
+}
+
+/* line 22, ../sass/elements/_texts.scss */
+.psycho.lang_he.verbal .item {
+  font-family: alef, david;
+}
+
+/* line 26, ../sass/elements/_texts.scss */
+.psycho.lang_he.domain_EN .item, .psycho.lang_ar.domain_EN .item {
+  font-family: 'Open Sans';
+}
+
+/* line 30, ../sass/elements/_texts.scss */
+.lang_ar.verbal .TX, .lang_ar.verbal .item {
+  font-family: "XBNiloofar", "Narkisim";
+}
+
+/* line 34, ../sass/elements/_texts.scss */
+.psycho.lang_ar .item, .psycho.lang_ar.verbal .item {
+  font-family: "XBNiloofar", "alef";
+}
+
+/* line 38, ../sass/elements/_texts.scss */
+.lang_he.math .item {
+  font-family: Hebrew QU Text, Latin Modern Roman, LMRoman12;
+}
+
+/* line 42, ../sass/elements/_texts.scss */
+.lang_ar.math .TX, .lang_ar.math .item {
+  font-family: XBNiloofar;
+}
+
+/*
+The Latin Modern fonts are released under the GUST font license, which is
+legally equivalent to the LaTeX Project Public License. See the files in this
+directory for details. The fonts can be obtained from several TeX distributions
+or package managers.
+
+The WOFF fonts have been obtained from
+http://www.gust.org.pl/projects/e-foundry/
+*/
+/* Latin Modern Roman has various sizes. We use the generic name
+   "Latin Modern Roman" for the local versions and "LMRoman12" for the Web font.
+*/
+@font-face {
+  font-family: LMRoman12;
+  src: url("../fonts/MathML-fonts/LatinModernMath/lmroman12-regular.woff2"), url("../fonts/MathML-fonts/LatinModernMath/lmroman12-regular.woff");
+}
+@font-face {
+  font-family: LMRoman12;
+  src: url("../fonts/MathML-fonts/LatinModernMath/lmroman12-bold.woff2"), url("../fonts/MathML-fonts/LatinModernMath/lmroman12-bold.woff");
+  font-weight: bold;
+}
+@font-face {
+  font-family: LMRoman12;
+  src: url("../fonts/MathML-fonts/LatinModernMath/lmroman12-italic.woff2"), url("../fonts/MathML-fonts/LatinModernMath/lmroman12-italic.woff");
+  font-style: italic;
+}
+@font-face {
+  font-family: Latin Modern Math;
+  src: local("Latin Modern Math"), local("LatinModernMath-Regular"), url("../fonts/MathML-fonts/LatinModernMath/latinmodern-math.woff2"), url("../fonts/MathML-fonts/LatinModernMath/latinmodern-math.woff");
+}
+@font-face {
+  font-family: Hebrew QU Text;
+  src: url(https://fonts.gstatic.com/s/alef/v9/FeVfS0NQpLYgnjdRCqFx.woff2) format("woff2");
+  unicode-range: U+05BE-05F4, U+0020, U+0009, U+2060, U+0022, U+0027, U+003F, U+00A1, U+002E, U+002C;
+}
+@font-face {
+  font-family: Hebrew QU Text;
+  font-weight: bold;
+  src: url(https://fonts.gstatic.com/s/alef/v9/FeVQS0NQpLYglo50H5xQ2Ixi.woff2) format("woff2");
+  unicode-range: U+0590-05FF, U+0020, U+0009, U+2060, U+0022, U+0027, U+003F, U+00A1, U+002E, U+002C;
+}
+/* line 56, ../sass/_mathml_latin_modern.scss */
+.htmlmathparagraph, .domain_QU.math, m|mtext {
+  font-family: Hebrew QU Text, Latin Modern Roman, LMRoman12;
+}
+
+/* line 60, ../sass/_mathml_latin_modern.scss */
+.domain_QU.math.lang_ar, .domain_QU.math.lang_ar m|mtext {
+  font-family: XBNiloofar;
+}
+
+/* line 64, ../sass/_mathml_latin_modern.scss */
+m|math {
+  font-family: Latin Modern Math;
+}
+
+/* line 68, ../sass/_mathml_latin_modern.scss */
+.oldstylenumbers {
+  font-variant-numeric: oldstyle-nums;
+  /* Recommended syntax */
+  font-feature-settings: 'onum';
+  /* OpenType feature syntax */
+  -moz-font-feature-settings: 'onum';
+  /* Gecko <= 33 syntax */
+  -webkit-font-feature-settings: 'onum';
+  /* Blink syntax */
+}
+
+/* Calligraphic letters do not seem to be available */
+/* line 1, ../sass/_design_elements.scss */
+span#blank_150 {
+  width: 150px;
+  display: inline-block;
+}
+
+/* line 6, ../sass/_design_elements.scss */
+span#blank_195 {
+  width: 195px;
+  display: inline-block;
+}
+
+/* English item in meimad's instructions chapter - all items are right aligned except for this one  */
+/*                                                 the font family is Arial just in the English item*/
+/* line 3, ../sass/_exceptional.scss */
+#main div#q_1101 *,
+#main div#q_1471 *,
+#main div#q_2082 * {
+  direction: ltr !important;
+  text-align: left !important;
+  font-family: Arial;
+}
+
+/* line 11, ../sass/_exceptional.scss */
+.domain_YO input#flag_button {
+  visibility: hidden;
+}
+
+/* text */
+/*.line_numbers ($size : 16px) {*/
+/* line 12, ../sass/_linenumbers.scss */
+.line_numbers {
+  color: black;
+  font-size: 19px;
+  line-height: 28.5px;
+  margin-bottom: 15px;
+  float: right;
+  color: #2470c2;
+}
+/* line 5, ../sass/elements/_texts.scss */
+.line_numbers p {
+  margin-bottom: 28.5px;
+}
+/* line 20, ../sass/_linenumbers.scss */
+.lang_ar.verbal .line_numbers {
+  color: black;
+  font-size: 14.5px;
+  line-height: 21.75px;
+  line-height: 32px;
+  color: #2470c2;
+  /*color: #6887A7;*/
+  float: right;
+  margin-bottom: 15px;
+}
+/* line 5, ../sass/elements/_texts.scss */
+.lang_ar.verbal .line_numbers p {
+  margin-bottom: 21.75px;
+}
+
+/* line 31, ../sass/_linenumbers.scss */
+.domain_EN .line_numbers {
+  float: left;
+  font-size: 15px;
+}
+
+/* Player Version */
+/* theme */
+/* colors */
+/* side colors */
+/* spite path */
+/* compass */
+/* line 5, ../../../../vendor/ruby/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../vendor/ruby/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../vendor/ruby/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../vendor/ruby/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../vendor/ruby/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../vendor/ruby/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../vendor/ruby/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../vendor/ruby/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../vendor/ruby/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* dimensions */
+/* item */
+/* 350px */
+/* 450px */
+/* 413px */
+/* 413px */
+/* side */
+/* Answer options */
+/* 770px */
+/* colors */
+/* side colors */
+/* spite path */
+/* line 38, ../sass/responsive/_media_queries.scss */
+.yellow_marker {
+  background-color: yellow;
+}
+
+/* line 42, ../sass/responsive/_media_queries.scss */
+.desktop_notes {
+  display: block;
+}
+@media screen and (max-width: 1019px) {
+  /* line 42, ../sass/responsive/_media_queries.scss */
+  .desktop_notes {
+    display: none;
+  }
+}
+
+/* line 50, ../sass/responsive/_media_queries.scss */
+.mobile_notes {
+  display: none;
+}
+@media screen and (max-width: 1019px) {
+  /* line 50, ../sass/responsive/_media_queries.scss */
+  .mobile_notes {
+    display: block;
+  }
+}
+
+/*
+.red_phrase {
+  color: red;
+}
+*/
+/* colors */
+/* side colors */
+/* spite path */
+/* line 4, ../sass/elements/_buttons.scss */
+#item_buttons > input {
+  border: medium none;
+  color: black;
+  display: inline-block;
+  font: normal small-caps bold 14px alef;
+  text-align: center;
+}
+
+/* line 13, ../sass/elements/_buttons.scss */
+#item_buttons .IN, #item_buttons .TX, #item_buttons .BL {
+  background: url("../themes/amir/blue/sprite.png") #c8cfd4 -1px 0px;
+  color: white;
+  display: block;
+  height: 27px;
+  margin: 6px auto;
+  width: 174px;
+  /* Player Version */
+  /* theme */
+  /* colors */
+  /* side colors */
+  /* spite path */
+  /* compass */
+  /* dimensions */
+  /* item */
+  /* 350px */
+  /* 450px */
+  /* 413px */
+  /* 413px */
+  /* side */
+  /* Answer options */
+  /* 770px */
+}
+/* line 5, ../../../../vendor/ruby/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+#item_buttons .IN html, #item_buttons .TX html, #item_buttons .BL html, #item_buttons .IN body, #item_buttons .TX body, #item_buttons .BL body, #item_buttons .IN div, #item_buttons .TX div, #item_buttons .BL div, #item_buttons .IN span, #item_buttons .TX span, #item_buttons .BL span, #item_buttons .IN applet, #item_buttons .TX applet, #item_buttons .BL applet, #item_buttons .IN object, #item_buttons .TX object, #item_buttons .BL object, #item_buttons .IN iframe, #item_buttons .TX iframe, #item_buttons .BL iframe,
+#item_buttons .IN h1,
+#item_buttons .TX h1,
+#item_buttons .BL h1, #item_buttons .IN h2, #item_buttons .TX h2, #item_buttons .BL h2, #item_buttons .IN h3, #item_buttons .TX h3, #item_buttons .BL h3, #item_buttons .IN h4, #item_buttons .TX h4, #item_buttons .BL h4, #item_buttons .IN h5, #item_buttons .TX h5, #item_buttons .BL h5, #item_buttons .IN h6, #item_buttons .TX h6, #item_buttons .BL h6, #item_buttons .IN p, #item_buttons .TX p, #item_buttons .BL p, #item_buttons .IN blockquote, #item_buttons .TX blockquote, #item_buttons .BL blockquote, #item_buttons .IN pre, #item_buttons .TX pre, #item_buttons .BL pre,
+#item_buttons .IN a,
+#item_buttons .TX a,
+#item_buttons .BL a, #item_buttons .IN abbr, #item_buttons .TX abbr, #item_buttons .BL abbr, #item_buttons .IN acronym, #item_buttons .TX acronym, #item_buttons .BL acronym, #item_buttons .IN address, #item_buttons .TX address, #item_buttons .BL address, #item_buttons .IN big, #item_buttons .TX big, #item_buttons .BL big, #item_buttons .IN cite, #item_buttons .TX cite, #item_buttons .BL cite, #item_buttons .IN code, #item_buttons .TX code, #item_buttons .BL code,
+#item_buttons .IN del,
+#item_buttons .TX del,
+#item_buttons .BL del, #item_buttons .IN dfn, #item_buttons .TX dfn, #item_buttons .BL dfn, #item_buttons .IN em, #item_buttons .TX em, #item_buttons .BL em, #item_buttons .IN img, #item_buttons .TX img, #item_buttons .BL img, #item_buttons .IN ins, #item_buttons .TX ins, #item_buttons .BL ins, #item_buttons .IN kbd, #item_buttons .TX kbd, #item_buttons .BL kbd, #item_buttons .IN q, #item_buttons .TX q, #item_buttons .BL q, #item_buttons .IN s, #item_buttons .TX s, #item_buttons .BL s, #item_buttons .IN samp, #item_buttons .TX samp, #item_buttons .BL samp,
+#item_buttons .IN small,
+#item_buttons .TX small,
+#item_buttons .BL small, #item_buttons .IN strike, #item_buttons .TX strike, #item_buttons .BL strike, #item_buttons .IN strong, #item_buttons .TX strong, #item_buttons .BL strong, #item_buttons .IN sub, #item_buttons .TX sub, #item_buttons .BL sub, #item_buttons .IN sup, #item_buttons .TX sup, #item_buttons .BL sup, #item_buttons .IN tt, #item_buttons .TX tt, #item_buttons .BL tt, #item_buttons .IN var, #item_buttons .TX var, #item_buttons .BL var,
+#item_buttons .IN b,
+#item_buttons .TX b,
+#item_buttons .BL b, #item_buttons .IN u, #item_buttons .TX u, #item_buttons .BL u, #item_buttons .IN i, #item_buttons .TX i, #item_buttons .BL i, #item_buttons .IN center, #item_buttons .TX center, #item_buttons .BL center,
+#item_buttons .IN dl,
+#item_buttons .TX dl,
+#item_buttons .BL dl, #item_buttons .IN dt, #item_buttons .TX dt, #item_buttons .BL dt, #item_buttons .IN dd, #item_buttons .TX dd, #item_buttons .BL dd, #item_buttons .IN ol, #item_buttons .TX ol, #item_buttons .BL ol, #item_buttons .IN ul, #item_buttons .TX ul, #item_buttons .BL ul, #item_buttons .IN li, #item_buttons .TX li, #item_buttons .BL li,
+#item_buttons .IN fieldset,
+#item_buttons .TX fieldset,
+#item_buttons .BL fieldset, #item_buttons .IN form, #item_buttons .TX form, #item_buttons .BL form, #item_buttons .IN label, #item_buttons .TX label, #item_buttons .BL label, #item_buttons .IN legend, #item_buttons .TX legend, #item_buttons .BL legend,
+#item_buttons .IN table,
+#item_buttons .TX table,
+#item_buttons .BL table, #item_buttons .IN caption, #item_buttons .TX caption, #item_buttons .BL caption, #item_buttons .IN tbody, #item_buttons .TX tbody, #item_buttons .BL tbody, #item_buttons .IN tfoot, #item_buttons .TX tfoot, #item_buttons .BL tfoot, #item_buttons .IN thead, #item_buttons .TX thead, #item_buttons .BL thead, #item_buttons .IN tr, #item_buttons .TX tr, #item_buttons .BL tr, #item_buttons .IN th, #item_buttons .TX th, #item_buttons .BL th, #item_buttons .IN td, #item_buttons .TX td, #item_buttons .BL td,
+#item_buttons .IN article,
+#item_buttons .TX article,
+#item_buttons .BL article, #item_buttons .IN aside, #item_buttons .TX aside, #item_buttons .BL aside, #item_buttons .IN canvas, #item_buttons .TX canvas, #item_buttons .BL canvas, #item_buttons .IN details, #item_buttons .TX details, #item_buttons .BL details, #item_buttons .IN embed, #item_buttons .TX embed, #item_buttons .BL embed,
+#item_buttons .IN figure,
+#item_buttons .TX figure,
+#item_buttons .BL figure, #item_buttons .IN figcaption, #item_buttons .TX figcaption, #item_buttons .BL figcaption, #item_buttons .IN footer, #item_buttons .TX footer, #item_buttons .BL footer, #item_buttons .IN header, #item_buttons .TX header, #item_buttons .BL header, #item_buttons .IN hgroup, #item_buttons .TX hgroup, #item_buttons .BL hgroup,
+#item_buttons .IN menu,
+#item_buttons .TX menu,
+#item_buttons .BL menu, #item_buttons .IN nav, #item_buttons .TX nav, #item_buttons .BL nav, #item_buttons .IN output, #item_buttons .TX output, #item_buttons .BL output, #item_buttons .IN ruby, #item_buttons .TX ruby, #item_buttons .BL ruby, #item_buttons .IN section, #item_buttons .TX section, #item_buttons .BL section, #item_buttons .IN summary, #item_buttons .TX summary, #item_buttons .BL summary,
+#item_buttons .IN time,
+#item_buttons .TX time,
+#item_buttons .BL time, #item_buttons .IN mark, #item_buttons .TX mark, #item_buttons .BL mark, #item_buttons .IN audio, #item_buttons .TX audio, #item_buttons .BL audio, #item_buttons .IN video, #item_buttons .TX video, #item_buttons .BL video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+/* line 22, ../../../../vendor/ruby/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+#item_buttons .IN html, #item_buttons .TX html, #item_buttons .BL html {
+  line-height: 1;
+}
+/* line 24, ../../../../vendor/ruby/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+#item_buttons .IN ol, #item_buttons .TX ol, #item_buttons .BL ol, #item_buttons .IN ul, #item_buttons .TX ul, #item_buttons .BL ul {
+  list-style: none;
+}
+/* line 26, ../../../../vendor/ruby/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+#item_buttons .IN table, #item_buttons .TX table, #item_buttons .BL table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* line 28, ../../../../vendor/ruby/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+#item_buttons .IN caption, #item_buttons .TX caption, #item_buttons .BL caption, #item_buttons .IN th, #item_buttons .TX th, #item_buttons .BL th, #item_buttons .IN td, #item_buttons .TX td, #item_buttons .BL td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+/* line 30, ../../../../vendor/ruby/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+#item_buttons .IN q, #item_buttons .TX q, #item_buttons .BL q, #item_buttons .IN blockquote, #item_buttons .TX blockquote, #item_buttons .BL blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../vendor/ruby/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+#item_buttons .IN q:before, #item_buttons .TX q:before, #item_buttons .BL q:before, #item_buttons .IN q:after, #item_buttons .TX q:after, #item_buttons .BL q:after, #item_buttons .IN blockquote:before, #item_buttons .TX blockquote:before, #item_buttons .BL blockquote:before, #item_buttons .IN blockquote:after, #item_buttons .TX blockquote:after, #item_buttons .BL blockquote:after {
+  content: "";
+  content: none;
+}
+/* line 32, ../../../../vendor/ruby/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+#item_buttons .IN a img, #item_buttons .TX a img, #item_buttons .BL a img {
+  border: none;
+}
+/* line 116, ../../../../vendor/ruby/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+#item_buttons .IN article, #item_buttons .TX article, #item_buttons .BL article, #item_buttons .IN aside, #item_buttons .TX aside, #item_buttons .BL aside, #item_buttons .IN details, #item_buttons .TX details, #item_buttons .BL details, #item_buttons .IN figcaption, #item_buttons .TX figcaption, #item_buttons .BL figcaption, #item_buttons .IN figure, #item_buttons .TX figure, #item_buttons .BL figure, #item_buttons .IN footer, #item_buttons .TX footer, #item_buttons .BL footer, #item_buttons .IN header, #item_buttons .TX header, #item_buttons .BL header, #item_buttons .IN hgroup, #item_buttons .TX hgroup, #item_buttons .BL hgroup, #item_buttons .IN main, #item_buttons .TX main, #item_buttons .BL main, #item_buttons .IN menu, #item_buttons .TX menu, #item_buttons .BL menu, #item_buttons .IN nav, #item_buttons .TX nav, #item_buttons .BL nav, #item_buttons .IN section, #item_buttons .TX section, #item_buttons .BL section, #item_buttons .IN summary, #item_buttons .TX summary, #item_buttons .BL summary {
+  display: block;
+}
+
+/* line 23, ../sass/elements/_buttons.scss */
+#item_buttons .MC {
+  background: url("../themes/amir/blue/sprite.png") #c8cfd4 -1px -156px;
+  color: black;
+  font-style: normal;
+  height: 33px;
+  margin: 2px;
+  outline: medium none;
+  width: 32px;
+}
+/* line 31, ../sass/elements/_buttons.scss */
+#item_buttons .flagged.MC {
+  background: url("../themes/amir/blue/sprite.png") #c8cfd4 -45px -156px;
+}
+/* line 32, ../sass/elements/_buttons.scss */
+#item_buttons .answered.MC {
+  background: url("../themes/amir/blue/sprite.png") #c8cfd4 -1px -111px;
+}
+/* line 33, ../sass/elements/_buttons.scss */
+#item_buttons .answered.flagged.MC {
+  background: url("../themes/amir/blue/sprite.png") #c8cfd4 -45px -111px;
+}
+
+/* line 39, ../sass/elements/_buttons.scss */
+#extra_buttons input[type=button],
+#extra_buttons a, #flag_button, #next_button {
+  background: url("../themes/amir/blue/sprite.png") #c8cfd4 -1px -37px;
+  border: medium none;
+  color: white;
+  display: block;
+  font: normal small-caps bold 15px alef;
+  height: 27px;
+  margin: 18px auto 0;
+  text-align: center;
+  width: 139px;
+}
+
+/* line 52, ../sass/elements/_buttons.scss */
+#extra_buttons #flag_button {
+  background: url("../themes/amir/blue/sprite.png") #c8cfd4 -1px -74px;
+  font-size: 12px;
+  font-weight: normal;
+}
+
+/* line 58, ../sass/elements/_buttons.scss */
+#extra_buttons a {
+  padding-top: 5px;
+  text-decoration: none;
+}
+
+/* line 63, ../sass/elements/_buttons.scss */
+#extra_buttons input[type=button][disabled=disabled] {
+  color: #C8CFD4;
+  text-shadow: 0 -1px 0 #888;
+}
+
+/* line 68, ../sass/elements/_buttons.scss */
+#item_buttons .current {
+  outline: 2px solid black;
+}
+
+/* line 74, ../sass/elements/_buttons.scss */
+#mobile_buttons button {
+  background-color: inherit;
+  border: none;
+  font-size: 25px;
+  height: 40px;
+  z-index: 9;
+}
+
+/* colors */
+/* side colors */
+/* spite path */
+/* line 4, ../sass/elements/_boxes.scss */
+#word_count, #timer {
+  border: 1px solid black;
+  display: block;
+  height: 25px;
+  margin: 0 auto 20px;
+  text-align: center;
+  width: 80px;
+}
+
+/* line 14, ../sass/elements/_boxes.scss */
+#word_count {
+  border: 2px solid black;
+}
+
+/* line 20, ../sass/elements/_boxes.scss */
+.psycho label[for=word_count], label[for=word_count], label[for=timer], .psycho label[for=timer] {
+  display: block;
+  font-family: arial;
+  margin: 16px auto 2px;
+  text-align: center;
+}
+
+/* line 28, ../sass/elements/_boxes.scss */
+#item_info {
+  background-color: #c8cfd4;
+  font-weight: bold;
+  margin: 10px auto;
+  text-align: center;
+  width: 70px;
+}
+
+/* line 36, ../sass/elements/_boxes.scss */
+#chapter_number {
+  color: #ffffff;
+  font-family: arial;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 5px 0 15px 0;
+}
+
+/* colors */
+/* side colors */
+/* spite path */
+/* line 4, ../sass/elements/_boxes.scss */
+#word_count, #timer {
+  border: 1px solid black;
+  display: block;
+  height: 25px;
+  margin: 0 auto 20px;
+  text-align: center;
+  width: 80px;
+}
+
+/* line 14, ../sass/elements/_boxes.scss */
+#word_count {
+  border: 2px solid black;
+}
+
+/* line 20, ../sass/elements/_boxes.scss */
+.psycho label[for=word_count], label[for=word_count], label[for=timer], .psycho label[for=timer] {
+  display: block;
+  font-family: arial;
+  margin: 16px auto 2px;
+  text-align: center;
+}
+
+/* line 28, ../sass/elements/_boxes.scss */
+#item_info {
+  background-color: #c8cfd4;
+  font-weight: bold;
+  margin: 10px auto;
+  text-align: center;
+  width: 70px;
+}
+
+/* line 36, ../sass/elements/_boxes.scss */
+#chapter_number {
+  color: #ffffff;
+  font-family: arial;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 5px 0 15px 0;
+}
+
+/* line 18, ../sass/views/_word_count_view.scss */
+#word_count_wrapper {
+  display: none;
+}
+
+/* colors */
+/* side colors */
+/* spite path */
+/* line 4, ../sass/elements/_buttons.scss */
+#item_buttons > input {
+  border: medium none;
+  color: black;
+  display: inline-block;
+  font: normal small-caps bold 14px alef;
+  text-align: center;
+}
+
+/* line 13, ../sass/elements/_buttons.scss */
+#item_buttons .IN, #item_buttons .TX, #item_buttons .BL {
+  background: url("../themes/amir/blue/sprite.png") #c8cfd4 -1px 0px;
+  color: white;
+  display: block;
+  height: 27px;
+  margin: 6px auto;
+  width: 174px;
+  /* Player Version */
+  /* theme */
+  /* colors */
+  /* side colors */
+  /* spite path */
+  /* compass */
+  /* dimensions */
+  /* item */
+  /* 350px */
+  /* 450px */
+  /* 413px */
+  /* 413px */
+  /* side */
+  /* Answer options */
+  /* 770px */
+}
+/* line 5, ../../../../vendor/ruby/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+#item_buttons .IN html, #item_buttons .TX html, #item_buttons .BL html, #item_buttons .IN body, #item_buttons .TX body, #item_buttons .BL body, #item_buttons .IN div, #item_buttons .TX div, #item_buttons .BL div, #item_buttons .IN span, #item_buttons .TX span, #item_buttons .BL span, #item_buttons .IN applet, #item_buttons .TX applet, #item_buttons .BL applet, #item_buttons .IN object, #item_buttons .TX object, #item_buttons .BL object, #item_buttons .IN iframe, #item_buttons .TX iframe, #item_buttons .BL iframe,
+#item_buttons .IN h1,
+#item_buttons .TX h1,
+#item_buttons .BL h1, #item_buttons .IN h2, #item_buttons .TX h2, #item_buttons .BL h2, #item_buttons .IN h3, #item_buttons .TX h3, #item_buttons .BL h3, #item_buttons .IN h4, #item_buttons .TX h4, #item_buttons .BL h4, #item_buttons .IN h5, #item_buttons .TX h5, #item_buttons .BL h5, #item_buttons .IN h6, #item_buttons .TX h6, #item_buttons .BL h6, #item_buttons .IN p, #item_buttons .TX p, #item_buttons .BL p, #item_buttons .IN blockquote, #item_buttons .TX blockquote, #item_buttons .BL blockquote, #item_buttons .IN pre, #item_buttons .TX pre, #item_buttons .BL pre,
+#item_buttons .IN a,
+#item_buttons .TX a,
+#item_buttons .BL a, #item_buttons .IN abbr, #item_buttons .TX abbr, #item_buttons .BL abbr, #item_buttons .IN acronym, #item_buttons .TX acronym, #item_buttons .BL acronym, #item_buttons .IN address, #item_buttons .TX address, #item_buttons .BL address, #item_buttons .IN big, #item_buttons .TX big, #item_buttons .BL big, #item_buttons .IN cite, #item_buttons .TX cite, #item_buttons .BL cite, #item_buttons .IN code, #item_buttons .TX code, #item_buttons .BL code,
+#item_buttons .IN del,
+#item_buttons .TX del,
+#item_buttons .BL del, #item_buttons .IN dfn, #item_buttons .TX dfn, #item_buttons .BL dfn, #item_buttons .IN em, #item_buttons .TX em, #item_buttons .BL em, #item_buttons .IN img, #item_buttons .TX img, #item_buttons .BL img, #item_buttons .IN ins, #item_buttons .TX ins, #item_buttons .BL ins, #item_buttons .IN kbd, #item_buttons .TX kbd, #item_buttons .BL kbd, #item_buttons .IN q, #item_buttons .TX q, #item_buttons .BL q, #item_buttons .IN s, #item_buttons .TX s, #item_buttons .BL s, #item_buttons .IN samp, #item_buttons .TX samp, #item_buttons .BL samp,
+#item_buttons .IN small,
+#item_buttons .TX small,
+#item_buttons .BL small, #item_buttons .IN strike, #item_buttons .TX strike, #item_buttons .BL strike, #item_buttons .IN strong, #item_buttons .TX strong, #item_buttons .BL strong, #item_buttons .IN sub, #item_buttons .TX sub, #item_buttons .BL sub, #item_buttons .IN sup, #item_buttons .TX sup, #item_buttons .BL sup, #item_buttons .IN tt, #item_buttons .TX tt, #item_buttons .BL tt, #item_buttons .IN var, #item_buttons .TX var, #item_buttons .BL var,
+#item_buttons .IN b,
+#item_buttons .TX b,
+#item_buttons .BL b, #item_buttons .IN u, #item_buttons .TX u, #item_buttons .BL u, #item_buttons .IN i, #item_buttons .TX i, #item_buttons .BL i, #item_buttons .IN center, #item_buttons .TX center, #item_buttons .BL center,
+#item_buttons .IN dl,
+#item_buttons .TX dl,
+#item_buttons .BL dl, #item_buttons .IN dt, #item_buttons .TX dt, #item_buttons .BL dt, #item_buttons .IN dd, #item_buttons .TX dd, #item_buttons .BL dd, #item_buttons .IN ol, #item_buttons .TX ol, #item_buttons .BL ol, #item_buttons .IN ul, #item_buttons .TX ul, #item_buttons .BL ul, #item_buttons .IN li, #item_buttons .TX li, #item_buttons .BL li,
+#item_buttons .IN fieldset,
+#item_buttons .TX fieldset,
+#item_buttons .BL fieldset, #item_buttons .IN form, #item_buttons .TX form, #item_buttons .BL form, #item_buttons .IN label, #item_buttons .TX label, #item_buttons .BL label, #item_buttons .IN legend, #item_buttons .TX legend, #item_buttons .BL legend,
+#item_buttons .IN table,
+#item_buttons .TX table,
+#item_buttons .BL table, #item_buttons .IN caption, #item_buttons .TX caption, #item_buttons .BL caption, #item_buttons .IN tbody, #item_buttons .TX tbody, #item_buttons .BL tbody, #item_buttons .IN tfoot, #item_buttons .TX tfoot, #item_buttons .BL tfoot, #item_buttons .IN thead, #item_buttons .TX thead, #item_buttons .BL thead, #item_buttons .IN tr, #item_buttons .TX tr, #item_buttons .BL tr, #item_buttons .IN th, #item_buttons .TX th, #item_buttons .BL th, #item_buttons .IN td, #item_buttons .TX td, #item_buttons .BL td,
+#item_buttons .IN article,
+#item_buttons .TX article,
+#item_buttons .BL article, #item_buttons .IN aside, #item_buttons .TX aside, #item_buttons .BL aside, #item_buttons .IN canvas, #item_buttons .TX canvas, #item_buttons .BL canvas, #item_buttons .IN details, #item_buttons .TX details, #item_buttons .BL details, #item_buttons .IN embed, #item_buttons .TX embed, #item_buttons .BL embed,
+#item_buttons .IN figure,
+#item_buttons .TX figure,
+#item_buttons .BL figure, #item_buttons .IN figcaption, #item_buttons .TX figcaption, #item_buttons .BL figcaption, #item_buttons .IN footer, #item_buttons .TX footer, #item_buttons .BL footer, #item_buttons .IN header, #item_buttons .TX header, #item_buttons .BL header, #item_buttons .IN hgroup, #item_buttons .TX hgroup, #item_buttons .BL hgroup,
+#item_buttons .IN menu,
+#item_buttons .TX menu,
+#item_buttons .BL menu, #item_buttons .IN nav, #item_buttons .TX nav, #item_buttons .BL nav, #item_buttons .IN output, #item_buttons .TX output, #item_buttons .BL output, #item_buttons .IN ruby, #item_buttons .TX ruby, #item_buttons .BL ruby, #item_buttons .IN section, #item_buttons .TX section, #item_buttons .BL section, #item_buttons .IN summary, #item_buttons .TX summary, #item_buttons .BL summary,
+#item_buttons .IN time,
+#item_buttons .TX time,
+#item_buttons .BL time, #item_buttons .IN mark, #item_buttons .TX mark, #item_buttons .BL mark, #item_buttons .IN audio, #item_buttons .TX audio, #item_buttons .BL audio, #item_buttons .IN video, #item_buttons .TX video, #item_buttons .BL video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+/* line 22, ../../../../vendor/ruby/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+#item_buttons .IN html, #item_buttons .TX html, #item_buttons .BL html {
+  line-height: 1;
+}
+/* line 24, ../../../../vendor/ruby/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+#item_buttons .IN ol, #item_buttons .TX ol, #item_buttons .BL ol, #item_buttons .IN ul, #item_buttons .TX ul, #item_buttons .BL ul {
+  list-style: none;
+}
+/* line 26, ../../../../vendor/ruby/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+#item_buttons .IN table, #item_buttons .TX table, #item_buttons .BL table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* line 28, ../../../../vendor/ruby/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+#item_buttons .IN caption, #item_buttons .TX caption, #item_buttons .BL caption, #item_buttons .IN th, #item_buttons .TX th, #item_buttons .BL th, #item_buttons .IN td, #item_buttons .TX td, #item_buttons .BL td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+/* line 30, ../../../../vendor/ruby/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+#item_buttons .IN q, #item_buttons .TX q, #item_buttons .BL q, #item_buttons .IN blockquote, #item_buttons .TX blockquote, #item_buttons .BL blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../vendor/ruby/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+#item_buttons .IN q:before, #item_buttons .TX q:before, #item_buttons .BL q:before, #item_buttons .IN q:after, #item_buttons .TX q:after, #item_buttons .BL q:after, #item_buttons .IN blockquote:before, #item_buttons .TX blockquote:before, #item_buttons .BL blockquote:before, #item_buttons .IN blockquote:after, #item_buttons .TX blockquote:after, #item_buttons .BL blockquote:after {
+  content: "";
+  content: none;
+}
+/* line 32, ../../../../vendor/ruby/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+#item_buttons .IN a img, #item_buttons .TX a img, #item_buttons .BL a img {
+  border: none;
+}
+/* line 116, ../../../../vendor/ruby/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+#item_buttons .IN article, #item_buttons .TX article, #item_buttons .BL article, #item_buttons .IN aside, #item_buttons .TX aside, #item_buttons .BL aside, #item_buttons .IN details, #item_buttons .TX details, #item_buttons .BL details, #item_buttons .IN figcaption, #item_buttons .TX figcaption, #item_buttons .BL figcaption, #item_buttons .IN figure, #item_buttons .TX figure, #item_buttons .BL figure, #item_buttons .IN footer, #item_buttons .TX footer, #item_buttons .BL footer, #item_buttons .IN header, #item_buttons .TX header, #item_buttons .BL header, #item_buttons .IN hgroup, #item_buttons .TX hgroup, #item_buttons .BL hgroup, #item_buttons .IN main, #item_buttons .TX main, #item_buttons .BL main, #item_buttons .IN menu, #item_buttons .TX menu, #item_buttons .BL menu, #item_buttons .IN nav, #item_buttons .TX nav, #item_buttons .BL nav, #item_buttons .IN section, #item_buttons .TX section, #item_buttons .BL section, #item_buttons .IN summary, #item_buttons .TX summary, #item_buttons .BL summary {
+  display: block;
+}
+
+/* line 23, ../sass/elements/_buttons.scss */
+#item_buttons .MC {
+  background: url("../themes/amir/blue/sprite.png") #c8cfd4 -1px -156px;
+  color: black;
+  font-style: normal;
+  height: 33px;
+  margin: 2px;
+  outline: medium none;
+  width: 32px;
+}
+/* line 31, ../sass/elements/_buttons.scss */
+#item_buttons .flagged.MC {
+  background: url("../themes/amir/blue/sprite.png") #c8cfd4 -45px -156px;
+}
+/* line 32, ../sass/elements/_buttons.scss */
+#item_buttons .answered.MC {
+  background: url("../themes/amir/blue/sprite.png") #c8cfd4 -1px -111px;
+}
+/* line 33, ../sass/elements/_buttons.scss */
+#item_buttons .answered.flagged.MC {
+  background: url("../themes/amir/blue/sprite.png") #c8cfd4 -45px -111px;
+}
+
+/* line 39, ../sass/elements/_buttons.scss */
+#extra_buttons input[type=button],
+#extra_buttons a, #flag_button, #next_button {
+  background: url("../themes/amir/blue/sprite.png") #c8cfd4 -1px -37px;
+  border: medium none;
+  color: white;
+  display: block;
+  font: normal small-caps bold 15px alef;
+  height: 27px;
+  margin: 18px auto 0;
+  text-align: center;
+  width: 139px;
+}
+
+/* line 52, ../sass/elements/_buttons.scss */
+#extra_buttons #flag_button {
+  background: url("../themes/amir/blue/sprite.png") #c8cfd4 -1px -74px;
+  font-size: 12px;
+  font-weight: normal;
+}
+
+/* line 58, ../sass/elements/_buttons.scss */
+#extra_buttons a {
+  padding-top: 5px;
+  text-decoration: none;
+}
+
+/* line 63, ../sass/elements/_buttons.scss */
+#extra_buttons input[type=button][disabled=disabled] {
+  color: #C8CFD4;
+  text-shadow: 0 -1px 0 #888;
+}
+
+/* line 68, ../sass/elements/_buttons.scss */
+#item_buttons .current {
+  outline: 2px solid black;
+}
+
+/* line 74, ../sass/elements/_buttons.scss */
+#mobile_buttons button {
+  background-color: inherit;
+  border: none;
+  font-size: 25px;
+  height: 40px;
+  z-index: 9;
+}
+
+/* colors */
+/* side colors */
+/* spite path */
+/* line 4, ../sass/elements/_boxes.scss */
+#word_count, #timer {
+  border: 1px solid black;
+  display: block;
+  height: 25px;
+  margin: 0 auto 20px;
+  text-align: center;
+  width: 80px;
+}
+
+/* line 14, ../sass/elements/_boxes.scss */
+#word_count {
+  border: 2px solid black;
+}
+
+/* line 20, ../sass/elements/_boxes.scss */
+.psycho label[for=word_count], label[for=word_count], label[for=timer], .psycho label[for=timer] {
+  display: block;
+  font-family: arial;
+  margin: 16px auto 2px;
+  text-align: center;
+}
+
+/* line 28, ../sass/elements/_boxes.scss */
+#item_info {
+  background-color: #c8cfd4;
+  font-weight: bold;
+  margin: 10px auto;
+  text-align: center;
+  width: 70px;
+}
+
+/* line 36, ../sass/elements/_boxes.scss */
+#chapter_number {
+  color: #ffffff;
+  font-family: arial;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 5px 0 15px 0;
+}
+
+/* line 12, ../sass/views/_chapter_side_view.scss */
+#chapter_label {
+  visibility: hidden;
+}
+
+/* line 21, ../sass/views/_chapter_side_view.scss */
+#extra_buttons {
+  margin-top: -2px;
+}
+
+/* colors */
+/* side colors */
+/* spite path */
+/* line 5, ../sass/elements/_responsive_buttons.scss */
+#mobile_buttons button {
+  background-color: inherit;
+  border: none;
+  font-size: 25px;
+  height: 40px;
+  z-index: 9;
+}
+
+/* line 13, ../sass/elements/_responsive_buttons.scss */
+#mobile_buttons .previous_button {
+  color: black;
+  left: 2px;
+  position: absolute;
+}
+
+/* line 20, ../sass/elements/_responsive_buttons.scss */
+#mobile_buttons .next_button {
+  position: absolute;
+  right: 2px;
+}
+
+/* line 25, ../sass/elements/_responsive_buttons.scss */
+#mobile_buttons .goto_text_button {
+  border: 1px solid;
+  border-radius: 5px;
+  font-size: 9px;
+  height: 30px;
+  position: absolute;
+  right: 18vw;
+  top: 5px;
+  width: 38px;
+}
+
+/* line 36, ../sass/elements/_responsive_buttons.scss */
+#mobile_buttons .item_counter {
+  display: inline-block;
+  margin: 7px;
+  position: relative;
+  top: 1px;
+}
+
+/* line 43, ../sass/elements/_responsive_buttons.scss */
+#mobile_buttons .timer {
+  display: inline-block;
+  font-size: 15px;
+  left: 15vw;
+  padding: 2px;
+  position: absolute;
+  top: 1.5vh;
+}
+
+/* colors */
+/* side colors */
+/* spite path */
+/* line 4, ../sass/elements/_boxes.scss */
+#word_count, #timer {
+  border: 1px solid black;
+  display: block;
+  height: 25px;
+  margin: 0 auto 20px;
+  text-align: center;
+  width: 80px;
+}
+
+/* line 14, ../sass/elements/_boxes.scss */
+#word_count {
+  border: 2px solid black;
+}
+
+/* line 20, ../sass/elements/_boxes.scss */
+.psycho label[for=word_count], label[for=word_count], label[for=timer], .psycho label[for=timer] {
+  display: block;
+  font-family: arial;
+  margin: 16px auto 2px;
+  text-align: center;
+}
+
+/* line 28, ../sass/elements/_boxes.scss */
+#item_info {
+  background-color: #c8cfd4;
+  font-weight: bold;
+  margin: 10px auto;
+  text-align: center;
+  width: 70px;
+}
+
+/* line 36, ../sass/elements/_boxes.scss */
+#chapter_number {
+  color: #ffffff;
+  font-family: arial;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 5px 0 15px 0;
+}
+
+@media screen and (max-width: 1019px) {
+  /* line 8, ../sass/views/_chapter_mobile_buttons_view.scss */
+  #mobile_buttons {
+    background-color: #FAFAFA;
+    display: block !important;
+    font-family: alef;
+    min-height: 40px;
+    position: relative;
+  }
+}
+/* line 43, ../sass/views/_chapter_mobile_buttons_view.scss */
+#mobile_buttons .round {
+  border-radius: 50%;
+}
+/* line 47, ../sass/views/_chapter_mobile_buttons_view.scss */
+#mobile_buttons .hidden {
+  display: none;
+}
+
+/* colors */
+/* side colors */
+/* spite path */
+/* line 4, ../sass/elements/_buttons.scss */
+#item_buttons > input {
+  border: medium none;
+  color: black;
+  display: inline-block;
+  font: normal small-caps bold 14px alef;
+  text-align: center;
+}
+
+/* line 13, ../sass/elements/_buttons.scss */
+#item_buttons .IN, #item_buttons .TX, #item_buttons .BL {
+  background: url("../themes/amir/blue/sprite.png") #c8cfd4 -1px 0px;
+  color: white;
+  display: block;
+  height: 27px;
+  margin: 6px auto;
+  width: 174px;
+  /* Player Version */
+  /* theme */
+  /* colors */
+  /* side colors */
+  /* spite path */
+  /* compass */
+  /* dimensions */
+  /* item */
+  /* 350px */
+  /* 450px */
+  /* 413px */
+  /* 413px */
+  /* side */
+  /* Answer options */
+  /* 770px */
+}
+/* line 5, ../../../../vendor/ruby/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+#item_buttons .IN html, #item_buttons .TX html, #item_buttons .BL html, #item_buttons .IN body, #item_buttons .TX body, #item_buttons .BL body, #item_buttons .IN div, #item_buttons .TX div, #item_buttons .BL div, #item_buttons .IN span, #item_buttons .TX span, #item_buttons .BL span, #item_buttons .IN applet, #item_buttons .TX applet, #item_buttons .BL applet, #item_buttons .IN object, #item_buttons .TX object, #item_buttons .BL object, #item_buttons .IN iframe, #item_buttons .TX iframe, #item_buttons .BL iframe,
+#item_buttons .IN h1,
+#item_buttons .TX h1,
+#item_buttons .BL h1, #item_buttons .IN h2, #item_buttons .TX h2, #item_buttons .BL h2, #item_buttons .IN h3, #item_buttons .TX h3, #item_buttons .BL h3, #item_buttons .IN h4, #item_buttons .TX h4, #item_buttons .BL h4, #item_buttons .IN h5, #item_buttons .TX h5, #item_buttons .BL h5, #item_buttons .IN h6, #item_buttons .TX h6, #item_buttons .BL h6, #item_buttons .IN p, #item_buttons .TX p, #item_buttons .BL p, #item_buttons .IN blockquote, #item_buttons .TX blockquote, #item_buttons .BL blockquote, #item_buttons .IN pre, #item_buttons .TX pre, #item_buttons .BL pre,
+#item_buttons .IN a,
+#item_buttons .TX a,
+#item_buttons .BL a, #item_buttons .IN abbr, #item_buttons .TX abbr, #item_buttons .BL abbr, #item_buttons .IN acronym, #item_buttons .TX acronym, #item_buttons .BL acronym, #item_buttons .IN address, #item_buttons .TX address, #item_buttons .BL address, #item_buttons .IN big, #item_buttons .TX big, #item_buttons .BL big, #item_buttons .IN cite, #item_buttons .TX cite, #item_buttons .BL cite, #item_buttons .IN code, #item_buttons .TX code, #item_buttons .BL code,
+#item_buttons .IN del,
+#item_buttons .TX del,
+#item_buttons .BL del, #item_buttons .IN dfn, #item_buttons .TX dfn, #item_buttons .BL dfn, #item_buttons .IN em, #item_buttons .TX em, #item_buttons .BL em, #item_buttons .IN img, #item_buttons .TX img, #item_buttons .BL img, #item_buttons .IN ins, #item_buttons .TX ins, #item_buttons .BL ins, #item_buttons .IN kbd, #item_buttons .TX kbd, #item_buttons .BL kbd, #item_buttons .IN q, #item_buttons .TX q, #item_buttons .BL q, #item_buttons .IN s, #item_buttons .TX s, #item_buttons .BL s, #item_buttons .IN samp, #item_buttons .TX samp, #item_buttons .BL samp,
+#item_buttons .IN small,
+#item_buttons .TX small,
+#item_buttons .BL small, #item_buttons .IN strike, #item_buttons .TX strike, #item_buttons .BL strike, #item_buttons .IN strong, #item_buttons .TX strong, #item_buttons .BL strong, #item_buttons .IN sub, #item_buttons .TX sub, #item_buttons .BL sub, #item_buttons .IN sup, #item_buttons .TX sup, #item_buttons .BL sup, #item_buttons .IN tt, #item_buttons .TX tt, #item_buttons .BL tt, #item_buttons .IN var, #item_buttons .TX var, #item_buttons .BL var,
+#item_buttons .IN b,
+#item_buttons .TX b,
+#item_buttons .BL b, #item_buttons .IN u, #item_buttons .TX u, #item_buttons .BL u, #item_buttons .IN i, #item_buttons .TX i, #item_buttons .BL i, #item_buttons .IN center, #item_buttons .TX center, #item_buttons .BL center,
+#item_buttons .IN dl,
+#item_buttons .TX dl,
+#item_buttons .BL dl, #item_buttons .IN dt, #item_buttons .TX dt, #item_buttons .BL dt, #item_buttons .IN dd, #item_buttons .TX dd, #item_buttons .BL dd, #item_buttons .IN ol, #item_buttons .TX ol, #item_buttons .BL ol, #item_buttons .IN ul, #item_buttons .TX ul, #item_buttons .BL ul, #item_buttons .IN li, #item_buttons .TX li, #item_buttons .BL li,
+#item_buttons .IN fieldset,
+#item_buttons .TX fieldset,
+#item_buttons .BL fieldset, #item_buttons .IN form, #item_buttons .TX form, #item_buttons .BL form, #item_buttons .IN label, #item_buttons .TX label, #item_buttons .BL label, #item_buttons .IN legend, #item_buttons .TX legend, #item_buttons .BL legend,
+#item_buttons .IN table,
+#item_buttons .TX table,
+#item_buttons .BL table, #item_buttons .IN caption, #item_buttons .TX caption, #item_buttons .BL caption, #item_buttons .IN tbody, #item_buttons .TX tbody, #item_buttons .BL tbody, #item_buttons .IN tfoot, #item_buttons .TX tfoot, #item_buttons .BL tfoot, #item_buttons .IN thead, #item_buttons .TX thead, #item_buttons .BL thead, #item_buttons .IN tr, #item_buttons .TX tr, #item_buttons .BL tr, #item_buttons .IN th, #item_buttons .TX th, #item_buttons .BL th, #item_buttons .IN td, #item_buttons .TX td, #item_buttons .BL td,
+#item_buttons .IN article,
+#item_buttons .TX article,
+#item_buttons .BL article, #item_buttons .IN aside, #item_buttons .TX aside, #item_buttons .BL aside, #item_buttons .IN canvas, #item_buttons .TX canvas, #item_buttons .BL canvas, #item_buttons .IN details, #item_buttons .TX details, #item_buttons .BL details, #item_buttons .IN embed, #item_buttons .TX embed, #item_buttons .BL embed,
+#item_buttons .IN figure,
+#item_buttons .TX figure,
+#item_buttons .BL figure, #item_buttons .IN figcaption, #item_buttons .TX figcaption, #item_buttons .BL figcaption, #item_buttons .IN footer, #item_buttons .TX footer, #item_buttons .BL footer, #item_buttons .IN header, #item_buttons .TX header, #item_buttons .BL header, #item_buttons .IN hgroup, #item_buttons .TX hgroup, #item_buttons .BL hgroup,
+#item_buttons .IN menu,
+#item_buttons .TX menu,
+#item_buttons .BL menu, #item_buttons .IN nav, #item_buttons .TX nav, #item_buttons .BL nav, #item_buttons .IN output, #item_buttons .TX output, #item_buttons .BL output, #item_buttons .IN ruby, #item_buttons .TX ruby, #item_buttons .BL ruby, #item_buttons .IN section, #item_buttons .TX section, #item_buttons .BL section, #item_buttons .IN summary, #item_buttons .TX summary, #item_buttons .BL summary,
+#item_buttons .IN time,
+#item_buttons .TX time,
+#item_buttons .BL time, #item_buttons .IN mark, #item_buttons .TX mark, #item_buttons .BL mark, #item_buttons .IN audio, #item_buttons .TX audio, #item_buttons .BL audio, #item_buttons .IN video, #item_buttons .TX video, #item_buttons .BL video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+/* line 22, ../../../../vendor/ruby/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+#item_buttons .IN html, #item_buttons .TX html, #item_buttons .BL html {
+  line-height: 1;
+}
+/* line 24, ../../../../vendor/ruby/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+#item_buttons .IN ol, #item_buttons .TX ol, #item_buttons .BL ol, #item_buttons .IN ul, #item_buttons .TX ul, #item_buttons .BL ul {
+  list-style: none;
+}
+/* line 26, ../../../../vendor/ruby/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+#item_buttons .IN table, #item_buttons .TX table, #item_buttons .BL table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* line 28, ../../../../vendor/ruby/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+#item_buttons .IN caption, #item_buttons .TX caption, #item_buttons .BL caption, #item_buttons .IN th, #item_buttons .TX th, #item_buttons .BL th, #item_buttons .IN td, #item_buttons .TX td, #item_buttons .BL td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+/* line 30, ../../../../vendor/ruby/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+#item_buttons .IN q, #item_buttons .TX q, #item_buttons .BL q, #item_buttons .IN blockquote, #item_buttons .TX blockquote, #item_buttons .BL blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../vendor/ruby/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+#item_buttons .IN q:before, #item_buttons .TX q:before, #item_buttons .BL q:before, #item_buttons .IN q:after, #item_buttons .TX q:after, #item_buttons .BL q:after, #item_buttons .IN blockquote:before, #item_buttons .TX blockquote:before, #item_buttons .BL blockquote:before, #item_buttons .IN blockquote:after, #item_buttons .TX blockquote:after, #item_buttons .BL blockquote:after {
+  content: "";
+  content: none;
+}
+/* line 32, ../../../../vendor/ruby/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+#item_buttons .IN a img, #item_buttons .TX a img, #item_buttons .BL a img {
+  border: none;
+}
+/* line 116, ../../../../vendor/ruby/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+#item_buttons .IN article, #item_buttons .TX article, #item_buttons .BL article, #item_buttons .IN aside, #item_buttons .TX aside, #item_buttons .BL aside, #item_buttons .IN details, #item_buttons .TX details, #item_buttons .BL details, #item_buttons .IN figcaption, #item_buttons .TX figcaption, #item_buttons .BL figcaption, #item_buttons .IN figure, #item_buttons .TX figure, #item_buttons .BL figure, #item_buttons .IN footer, #item_buttons .TX footer, #item_buttons .BL footer, #item_buttons .IN header, #item_buttons .TX header, #item_buttons .BL header, #item_buttons .IN hgroup, #item_buttons .TX hgroup, #item_buttons .BL hgroup, #item_buttons .IN main, #item_buttons .TX main, #item_buttons .BL main, #item_buttons .IN menu, #item_buttons .TX menu, #item_buttons .BL menu, #item_buttons .IN nav, #item_buttons .TX nav, #item_buttons .BL nav, #item_buttons .IN section, #item_buttons .TX section, #item_buttons .BL section, #item_buttons .IN summary, #item_buttons .TX summary, #item_buttons .BL summary {
+  display: block;
+}
+
+/* line 23, ../sass/elements/_buttons.scss */
+#item_buttons .MC {
+  background: url("../themes/amir/blue/sprite.png") #c8cfd4 -1px -156px;
+  color: black;
+  font-style: normal;
+  height: 33px;
+  margin: 2px;
+  outline: medium none;
+  width: 32px;
+}
+/* line 31, ../sass/elements/_buttons.scss */
+#item_buttons .flagged.MC {
+  background: url("../themes/amir/blue/sprite.png") #c8cfd4 -45px -156px;
+}
+/* line 32, ../sass/elements/_buttons.scss */
+#item_buttons .answered.MC {
+  background: url("../themes/amir/blue/sprite.png") #c8cfd4 -1px -111px;
+}
+/* line 33, ../sass/elements/_buttons.scss */
+#item_buttons .answered.flagged.MC {
+  background: url("../themes/amir/blue/sprite.png") #c8cfd4 -45px -111px;
+}
+
+/* line 39, ../sass/elements/_buttons.scss */
+#extra_buttons input[type=button],
+#extra_buttons a, #flag_button, #next_button {
+  background: url("../themes/amir/blue/sprite.png") #c8cfd4 -1px -37px;
+  border: medium none;
+  color: white;
+  display: block;
+  font: normal small-caps bold 15px alef;
+  height: 27px;
+  margin: 18px auto 0;
+  text-align: center;
+  width: 139px;
+}
+
+/* line 52, ../sass/elements/_buttons.scss */
+#extra_buttons #flag_button {
+  background: url("../themes/amir/blue/sprite.png") #c8cfd4 -1px -74px;
+  font-size: 12px;
+  font-weight: normal;
+}
+
+/* line 58, ../sass/elements/_buttons.scss */
+#extra_buttons a {
+  padding-top: 5px;
+  text-decoration: none;
+}
+
+/* line 63, ../sass/elements/_buttons.scss */
+#extra_buttons input[type=button][disabled=disabled] {
+  color: #C8CFD4;
+  text-shadow: 0 -1px 0 #888;
+}
+
+/* line 68, ../sass/elements/_buttons.scss */
+#item_buttons .current {
+  outline: 2px solid black;
+}
+
+/* line 74, ../sass/elements/_buttons.scss */
+#mobile_buttons button {
+  background-color: inherit;
+  border: none;
+  font-size: 25px;
+  height: 40px;
+  z-index: 9;
+}
+
+/* line 1, ../sass/elements/_lists.scss */
+.lang_he.math .item ol, .lang_he.math .item ul, .lang_ar.math .item ol, .lang_ar.math .item ul {
+  font-size: 16px;
+  line-height: 22px;
+  list-style-position: outside;
+  list-style-type: disc;
+  margin-right: 1em;
+}
+
+/* Player Version */
+/* theme */
+/* colors */
+/* side colors */
+/* spite path */
+/* compass */
+/* line 5, ../../../../vendor/ruby/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../vendor/ruby/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../vendor/ruby/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../vendor/ruby/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../vendor/ruby/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../vendor/ruby/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../vendor/ruby/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../vendor/ruby/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../vendor/ruby/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* dimensions */
+/* item */
+/* 350px */
+/* 450px */
+/* 413px */
+/* 413px */
+/* side */
+/* Answer options */
+/* 770px */
+/* colors */
+/* side colors */
+/* spite path */
+/* line 4, ../sass/elements/_text_blocks.scss */
+.item {
+  color: black;
+  font-size: 23px;
+  line-height: 34.5px;
+  height: 703px;
+  margin: 15px 0;
+  overflow: auto;
+  padding: 17px;
+  position: absolute;
+  visibility: hidden;
+  width: 782px;
+  z-index: 1;
+}
+/* line 5, ../sass/elements/_texts.scss */
+.item p {
+  margin-bottom: 34.5px;
+}
+
+/* line 17, ../sass/elements/_text_blocks.scss */
+.item .instructions {
+  color: black;
+  font-size: 21px;
+  line-height: 31.5px;
+  color: #2370c0;
+  margin-right: 2px;
+}
+/* line 5, ../sass/elements/_texts.scss */
+.item .instructions p {
+  margin-bottom: 31.5px;
+}
+
+/* line 23, ../sass/elements/_text_blocks.scss */
+.item .question_text {
+  margin: 15px 0;
+  overflow: auto;
+  padding: 0;
+}
+
+/* line 30, ../sass/elements/_text_blocks.scss */
+.item .answer_options {
+  color: black;
+  font-size: 21px;
+  line-height: 31.5px;
+  width: 770px;
+}
+/* line 5, ../sass/elements/_texts.scss */
+.item .answer_options p {
+  margin-bottom: 31.5px;
+}
+
+/* line 35, ../sass/elements/_text_blocks.scss */
+.item.BL .question_text, .domain_WR .item.IN {
+  font-size: 19px;
+  line-height: 25px;
+}
+
+/* line 40, ../sass/elements/_text_blocks.scss */
+.item.TX.kernel {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 316px;
+}
+
+/* line 50, ../sass/elements/_text_blocks.scss */
+.item.TX.kernel.big_kernel {
+  height: 416px;
+}
+
+/* line 55, ../sass/elements/_text_blocks.scss */
+.with_kernel {
+  border-top: #8b8179 2px solid;
+  height: 394px;
+  overflow: auto;
+  padding-top: 0;
+  padding-bottom: 17px;
+  right: 0;
+  position: absolute;
+  top: 350px;
+}
+
+/* line 66, ../sass/elements/_text_blocks.scss */
+.with_kernel.big_kernel {
+  height: 294px;
+  color: black;
+  font-size: 21px;
+  line-height: 31.5px;
+  margin-bottom: 15px;
+  top: 450px;
+}
+/* line 5, ../sass/elements/_texts.scss */
+.with_kernel.big_kernel p {
+  margin-bottom: 31.5px;
+}
+
+/* line 73, ../sass/elements/_text_blocks.scss */
+.item.MC span.blank {
+  border-bottom: 2px solid black;
+  display: inline-block;
+  line-height: 80%;
+  padding: 0 2px;
+  vertical-align: baseline;
+  width: 5ex;
+}
+
+/* line 82, ../sass/elements/_text_blocks.scss */
+.item.MC span.with_content {
+  font-size: 95%;
+  display: unset;
+  width: auto;
+}
+
+/* line 89, ../sass/elements/_text_blocks.scss */
+.instructions .item .instructions .left_line_instructions {
+  text-align: left;
+  direction: ltr;
+  font-size: 19px;
+}
+
+/* Player Version */
+/* theme */
+/* colors */
+/* side colors */
+/* spite path */
+/* compass */
+/* line 5, ../../../../vendor/ruby/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../vendor/ruby/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../vendor/ruby/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../vendor/ruby/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../vendor/ruby/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../vendor/ruby/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../vendor/ruby/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../vendor/ruby/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../vendor/ruby/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* dimensions */
+/* item */
+/* 350px */
+/* 450px */
+/* 413px */
+/* 413px */
+/* side */
+/* Answer options */
+/* 770px */
+/* colors */
+/* side colors */
+/* spite path */
+/* Player Version */
+/* theme */
+/* colors */
+/* side colors */
+/* spite path */
+/* compass */
+/* line 5, ../../../../vendor/ruby/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../vendor/ruby/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../vendor/ruby/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../vendor/ruby/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../vendor/ruby/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../vendor/ruby/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../vendor/ruby/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../vendor/ruby/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../vendor/ruby/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* dimensions */
+/* item */
+/* 350px */
+/* 450px */
+/* 413px */
+/* 413px */
+/* side */
+/* Answer options */
+/* 770px */
+/* colors */
+/* side colors */
+/* spite path */
+/* line 38, ../sass/responsive/_media_queries.scss */
+.yellow_marker {
+  background-color: yellow;
+}
+
+/* line 42, ../sass/responsive/_media_queries.scss */
+.desktop_notes {
+  display: block;
+}
+@media screen and (max-width: 1019px) {
+  /* line 42, ../sass/responsive/_media_queries.scss */
+  .desktop_notes {
+    display: none;
+  }
+}
+
+/* line 50, ../sass/responsive/_media_queries.scss */
+.mobile_notes {
+  display: none;
+}
+@media screen and (max-width: 1019px) {
+  /* line 50, ../sass/responsive/_media_queries.scss */
+  .mobile_notes {
+    display: block;
+  }
+}
+
+/*
+.red_phrase {
+  color: red;
+}
+*/
+/* Player Version */
+/* theme */
+/* colors */
+/* side colors */
+/* spite path */
+/* compass */
+/* line 5, ../../../../vendor/ruby/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../vendor/ruby/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../vendor/ruby/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../vendor/ruby/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../vendor/ruby/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../vendor/ruby/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../vendor/ruby/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../vendor/ruby/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../vendor/ruby/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* dimensions */
+/* item */
+/* 350px */
+/* 450px */
+/* 413px */
+/* 413px */
+/* side */
+/* Answer options */
+/* 770px */
+/* colors */
+/* side colors */
+/* spite path */
+/* line 4, ../sass/elements/_text_blocks.scss */
+.item {
+  color: black;
+  font-size: 23px;
+  line-height: 34.5px;
+  height: 703px;
+  margin: 15px 0;
+  overflow: auto;
+  padding: 17px;
+  position: absolute;
+  visibility: hidden;
+  width: 782px;
+  z-index: 1;
+}
+/* line 5, ../sass/elements/_texts.scss */
+.item p {
+  margin-bottom: 34.5px;
+}
+
+/* line 17, ../sass/elements/_text_blocks.scss */
+.item .instructions {
+  color: black;
+  font-size: 21px;
+  line-height: 31.5px;
+  color: #2370c0;
+  margin-right: 2px;
+}
+/* line 5, ../sass/elements/_texts.scss */
+.item .instructions p {
+  margin-bottom: 31.5px;
+}
+
+/* line 23, ../sass/elements/_text_blocks.scss */
+.item .question_text {
+  margin: 15px 0;
+  overflow: auto;
+  padding: 0;
+}
+
+/* line 30, ../sass/elements/_text_blocks.scss */
+.item .answer_options {
+  color: black;
+  font-size: 21px;
+  line-height: 31.5px;
+  width: 770px;
+}
+/* line 5, ../sass/elements/_texts.scss */
+.item .answer_options p {
+  margin-bottom: 31.5px;
+}
+
+/* line 35, ../sass/elements/_text_blocks.scss */
+.item.BL .question_text, .domain_WR .item.IN {
+  font-size: 19px;
+  line-height: 25px;
+}
+
+/* line 40, ../sass/elements/_text_blocks.scss */
+.item.TX.kernel {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 316px;
+}
+
+/* line 50, ../sass/elements/_text_blocks.scss */
+.item.TX.kernel.big_kernel {
+  height: 416px;
+}
+
+/* line 55, ../sass/elements/_text_blocks.scss */
+.with_kernel {
+  border-top: #8b8179 2px solid;
+  height: 394px;
+  overflow: auto;
+  padding-top: 0;
+  padding-bottom: 17px;
+  right: 0;
+  position: absolute;
+  top: 350px;
+}
+
+/* line 66, ../sass/elements/_text_blocks.scss */
+.with_kernel.big_kernel {
+  height: 294px;
+  color: black;
+  font-size: 21px;
+  line-height: 31.5px;
+  margin-bottom: 15px;
+  top: 450px;
+}
+/* line 5, ../sass/elements/_texts.scss */
+.with_kernel.big_kernel p {
+  margin-bottom: 31.5px;
+}
+
+/* line 73, ../sass/elements/_text_blocks.scss */
+.item.MC span.blank {
+  border-bottom: 2px solid black;
+  display: inline-block;
+  line-height: 80%;
+  padding: 0 2px;
+  vertical-align: baseline;
+  width: 5ex;
+}
+
+/* line 82, ../sass/elements/_text_blocks.scss */
+.item.MC span.with_content {
+  font-size: 95%;
+  display: unset;
+  width: auto;
+}
+
+/* line 89, ../sass/elements/_text_blocks.scss */
+.instructions .item .instructions .left_line_instructions {
+  text-align: left;
+  direction: ltr;
+  font-size: 19px;
+}
+
+/* Player Version */
+/* theme */
+/* colors */
+/* side colors */
+/* spite path */
+/* compass */
+/* line 5, ../../../../vendor/ruby/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../vendor/ruby/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../vendor/ruby/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../vendor/ruby/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../vendor/ruby/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../vendor/ruby/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../vendor/ruby/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../vendor/ruby/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../vendor/ruby/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* dimensions */
+/* item */
+/* 350px */
+/* 450px */
+/* 413px */
+/* 413px */
+/* side */
+/* Answer options */
+/* 770px */
+/* colors */
+/* side colors */
+/* spite path */
+/* line 38, ../sass/responsive/_media_queries.scss */
+.yellow_marker {
+  background-color: yellow;
+}
+
+/* line 42, ../sass/responsive/_media_queries.scss */
+.desktop_notes {
+  display: block;
+}
+@media screen and (max-width: 1019px) {
+  /* line 42, ../sass/responsive/_media_queries.scss */
+  .desktop_notes {
+    display: none;
+  }
+}
+
+/* line 50, ../sass/responsive/_media_queries.scss */
+.mobile_notes {
+  display: none;
+}
+@media screen and (max-width: 1019px) {
+  /* line 50, ../sass/responsive/_media_queries.scss */
+  .mobile_notes {
+    display: block;
+  }
+}
+
+/*
+.red_phrase {
+  color: red;
+}
+*/
+/* line 4, ../sass/views/_item_bl_content_view.scss */
+.BL textarea {
+  font-size: 15px;
+  height: 350px;
+  width: 750px;
+}
+@media screen and (max-width: 1019px) {
+  /* line 4, ../sass/views/_item_bl_content_view.scss */
+  .BL textarea {
+    width: 98%;
+  }
+}
+
+@media screen and (max-width: 1019px) {
+  /* line 14, ../sass/views/_item_bl_content_view.scss */
+  .item.BL .question_text {
+    overflow: hidden;
+  }
+}
+
+/* Player Version */
+/* theme */
+/* colors */
+/* side colors */
+/* spite path */
+/* compass */
+/* line 5, ../../../../vendor/ruby/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../vendor/ruby/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../vendor/ruby/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../vendor/ruby/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../vendor/ruby/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../vendor/ruby/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../vendor/ruby/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../vendor/ruby/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../vendor/ruby/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* dimensions */
+/* item */
+/* 350px */
+/* 450px */
+/* 413px */
+/* 413px */
+/* side */
+/* Answer options */
+/* 770px */
+/* colors */
+/* side colors */
+/* spite path */
+/* line 4, ../sass/elements/_text_blocks.scss */
+.item {
+  color: black;
+  font-size: 23px;
+  line-height: 34.5px;
+  height: 703px;
+  margin: 15px 0;
+  overflow: auto;
+  padding: 17px;
+  position: absolute;
+  visibility: hidden;
+  width: 782px;
+  z-index: 1;
+}
+/* line 5, ../sass/elements/_texts.scss */
+.item p {
+  margin-bottom: 34.5px;
+}
+
+/* line 17, ../sass/elements/_text_blocks.scss */
+.item .instructions {
+  color: black;
+  font-size: 21px;
+  line-height: 31.5px;
+  color: #2370c0;
+  margin-right: 2px;
+}
+/* line 5, ../sass/elements/_texts.scss */
+.item .instructions p {
+  margin-bottom: 31.5px;
+}
+
+/* line 23, ../sass/elements/_text_blocks.scss */
+.item .question_text {
+  margin: 15px 0;
+  overflow: auto;
+  padding: 0;
+}
+
+/* line 30, ../sass/elements/_text_blocks.scss */
+.item .answer_options {
+  color: black;
+  font-size: 21px;
+  line-height: 31.5px;
+  width: 770px;
+}
+/* line 5, ../sass/elements/_texts.scss */
+.item .answer_options p {
+  margin-bottom: 31.5px;
+}
+
+/* line 35, ../sass/elements/_text_blocks.scss */
+.item.BL .question_text, .domain_WR .item.IN {
+  font-size: 19px;
+  line-height: 25px;
+}
+
+/* line 40, ../sass/elements/_text_blocks.scss */
+.item.TX.kernel {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 316px;
+}
+
+/* line 50, ../sass/elements/_text_blocks.scss */
+.item.TX.kernel.big_kernel {
+  height: 416px;
+}
+
+/* line 55, ../sass/elements/_text_blocks.scss */
+.with_kernel {
+  border-top: #8b8179 2px solid;
+  height: 394px;
+  overflow: auto;
+  padding-top: 0;
+  padding-bottom: 17px;
+  right: 0;
+  position: absolute;
+  top: 350px;
+}
+
+/* line 66, ../sass/elements/_text_blocks.scss */
+.with_kernel.big_kernel {
+  height: 294px;
+  color: black;
+  font-size: 21px;
+  line-height: 31.5px;
+  margin-bottom: 15px;
+  top: 450px;
+}
+/* line 5, ../sass/elements/_texts.scss */
+.with_kernel.big_kernel p {
+  margin-bottom: 31.5px;
+}
+
+/* line 73, ../sass/elements/_text_blocks.scss */
+.item.MC span.blank {
+  border-bottom: 2px solid black;
+  display: inline-block;
+  line-height: 80%;
+  padding: 0 2px;
+  vertical-align: baseline;
+  width: 5ex;
+}
+
+/* line 82, ../sass/elements/_text_blocks.scss */
+.item.MC span.with_content {
+  font-size: 95%;
+  display: unset;
+  width: auto;
+}
+
+/* line 89, ../sass/elements/_text_blocks.scss */
+.instructions .item .instructions .left_line_instructions {
+  text-align: left;
+  direction: ltr;
+  font-size: 19px;
+}
+
+/* line 10, ../sass/elements/_texts.scss */
+.instructions .item .instructions .left_line_instructions, .instructions.number_503 .item.IN, .instructions.number_501 .item.IN, .instructions.number_504 .item.IN, .item {
+  font-family: arial;
+}
+
+/* line 14, ../sass/elements/_texts.scss */
+.psycho label[for=word_count], .psycho label[for=timer], .psycho .item {
+  font-family: 'alef';
+}
+
+/* line 18, ../sass/elements/_texts.scss */
+.TX, .lang_he.verbal .item {
+  font-family: narkisim, david;
+}
+
+/* line 22, ../sass/elements/_texts.scss */
+.psycho.lang_he.verbal .item {
+  font-family: alef, david;
+}
+
+/* line 26, ../sass/elements/_texts.scss */
+.psycho.lang_he.domain_EN .item, .psycho.lang_ar.domain_EN .item {
+  font-family: 'Open Sans';
+}
+
+/* line 30, ../sass/elements/_texts.scss */
+.lang_ar.verbal .TX, .lang_ar.verbal .item {
+  font-family: "XBNiloofar", "Narkisim";
+}
+
+/* line 34, ../sass/elements/_texts.scss */
+.psycho.lang_ar .item, .psycho.lang_ar.verbal .item {
+  font-family: "XBNiloofar", "alef";
+}
+
+/* line 38, ../sass/elements/_texts.scss */
+.lang_he.math .item {
+  font-family: Hebrew QU Text, Latin Modern Roman, LMRoman12;
+}
+
+/* line 42, ../sass/elements/_texts.scss */
+.lang_ar.math .TX, .lang_ar.math .item {
+  font-family: XBNiloofar;
+}
+
+@media screen and (max-width: 1019px) {
+  /* line 5, ../sass/views/_item_in_content_view.scss */
+  .item.IN {
+    font-size: 1.08rem;
+  }
+}
+/* line 38, ../sass/views/_item_in_content_view.scss */
+.lang_he.math .item.IN {
+  color: black;
+  font-size: 19.5px;
+  line-height: 29.25px;
+}
+/* line 5, ../sass/elements/_texts.scss */
+.lang_he.math .item.IN p {
+  margin-bottom: 29.25px;
+}
+@media screen and (max-width: 1019px) {
+  /* line 38, ../sass/views/_item_in_content_view.scss */
+  .lang_he.math .item.IN {
+    font-size: 1.08rem;
+  }
+}
+
+/* line 70, ../sass/views/_item_in_content_view.scss */
+.instructions .item.IN {
+  color: black;
+  font-size: 20px;
+  line-height: 30px;
+}
+/* line 5, ../sass/elements/_texts.scss */
+.instructions .item.IN p {
+  margin-bottom: 30px;
+}
+
+/* line 76, ../sass/views/_item_in_content_view.scss */
+.item.IN .question_text {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+@media screen and (max-width: 1019px) {
+  /* line 76, ../sass/views/_item_in_content_view.scss */
+  .item.IN .question_text {
+    margin-top: 0;
+  }
+}
+
+@media screen and (max-width: 1019px) {
+  /* line 84, ../sass/views/_item_in_content_view.scss */
+  .domain_WR .item.IN {
+    font-size: 1.08rem;
+  }
+}
+
+/* line 93, ../sass/views/_item_in_content_view.scss */
+.item.IN .notes_title {
+  font-size: 15px;
+}
+
+/* line 104, ../sass/views/_item_in_content_view.scss */
+.instructions.number_501 .item.IN, .instructions.number_503 .item.IN, .instructions.number_504 .item.IN {
+  text-align: left;
+}
+/* line 106, ../sass/views/_item_in_content_view.scss */
+.instructions.number_501 .item.IN caption, .instructions.number_501 .item.IN th, .instructions.number_501 .item.IN td, .instructions.number_501 .item.IN div, .instructions.number_501 .item.IN .second_line_instructions, .instructions.number_503 .item.IN caption, .instructions.number_503 .item.IN th, .instructions.number_503 .item.IN td, .instructions.number_503 .item.IN div, .instructions.number_503 .item.IN .second_line_instructions, .instructions.number_504 .item.IN caption, .instructions.number_504 .item.IN th, .instructions.number_504 .item.IN td, .instructions.number_504 .item.IN div, .instructions.number_504 .item.IN .second_line_instructions {
+  text-align: left;
+  direction: ltr;
+}
+/* line 115, ../sass/views/_item_in_content_view.scss */
+.instructions.number_503 .item.IN, .instructions.number_501 .item.IN, .instructions.number_504 .item.IN {
+  color: black;
+  font-size: 18px;
+  line-height: 27px;
+}
+/* line 5, ../sass/elements/_texts.scss */
+.instructions.number_503 .item.IN p, .instructions.number_501 .item.IN p, .instructions.number_504 .item.IN p {
+  margin-bottom: 27px;
+}
+
+/* line 126, ../sass/views/_item_in_content_view.scss */
+.item.IN #content_table {
+  display: table;
+}
+/* line 132, ../sass/views/_item_in_content_view.scss */
+.item.IN .tr {
+  display: table-row;
+}
+/* line 136, ../sass/views/_item_in_content_view.scss */
+.item.IN .td {
+  display: table-cell;
+}
+/* line 143, ../sass/views/_item_in_content_view.scss */
+.item.IN .td.from_number {
+  padding-right: 5px;
+  padding-left: 5px;
+  width: 10px;
+}
+/* line 149, ../sass/views/_item_in_content_view.scss */
+.item.IN .td.to_number {
+  padding-right: 5px;
+  padding-left: 5px;
+  width: 35px;
+}
+/* line 155, ../sass/views/_item_in_content_view.scss */
+.item.IN .td.ltr-word {
+  padding-right: 5px;
+  width: 50px;
+}
+@media screen and (max-width: 1019px) {
+  /* line 155, ../sass/views/_item_in_content_view.scss */
+  .item.IN .td.ltr-word {
+    width: unset;
+  }
+}
+/* line 163, ../sass/views/_item_in_content_view.scss */
+.item.IN .td.rtl-word {
+  padding-left: 5px;
+  width: 50px;
+}
+/* line 168, ../sass/views/_item_in_content_view.scss */
+.item.IN .td.dash {
+  width: 7px;
+}
+@media screen and (max-width: 1019px) {
+  /* line 175, ../sass/views/_item_in_content_view.scss */
+  .domain_EN .item.IN .td {
+    display: inline-block;
+  }
+  /* line 181, ../sass/views/_item_in_content_view.scss */
+  .domain_EN .item.IN .td.to_number {
+    padding-right: 5px;
+    padding-left: 5px;
+    width: 40px;
+  }
+  /* line 187, ../sass/views/_item_in_content_view.scss */
+  .domain_EN .item.IN .td.dash {
+    padding-left: 10px;
+  }
+}
+/* line 193, ../sass/views/_item_in_content_view.scss */
+.domain_EN .item.IN .td.to_number {
+  padding-right: 5px;
+  padding-left: 5px;
+  width: 40px;
+}
+
+/* Player Version */
+/* theme */
+/* colors */
+/* side colors */
+/* spite path */
+/* compass */
+/* line 5, ../../../../vendor/ruby/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../vendor/ruby/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../vendor/ruby/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../vendor/ruby/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../vendor/ruby/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../vendor/ruby/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../vendor/ruby/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../vendor/ruby/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../vendor/ruby/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* dimensions */
+/* item */
+/* 350px */
+/* 450px */
+/* 413px */
+/* 413px */
+/* side */
+/* Answer options */
+/* 770px */
+/* colors */
+/* side colors */
+/* spite path */
+/* line 38, ../sass/responsive/_media_queries.scss */
+.yellow_marker {
+  background-color: yellow;
+}
+
+/* line 42, ../sass/responsive/_media_queries.scss */
+.desktop_notes {
+  display: block;
+}
+@media screen and (max-width: 1019px) {
+  /* line 42, ../sass/responsive/_media_queries.scss */
+  .desktop_notes {
+    display: none;
+  }
+}
+
+/* line 50, ../sass/responsive/_media_queries.scss */
+.mobile_notes {
+  display: none;
+}
+@media screen and (max-width: 1019px) {
+  /* line 50, ../sass/responsive/_media_queries.scss */
+  .mobile_notes {
+    display: block;
+  }
+}
+
+/*
+.red_phrase {
+  color: red;
+}
+*/
+/* Player Version */
+/* theme */
+/* colors */
+/* side colors */
+/* spite path */
+/* compass */
+/* line 5, ../../../../vendor/ruby/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../vendor/ruby/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../vendor/ruby/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../vendor/ruby/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../vendor/ruby/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../vendor/ruby/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../vendor/ruby/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../vendor/ruby/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../vendor/ruby/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* dimensions */
+/* item */
+/* 350px */
+/* 450px */
+/* 413px */
+/* 413px */
+/* side */
+/* Answer options */
+/* 770px */
+/* colors */
+/* side colors */
+/* spite path */
+/* line 5, ../sass/views/_item_mc_content_view.scss */
+.lang_he.math .item.MC, .lang_ar.math .item.MC {
+  color: black;
+  font-size: 24px;
+  line-height: 36px;
+}
+/* line 5, ../sass/elements/_texts.scss */
+.lang_he.math .item.MC p, .lang_ar.math .item.MC p {
+  margin-bottom: 36px;
+}
+@media screen and (max-width: 1019px) {
+  /* line 5, ../sass/views/_item_mc_content_view.scss */
+  .lang_he.math .item.MC, .lang_ar.math .item.MC {
+    font-size: 1.25rem;
+  }
+  /* line 11, ../sass/views/_item_mc_content_view.scss */
+  .lang_he.math .item.MC .math_placeholder.wide_math, .lang_ar.math .item.MC .math_placeholder.wide_math {
+    font-size: 0.85rem;
+  }
+}
+
+@media screen and (max-width: 1019px) {
+  /* line 37, ../sass/views/_item_mc_content_view.scss */
+  .with_kernel.big_kernel {
+    border-top: unset;
+    height: unset;
+    overflow: hidden;
+    position: unset;
+    top: unset;
+  }
+  /* line 41, ../sass/views/_item_mc_content_view.scss */
+  .with_kernel.big_kernel .instructions {
+    display: none;
+  }
+}
+@media screen and (max-width: 1019px) {
+  /* line 34, ../sass/views/_item_mc_content_view.scss */
+  .with_kernel {
+    border-top: unset;
+    height: unset;
+    overflow: hidden;
+    position: unset;
+    top: unset;
+  }
+  /* line 48, ../sass/views/_item_mc_content_view.scss */
+  .with_kernel .instructions {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1019px) {
+  /* line 54, ../sass/views/_item_mc_content_view.scss */
+  .item.MC span.blank {
+    border-width: 1px;
+  }
+}
+
+/* line 73, ../sass/views/_item_mc_content_view.scss */
+.with_kernel.big_kernel .question_text, .with_kernel.big_kernel .answer_options {
+  color: black;
+  font-size: 21px;
+  line-height: 31.5px;
+}
+/* line 5, ../sass/elements/_texts.scss */
+.with_kernel.big_kernel .question_text p, .with_kernel.big_kernel .answer_options p {
+  margin-bottom: 31.5px;
+}
+/* line 76, ../sass/views/_item_mc_content_view.scss */
+.with_kernel.big_kernel .question_text p {
+  margin-bottom: 15px;
+}
+
+/* line 84, ../sass/views/_item_mc_content_view.scss */
+.item .answer_options {
+  width: 770px;
+  color: black;
+  font-size: 21px;
+  line-height: 31.5px;
+}
+/* line 5, ../sass/elements/_texts.scss */
+.item .answer_options p {
+  margin-bottom: 31.5px;
+}
+/* line 89, ../sass/views/_item_mc_content_view.scss */
+.math .item .answer_options {
+  color: black;
+  font-size: 24px;
+  line-height: 36px;
+}
+/* line 5, ../sass/elements/_texts.scss */
+.math .item .answer_options p {
+  margin-bottom: 36px;
+}
+@media screen and (max-width: 1019px) {
+  /* line 89, ../sass/views/_item_mc_content_view.scss */
+  .math .item .answer_options {
+    font-size: 1.125rem;
+    overflow-x: auto;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 1019px) {
+  /* line 84, ../sass/views/_item_mc_content_view.scss */
+  .item .answer_options {
+    font-size: 1.125rem;
+    overflow-x: auto;
+    width: 100%;
+  }
+}
+/* line 105, ../sass/views/_item_mc_content_view.scss */
+.item .answer_options table {
+  margin-top: 5px;
+  width: 770px;
+}
+@media screen and (max-width: 1019px) {
+  /* line 105, ../sass/views/_item_mc_content_view.scss */
+  .item .answer_options table {
+    width: 100%;
+  }
+}
+/* line 112, ../sass/views/_item_mc_content_view.scss */
+.item .answer_options table .even {
+  background-color: #dedcdc;
+}
+/* line 113, ../sass/views/_item_mc_content_view.scss */
+.item .answer_options table .odd {
+  background-color: #ebeaea;
+}
+/* line 114, ../sass/views/_item_mc_content_view.scss */
+.item .answer_options table th {
+  padding: 0 15px;
+  width: 50px;
+  text-align: center;
+}
+@media screen and (max-width: 1019px) {
+  /* line 114, ../sass/views/_item_mc_content_view.scss */
+  .item .answer_options table th {
+    width: 30px;
+    padding: 0 10px;
+  }
+}
+/* line 123, ../sass/views/_item_mc_content_view.scss */
+.item .answer_options table td {
+  padding: 10px;
+}
+@media screen and (max-width: 1019px) {
+  /* line 123, ../sass/views/_item_mc_content_view.scss */
+  .item .answer_options table td {
+    padding: 8px;
+  }
+}
+/* line 131, ../sass/views/_item_mc_content_view.scss */
+.item .answer_options table td, .item .answer_options table th {
+  border: 2px solid #fafafa;
+}
+/* line 135, ../sass/views/_item_mc_content_view.scss */
+.item .answer_options table input[type="radio"] {
+  width: 18px;
+  height: 18px;
+}
+/* line 142, ../sass/views/_item_mc_content_view.scss */
+.item .answer_options table.display_type_normal tr:nth-child(odd) {
+  background-color: #ebeaea;
+}
+/* line 145, ../sass/views/_item_mc_content_view.scss */
+.item .answer_options table.display_type_normal tr:nth-child(even) {
+  background-color: #dedcdc;
+}
+/* line 152, ../sass/views/_item_mc_content_view.scss */
+.item .answer_options table.display_type_square td {
+  width: 335px;
+}
+/* line 159, ../sass/views/_item_mc_content_view.scss */
+.item .answer_options table.display_type_square tr:nth-child(odd) td:nth-of-type(odd), .item .answer_options table.display_type_square tr:nth-child(odd) th:nth-of-type(odd) {
+  background-color: #ebeaea;
+}
+/* line 162, ../sass/views/_item_mc_content_view.scss */
+.item .answer_options table.display_type_square tr:nth-child(odd) td:nth-of-type(even), .item .answer_options table.display_type_square tr:nth-child(odd) th:nth-of-type(even) {
+  background-color: #dedcdc;
+}
+/* line 170, ../sass/views/_item_mc_content_view.scss */
+.item .answer_options table.display_type_square tr:nth-child(even) td:nth-of-type(odd), .item .answer_options table.display_type_square tr:nth-child(even) th:nth-of-type(odd) {
+  background-color: #dedcdc;
+}
+/* line 173, ../sass/views/_item_mc_content_view.scss */
+.item .answer_options table.display_type_square tr:nth-child(even) td:nth-of-type(even), .item .answer_options table.display_type_square tr:nth-child(even) th:nth-of-type(even) {
+  background-color: #ebeaea;
+}
+
+@media screen and (max-width: 1019px) {
+  /* line 184, ../sass/views/_item_mc_content_view.scss */
+  .domain_EN .item .answer_options {
+    font-size: 1.0625rem;
+  }
+}
+
+/* line 6, ../sass/views/_item_tx_content_view.scss */
+.TX {
+  background-color: #eeedeb;
+  height: 729px;
+  overflow: auto;
+  margin-top: 0px;
+  color: black;
+  font-size: 19px;
+  line-height: 28.5px;
+}
+/* line 5, ../sass/elements/_texts.scss */
+.TX p {
+  margin-bottom: 28.5px;
+}
+@media screen and (max-width: 1019px) {
+  /* line 6, ../sass/views/_item_tx_content_view.scss */
+  .TX {
+    height: unset;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+  }
+  /* line 23, ../sass/views/_item_tx_content_view.scss */
+  .TX .line_numbers {
+    display: none;
+  }
+  /* line 26, ../sass/views/_item_tx_content_view.scss */
+  .TX p br {
+    display: none;
+  }
+  /* line 29, ../sass/views/_item_tx_content_view.scss */
+  .TX img {
+    width: 100%;
+    height: unset;
+  }
+  /* line 33, ../sass/views/_item_tx_content_view.scss */
+  .TX .blue_phrase {
+    color: #001cd2;
+  }
+}
+/* line 38, ../sass/views/_item_tx_content_view.scss */
+.lang_ar.verbal .TX {
+  color: black;
+  font-size: 21.3333px;
+  line-height: 31.99995px;
+}
+/* line 5, ../sass/elements/_texts.scss */
+.lang_ar.verbal .TX p {
+  margin-bottom: 31.99995px;
+}
+/* line 43, ../sass/views/_item_tx_content_view.scss */
+.lang_he.math .TX {
+  color: black;
+  font-size: 19px;
+  line-height: 28.5px;
+}
+/* line 5, ../sass/elements/_texts.scss */
+.lang_he.math .TX p {
+  margin-bottom: 28.5px;
+}
+/* line 47, ../sass/views/_item_tx_content_view.scss */
+.lang_ar.math .TX {
+  color: black;
+  font-size: 19px;
+  line-height: 28.5px;
+}
+/* line 5, ../sass/elements/_texts.scss */
+.lang_ar.math .TX p {
+  margin-bottom: 28.5px;
+}
+/* line 52, ../sass/views/_item_tx_content_view.scss */
+.TX .question_text {
+  margin-top: 0;
+}
+@media screen and (max-width: 1019px) {
+  /* line 52, ../sass/views/_item_tx_content_view.scss */
+  .TX .question_text {
+    width: unset;
+  }
+}
+/* line 62, ../sass/views/_item_tx_content_view.scss */
+.TX .question_text p,
+.TX .instructions p {
+  margin-bottom: 28.5px;
+}
+@media screen and (max-width: 1019px) {
+  /* line 97, ../sass/views/_item_tx_content_view.scss */
+  .TX .instructions {
+    margin-top: 15px;
+  }
+  /* line 101, ../sass/views/_item_tx_content_view.scss */
+  .TX .instructions p {
+    margin-bottom: 9px;
+  }
+  /* line 102, ../sass/views/_item_tx_content_view.scss */
+  .TX .instructions p u strong {
+    display: block;
+  }
+  /* line 105, ../sass/views/_item_tx_content_view.scss */
+  .TX .instructions p strong u {
+    display: block;
+  }
+  /* line 108, ../sass/views/_item_tx_content_view.scss */
+  .TX .instructions p em {
+    display: none;
+  }
+}
+
+/* NOTE: top half of screen when item has an associated kernel */
+/* line 125, ../sass/views/_item_tx_content_view.scss */
+.item.TX.kernel .blue_phrase {
+  color: #001cd2;
+}
+
+/* line 140, ../sass/views/_item_tx_content_view.scss */
+.domain_EN .TX ol {
+  margin: 20px 0;
+}
+
+@media screen and (max-width: 1019px) {
+  /* line 144, ../sass/views/_item_tx_content_view.scss */
+  .domain_EN .TX .instructions {
+    font-size: 0.9375rem;
+  }
+  /* line 147, ../sass/views/_item_tx_content_view.scss */
+  .domain_EN .TX .instructions p u {
+    font-size: 1.0625rem;
+  }
+}
+
+/* line 155, ../sass/views/_item_tx_content_view.scss */
+.break {
+  color: red;
+  font-size: 14px;
+}
+
+/* line 161, ../sass/views/_item_tx_content_view.scss */
+br::after {
+  content: " - Remember this";
+  background-color: yellow;
+  color: red;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 1019px) {
+  /* line 12, ../sass/views/_item_content_view.scss */
+  .item {
+    display: none;
+    height: unset;
+    margin-bottom: 5px;
+    margin-top: 0px;
+    overflow: hidden;
+    padding-top: 0;
+    position: inherit;
+    width: 88vw;
+    font-size: 1.25rem;
+  }
+  /* line 21, ../sass/views/_item_content_view.scss */
+  .item.current {
+    display: block;
+  }
+}
+/* line 64, ../sass/views/_item_content_view.scss */
+.lang_ar.math .item {
+  color: black;
+  font-size: 19.5px;
+  line-height: 29.25px;
+}
+/* line 5, ../sass/elements/_texts.scss */
+.lang_ar.math .item p {
+  margin-bottom: 29.25px;
+}
+/* line 78, ../sass/views/_item_content_view.scss */
+.item.current, .item.kernel {
+  visibility: visible;
+}
+@media screen and (max-width: 1019px) {
+  /* line 86, ../sass/views/_item_content_view.scss */
+  .item .instructions {
+    font-size: 1.1rem;
+  }
+}
+@media screen and (max-width: 1019px) {
+  /* line 104, ../sass/views/_item_content_view.scss */
+  .item .question_text {
+    margin-top: 0;
+    overflow-x: auto;
+  }
+}
+@media screen and (max-width: 1019px) {
+  /* line 113, ../sass/views/_item_content_view.scss */
+  .item .answer_options {
+    font-size: 1.125rem;
+  }
+}
+/* line 122, ../sass/views/_item_content_view.scss */
+.item .question_part {
+  overflow: hidden;
+  padding: 0;
+}
+/* line 130, ../sass/views/_item_content_view.scss */
+.item .question_text p.sc {
+  color: #2370c0;
+}
+@media screen and (max-width: 1019px) {
+  /* line 130, ../sass/views/_item_content_view.scss */
+  .item .question_text p.sc {
+    margin: 0;
+    font-size: 0.9375rem;
+  }
+}
+
+@media screen and (max-width: 1019px) {
+  /* line 139, ../sass/views/_item_content_view.scss */
+  .domain_EN .item {
+    font-size: 1.1875rem;
+  }
+}
+
+/* line 1, ../sass/_formulasbox.scss */
+#formulas_box {
+  flex: none;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  direction: rtl;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+/* line 10, ../sass/_formulasbox.scss */
+#formulas_box #formulas_img {
+  background-color: white;
+  height: 85%;
+  width: 90%;
+  margin: 5px auto;
+}
+/* line 17, ../sass/_formulasbox.scss */
+#formulas_box img {
+  width: 100%;
+  height: 100%;
+}
+/* line 22, ../sass/_formulasbox.scss */
+#formulas_box #close {
+  height: 40px;
+  line-height: 40px;
+  padding: 5px;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 30px;
+  color: beige;
+  background-color: #323232;
+}
+/* line 33, ../sass/_formulasbox.scss */
+#formulas_box #close::after {
+  content: " X";
+}
+/* line 37, ../sass/_formulasbox.scss */
+#formulas_box #close:hover {
+  color: #e6e6e6;
+  font-size: 32px;
+}
+/* line 42, ../sass/_formulasbox.scss */
+#formulas_box.visible {
+  visibility: visible;
+  opacity: 1;
+  transition: visibility 0.5s, opacity 0.5s ease-in;
+}
+/* line 48, ../sass/_formulasbox.scss */
+#formulas_box.hidden {
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0.5s, opacity 0.5s ease-out;
+}
+
+@media screen and (max-width: 1019px) {
+  /* line 3, ../sass/custom-css/_meimad_2959_he_20082_1.scss */
+  div#qt_20082 img {
+    max-width: unset;
+  }
+}
+/*Note:  this is in order to remove the disabled vertical scrollbar at the right */
+/* line 34, ../sass/screen.scss */
+html {
+  height: 100%;
+}
+@media screen and (max-width: 1019px) {
+  /* line 34, ../sass/screen.scss */
+  html {
+    background-color: #FAFAFA;
+  }
+}
+
+/* line 42, ../sass/screen.scss */
+body#items_body {
+  display: none;
+  height: 100%;
+  overflow: auto;
+  text-align: center;
+  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2YyZjRmNCIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+  background-size: 100%;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(100%, #f2f4f4));
+  background-image: -moz-linear-gradient(#ffffff, #f2f4f4);
+  background-image: -webkit-linear-gradient(#ffffff, #f2f4f4);
+  background-image: linear-gradient(#ffffff, #f2f4f4);
+}
+@media screen and (max-width: 1019px) {
+  /* line 42, ../sass/screen.scss */
+  body#items_body {
+    flex-direction: column-reverse;
+    overflow: hidden;
+  }
+}
+
+/* line 55, ../sass/screen.scss */
+#items_body {
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
+}
+
+/* line 73, ../sass/screen.scss */
+#webeqapplet {
+  height: 280px;
+  width: 480px;
+}
+
+/* Note: The containers are to enable vertical centering in all browsers */
+/* line 81, ../sass/screen.scss */
+#columns_container {
+  float: left;
+  height: 50%;
+  margin-top: -381.5px;
+  /* Half the content height */
+  width: 1px;
+}
+
+/* Note: Actual container, centerd vertically and horizontally */
+/* line 90, ../sass/screen.scss */
+#columns_inner_container {
+  clear: both;
+  display: flex;
+  height: 763px;
+  margin: auto;
+  position: relative;
+  text-align: center;
+  vertical-align: middle;
+  width: 1020px;
+}
+@media screen and (min-width: 1680px) and (min-height: 1050px) {
+  /* line 90, ../sass/screen.scss */
+  #columns_inner_container {
+    transform: scale(1.3);
+  }
+}
+@media screen and (min-width: 1920px) and (min-height: 1080px) {
+  /* line 90, ../sass/screen.scss */
+  #columns_inner_container {
+    transform: scale(1.38);
+  }
+}
+@media screen and (max-width: 1019px) {
+  /* line 90, ../sass/screen.scss */
+  #columns_inner_container {
+    height: calc(100% - 40px) !important;
+    width: unset !important;
+  }
+}
+@media screen and (min-width: 1440px) and (min-height: 900px) {
+  /* line 90, ../sass/screen.scss */
+  #columns_inner_container {
+    transform: scale(1.17);
+  }
+}
+
+/* line 120, ../sass/screen.scss */
+#prepage {
+  background-color: white;
+  color: red;
+  font-size: 30px;
+  height: 100%;
+  left: 36%;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  visibility: visible;
+}
+
+/* -------------------   main --------------------------------------------------------*/
+/* line 135, ../sass/screen.scss */
+#main {
+  background-color: #fafafa;
+  min-width: 815px;
+  position: relative;
+  width: 815px;
+}
+@media screen and (max-width: 1019px) {
+  /* line 135, ../sass/screen.scss */
+  #main {
+    height: 100% !important;
+    min-width: unset !important;
+    overflow: auto;
+    width: unset !important;
+  }
+}
+
+/* line 152, ../sass/screen.scss */
+#main em {
+  font-style: italic;
+}
+
+/* line 156, ../sass/screen.scss */
+#main strong,
+#main b {
+  font-weight: bold;
+}
+
+/* line 162, ../sass/screen.scss */
+strong {
+  font-weight: 700;
+}
+
+@media screen and (max-width: 1019px) {
+  /* line 165, ../sass/screen.scss */
+  img {
+    height: auto;
+    max-width: 60vw;
+    width: 100%;
+  }
+  /* line 168, ../sass/screen.scss */
+  img.full_width {
+    max-width: unset;
+  }
+}
+
+/* ------------------ side ------------------------- */
+/* line 178, ../sass/screen.scss */
+#side {
+  background-color: #c8cfd4;
+  background-repeat: no-repeat;
+  direction: ltr;
+  min-width: 204px;
+  overflow: hidden;
+  width: 204px;
+}
+@media screen and (max-width: 1019px) {
+  /* line 178, ../sass/screen.scss */
+  #side {
+    display: none;
+  }
+}
+
+/* NOTE: top half of screen when item has an associated kernel */
+/* NOTE: bottom half of screen when item has an associated kernel */
+/* ------------------ side ------------------------- */

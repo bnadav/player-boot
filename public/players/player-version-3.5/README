@@ -1,0 +1,14 @@
+Player-version-3.2
+
+Changes for this version:
+
+1. Added new methods in chapter model: 
+  1) hasMathFormulas - for all domains that has math formulas in them.
+  2) needs_formulas_page - for domains that needs formulas page.
+
+2. Added changes for _directions.scss to contain all domains from right
+  to left except from the english domain.
+
+3. Added support for the content of the buttons in the DI domain (hasaka). The change
+  is written in the item_tx source.
+
