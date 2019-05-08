@@ -1554,7 +1554,8 @@ NITE.Translation = function(lang)
         },
 
         needs_editor: function(){
-            return  (this.authoring() && localStorage['editor_enabled']=='true')
+        	 return  (this.authoring())
+            //return  (this.authoring() && localStorage['editor_enabled']=='true')
         },
 
         need_mathjax: function() {

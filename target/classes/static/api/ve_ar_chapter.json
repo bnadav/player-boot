@@ -1140,7 +1140,7 @@
 	"lang_abbr": "ar",
 	"time_between_backups": 0,
 	"exam_type_name": "meimad_practice",
-	"mode": "testing",
+	"mode": "authoring",
 	"must_answer_all_items": false,
 	"show_number": false,
 	"fill_the_blank": false,

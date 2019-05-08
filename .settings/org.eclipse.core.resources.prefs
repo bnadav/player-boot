@@ -1,4 +1,6 @@
 eclipse.preferences.version=1
 encoding//src/main/java=UTF-8
+encoding//src/main/resources/static/api/qu_item.json=UTF-8
+encoding//src/main/resources/static/api/ve_ar_chapter.json=UTF-8
 encoding//src/test/java=UTF-8
 encoding/<project>=UTF-8
