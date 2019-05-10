@@ -1,6 +1,6 @@
 Manifest-Version: 1.0
-Built-By: nadav
-Build-Jdk: 12
+Built-By: anat
+Build-Jdk: 11.0.2
 Implementation-Title: gs-rest-service
 Implementation-Version: 0.1.0
 Implementation-Vendor-Id: org.springframework
